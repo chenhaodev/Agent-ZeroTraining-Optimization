@@ -13,7 +13,10 @@ from loguru import logger
 
 from autoeval.config.settings import get_settings
 from optimizer.core.pattern_storage import PatternStorage
+from optimizer.core.pattern_clustering import PatternClusterer
+from optimizer.core.pattern_abstractor import PatternAbstractor
 from router.core.weakness_matcher import get_weakness_matcher
+from autoeval.services.api_client import APIClient
 
 
 class PromptOptimizer:
@@ -23,6 +26,14 @@ class PromptOptimizer:
         self.settings = get_settings()
         self.pattern_storage = PatternStorage()
         self.weakness_matcher = get_weakness_matcher()
+
+        # Initialize clustering and abstraction components
+        self.api_client = APIClient()
+        self.clusterer = PatternClusterer(
+            embedder=self.pattern_storage.embedder,
+            pattern_storage=self.pattern_storage
+        )
+        self.abstractor = PatternAbstractor(api_client=self.api_client)
 
         # Prompt paths
         self.prompt_dir = Path(self.settings.PROMPT_DIR)
@@ -388,6 +399,175 @@ class PromptOptimizer:
             logger.debug(f"Added weakness-based prompt reminders for question: {question[:50]}...")
 
         return base_text
+
+    def generate_updated_prompt_with_clustering(
+        self,
+        analysis: Dict[str, Any],
+        n_clusters: int = 20,
+        n_representatives: int = 15,
+        n_general_reminders: int = 10,
+        incremental: bool = True
+    ) -> str:
+        """
+        Generate updated prompt using clustering and LLM abstraction.
+
+        This is an enhanced version of generate_updated_prompt() that:
+        1. Clusters patterns for diversity
+        2. Selects representative patterns from each cluster
+        3. Uses LLM to abstract clusters into general reminders
+        4. Creates a three-tier base prompt:
+           - Tier 1: General reminders (LLM-abstracted)
+           - Tier 2: Representative specific patterns (diverse)
+           - Tier 3: All patterns in FAISS (runtime retrieval)
+
+        Args:
+            analysis: Analysis results from PatternAnalyzer
+            n_clusters: Number of clusters to create
+            n_representatives: Number of representative patterns for base prompt
+            n_general_reminders: Number of general reminders to generate
+            incremental: If True, builds on previous version
+
+        Returns:
+            New version number
+        """
+        logger.info("Generating updated prompt with clustering and abstraction...")
+
+        # Step 1: Extract and store patterns (same as before)
+        new_patterns = self.extract_patterns_from_analysis(analysis)
+        if new_patterns:
+            self.pattern_storage.add_patterns_batch(new_patterns)
+            logger.info(f"Added {len(new_patterns)} new patterns to storage")
+
+        # Check if we have enough patterns for clustering
+        total_patterns = len(self.pattern_storage.patterns)
+        if total_patterns < 10:
+            logger.warning(
+                f"Not enough patterns ({total_patterns}) for clustering. "
+                "Using simple frequency-based selection."
+            )
+            return self.generate_updated_prompt(analysis, incremental)
+
+        # Step 2: Cluster patterns
+        logger.info(f"Clustering {total_patterns} patterns...")
+        clusters = self.clusterer.cluster_patterns(n_clusters=n_clusters)
+
+        # Step 3: Select representative patterns
+        logger.info("Selecting representative patterns from clusters...")
+        representatives = self.clusterer.select_representatives(
+            clusters,
+            per_cluster=1,
+            strategy="balanced"
+        )[:n_representatives]
+
+        # Step 4: Abstract clusters into general reminders
+        logger.info("Generating general reminders using LLM abstraction...")
+        abstractions = self.abstractor.abstract_all_clusters(
+            clusters,
+            min_cluster_size=5  # Only abstract clusters with 5+ patterns
+        )
+
+        # Format reminders for prompt
+        formatted_reminders = self.abstractor.format_for_prompt(
+            abstractions,
+            max_reminders=n_general_reminders
+        )
+
+        # Step 5: Build new prompt
+        new_version = self._increment_version(self.current_version)
+
+        if incremental:
+            new_prompt = self.base_prompt.copy()
+        else:
+            new_prompt = self._create_default_prompt()
+
+        new_prompt['version'] = new_version
+        new_prompt['updated_at'] = datetime.now().isoformat()
+
+        # Build memory section with three tiers
+        # Tier 1: General reminders (LLM-abstracted)
+        general_reminders = formatted_reminders.get('all_reminders', [])
+
+        # Tier 2: Representative specific patterns
+        representative_mistakes = []
+        representative_guidelines = []
+        for rep in representatives:
+            if rep['error_type'] == 'incomplete':
+                representative_mistakes.append(rep['guideline'])
+            elif rep['error_type'] in ['factual_error', 'misleading']:
+                representative_guidelines.append(rep['guideline'])
+
+        new_prompt['memory'] = {
+            'general_reminders': general_reminders[:n_general_reminders],
+            'representative_patterns': {
+                'mistakes': representative_mistakes[:5],
+                'guidelines': representative_guidelines[:5]
+            },
+            'metadata': {
+                'clustering_used': True,
+                'n_clusters': len(clusters),
+                'n_representatives': len(representatives),
+                'n_general_reminders': len(general_reminders),
+                'total_patterns_in_storage': total_patterns
+            }
+        }
+
+        # Add change summary
+        new_prompt['changes'] = {
+            'from_version': self.current_version,
+            'patterns_added': len(new_patterns),
+            'total_patterns_in_storage': total_patterns,
+            'improvements': [
+                f"Generated {len(general_reminders)} general reminders via LLM abstraction",
+                f"Selected {len(representatives)} representative patterns from {len(clusters)} clusters",
+                f"Improved diversity and coverage across medical domains"
+            ],
+            'clustering_stats': {
+                'n_clusters': len(clusters),
+                'avg_cluster_size': sum(len(p) for p in clusters.values()) / len(clusters),
+                'abstractions_generated': len(abstractions)
+            }
+        }
+
+        # Save to file
+        output_file = self.output_dir / f"deepseek_system_v{new_version}.yaml"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            yaml.dump(new_prompt, f, allow_unicode=True, sort_keys=False)
+
+        logger.info(f"Generated clustered prompt version {new_version} -> {output_file}")
+        logger.info(f"  - {len(general_reminders)} general reminders (LLM-abstracted)")
+        logger.info(f"  - {len(representatives)} representative patterns (clustered)")
+        logger.info(f"  - {total_patterns} total patterns in storage (for runtime retrieval)")
+
+        # Save clustering metadata
+        metadata_file = self.output_dir / f"clustering_metadata_v{new_version}.json"
+        metadata = {
+            'version': new_version,
+            'timestamp': datetime.now().isoformat(),
+            'clusters': {
+                cid: {
+                    'size': len(patterns),
+                    'patterns': [
+                        {'description': p['description'][:100], 'frequency': p.get('frequency', 0)}
+                        for p in patterns[:3]
+                    ]
+                }
+                for cid, patterns in list(clusters.items())[:10]  # Save first 10 clusters
+            },
+            'abstractions': abstractions[:20],  # Save top 20 abstractions
+            'representatives': [
+                {'description': r['description'][:100], 'cluster_id': r.get('cluster_id')}
+                for r in representatives
+            ]
+        }
+        with open(metadata_file, 'w', encoding='utf-8') as f:
+            json.dump(metadata, f, ensure_ascii=False, indent=2)
+
+        logger.info(f"Saved clustering metadata -> {metadata_file}")
+
+        # Update current version
+        self.current_version = new_version
+
+        return new_version
 
     def get_prompt_stats(self) -> Dict[str, Any]:
         """Get statistics about prompt versions and patterns"""

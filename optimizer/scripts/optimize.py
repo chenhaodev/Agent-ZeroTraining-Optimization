@@ -173,19 +173,93 @@ def main():
     # Initialize components
     logger.info("\n[Step 1/4] Analyzing error patterns...")
     analyzer = PatternAnalyzer()
-    analysis = analyzer.analyze_from_report(report)
 
-    logger.info(f"  Found {len(analysis.get('error_patterns', []))} error patterns")
-    logger.info(f"  Identified {len(analysis.get('knowledge_gaps', []))} knowledge gaps")
+    # Convert report evaluations to Evaluation objects
+    from autoeval.core.models import Evaluation, Question, Answer, Error
+    evaluations = []
+    for i, eval_data in enumerate(report['evaluations']):
+        # Reconstruct Evaluation objects from JSON (simplified structure)
+        q_data = eval_data['question']
+        question = Question(
+            question=q_data['text'],
+            category=q_data['category'],
+            difficulty=q_data['difficulty'],
+            source_entity_type='unknown',  # Not saved in simplified JSON
+            source_entity_id=i,  # Use index as placeholder
+            source_entity_name=q_data['source']
+        )
+
+        # Answer is just a string in the JSON, wrap it
+        answer = Answer(
+            question_id=f"q_{i}",
+            answer=eval_data['answer'],
+            model='deepseek-chat',
+            prompt_version='1.0'
+        )
+
+        # Errors have simplified structure
+        errors = []
+        for e in eval_data.get('errors', []):
+            errors.append(Error(
+                type=e['type'],
+                severity=e['severity'],
+                description=e['description'],
+                quote_from_answer=e.get('quote_from_answer', ''),
+                correct_info_from_reference=e.get('correct_info_from_reference', '')
+            ))
+
+        evaluation = Evaluation(
+            question=question,
+            answer=answer,
+            scores=eval_data['scores'],
+            errors=errors,
+            overall_score=eval_data['scores']['overall'],  # overall is inside scores
+            is_acceptable=eval_data['is_acceptable'],
+            justification=eval_data.get('justification', ''),
+            knowledge_gaps=eval_data.get('knowledge_gaps', []),  # list
+            suggestions=eval_data.get('suggestions', '')  # string
+        )
+        evaluations.append(evaluation)
+
+    analysis = analyzer.analyze(evaluations)
+
+    # Merge in top-level analysis from report (which has aggregated knowledge_gaps)
+    if 'analysis' in report:
+        report_analysis = report['analysis']
+        # Use the aggregated knowledge_gaps from the report
+        if 'knowledge_gaps' in report_analysis:
+            analysis['knowledge_gaps'] = report_analysis['knowledge_gaps']
+        # Preserve error_breakdown if not already present
+        if 'error_breakdown' not in analysis and 'error_breakdown' in report['summary']:
+            analysis['error_breakdown'] = report['summary']['error_breakdown']
+
+    # Convert error_examples to error_patterns format for compatibility
+    # error_examples is {error_type: [{'question': ..., 'description': ..., 'severity': ...}]}
+    # error_patterns should be {error_type: [{'description': ..., 'severity': ..., 'count': ...}]}
+    if 'error_examples' in analysis:
+        error_patterns = {}
+        error_breakdown = analysis.get('error_breakdown', {})
+        for error_type, examples in analysis['error_examples'].items():
+            error_patterns[error_type] = [{
+                'description': ex['description'],
+                'severity': ex['severity'],
+                'count': error_breakdown.get(error_type, 1),
+                'examples': [ex],
+                'category': 'general',  # Will be inferred later
+                'guideline': f"避免{error_type}错误：{ex['description']}"
+            } for ex in examples]
+        analysis['error_patterns'] = error_patterns
+
+    logger.info(f"  Found {len(analysis.get('error_patterns', {}))} error types")
+    logger.info(f"  Identified {len(analysis.get('knowledge_gaps', {}))} knowledge gaps")
 
     # Store patterns with pattern retrieval
     logger.info("\n[Step 2/4] Storing patterns in hierarchical pattern storage...")
     pattern_storage = PatternStorage()
 
-    for pattern in analysis.get('error_patterns', []):
-        pattern_storage.add_pattern(pattern)
-
-    logger.info(f"  ✓ Stored {len(analysis.get('error_patterns', []))} patterns")
+    # Note: pattern storage is handled by the optimizer via extract_patterns_from_analysis
+    # which processes both error_examples and knowledge_gaps
+    logger.info(f"  ✓ Pattern storage will be handled by optimizer")
 
     # Generate improved prompt
     logger.info("\n[Step 3/4] Generating improved prompt...")
@@ -208,12 +282,18 @@ def main():
     logger.info(f"  Previous version: {float(new_version) - 0.1:.1f}")
     logger.info(f"  New version: {new_version}")
     logger.info(f"  Total patterns in pattern database: {stats['pattern_storage']['total_patterns']}")
-    logger.info(f"  Pattern categories: {len(set(p.get('category', 'unknown') for p in analysis.get('error_patterns', [])))}")
+
+    # Flatten error_patterns from dict of lists to single list
+    all_error_patterns = []
+    for error_type, patterns in analysis.get('error_patterns', {}).items():
+        all_error_patterns.extend(patterns)
+
+    logger.info(f"  Pattern categories: {len(set(p.get('category', 'general') for p in all_error_patterns))}")
 
     logger.info(f"\n💡 Top Improvements:")
-    for i, pattern in enumerate(analysis.get('error_patterns', [])[:5], 1):
+    for i, pattern in enumerate(all_error_patterns[:5], 1):
         logger.info(f"  {i}. {pattern.get('description', 'Unknown')}")
-        logger.info(f"     Severity: {pattern.get('severity', 'unknown')} | Frequency: {pattern.get('frequency', 0)}")
+        logger.info(f"     Severity: {pattern.get('severity', 'unknown')} | Frequency: {pattern.get('count', 0)}")
 
     logger.info(f"\n📁 Output Files:")
     logger.info(f"  Prompt: outputs/prompts/deepseek_system_v{new_version}.yaml")

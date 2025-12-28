@@ -48,7 +48,6 @@ This repository contains three integrated systems for improving LLM performance 
 ┌─────────────────────────────────────────────────────────────┐
 │ 2. optimizer/                                               │
 │    • Extracts error patterns from evaluation reports        │
-│    • Stores patterns in vector database (FAISS)             │
 │    • Generates improved prompts (v1.0 → v1.1 → v1.2...)     │
 │    • Retrieves relevant patterns per question dynamically   │
 │    • Outputs: versioned prompts, pattern vector store       │
