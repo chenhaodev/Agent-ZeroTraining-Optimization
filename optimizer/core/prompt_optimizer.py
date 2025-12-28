@@ -1,5 +1,5 @@
 """
-Prompt optimization system with dynamic RAG-based guideline retrieval.
+Prompt optimization system with dynamic pattern-based guideline retrieval.
 Generates improved prompts based on error analysis and builds runtime prompts with relevant patterns.
 """
 
@@ -302,18 +302,18 @@ class PromptOptimizer:
         self,
         question: str,
         entity_type: str = "general",
-        use_rag: bool = True,
-        rag_k: int = 5,
+        use_patterns: bool = True,
+        num_patterns: int = 5,
         use_category_rules: bool = True
     ) -> str:
         """
-        Build dynamic prompt for answer generation with RAG-retrieved patterns.
+        Build dynamic prompt for answer generation with pattern retrieval-retrieved patterns.
 
         Args:
             question: The question being answered
             entity_type: Type of entity (diseases, vaccines, examinations, surgeries)
-            use_rag: Whether to use RAG for pattern retrieval
-            rag_k: Number of patterns to retrieve
+            use_patterns: Whether to use RAG for pattern retrieval
+            num_patterns: Number of patterns to retrieve
             use_category_rules: Whether to include Tier 2 category-specific rules
 
         Returns:
@@ -355,10 +355,10 @@ class PromptOptimizer:
                     base_text += f"• {rule}\n"
 
         # Tier 3: Add RAG-retrieved patterns if enabled
-        if use_rag:
+        if use_patterns:
             relevant_patterns = self.pattern_storage.retrieve_relevant(
                 question=question,
-                k=rag_k,
+                k=num_patterns,
                 category=entity_type if entity_type != "general" else None,
                 min_severity="minor"
             )

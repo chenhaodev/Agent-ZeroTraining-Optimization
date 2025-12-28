@@ -14,7 +14,7 @@ class MedicalEntity(BaseModel):
         raise NotImplementedError
 
     def get_metadata(self) -> dict:
-        """Get metadata for RAG retrieval"""
+        """Get metadata for pattern retrieval"""
         raise NotImplementedError
 
 
@@ -67,7 +67,7 @@ class Disease(MedicalEntity):
         return "\n\n".join(parts)
 
     def get_metadata(self) -> dict:
-        """Get metadata for RAG retrieval"""
+        """Get metadata for pattern retrieval"""
         return {
             'entity_type': 'disease',
             'entity_id': self.disease_id,
@@ -128,7 +128,7 @@ class Examination(MedicalEntity):
         return "\n\n".join(parts)
 
     def get_metadata(self) -> dict:
-        """Get metadata for RAG retrieval"""
+        """Get metadata for pattern retrieval"""
         return {
             'entity_type': 'examination',
             'entity_id': self.jc_id,
@@ -197,7 +197,7 @@ class Surgery(MedicalEntity):
         return "\n\n".join(parts)
 
     def get_metadata(self) -> dict:
-        """Get metadata for RAG retrieval"""
+        """Get metadata for pattern retrieval"""
         return {
             'entity_type': 'surgery',
             'entity_id': self.jc_id,
@@ -254,7 +254,7 @@ class Vaccine(MedicalEntity):
         return "\n\n".join(parts)
 
     def get_metadata(self) -> dict:
-        """Get metadata for RAG retrieval"""
+        """Get metadata for pattern retrieval"""
         return {
             'entity_type': 'vaccine',
             'entity_id': self.ym_id,

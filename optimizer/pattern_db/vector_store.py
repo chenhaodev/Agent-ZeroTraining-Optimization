@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import List, Dict, Tuple
 from loguru import logger
 
-from optimizer.rag.embedder import get_embedder
+from optimizer.pattern_db.embedder import get_embedder
 from autoeval.core.models import MedicalEntity
 from autoeval.config.settings import get_settings
 

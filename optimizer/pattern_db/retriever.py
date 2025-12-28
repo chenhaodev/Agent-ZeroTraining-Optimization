@@ -1,16 +1,16 @@
 """
-RAG retrieval for evaluation context.
+Retrieval for evaluation context.
 """
 
 from typing import List, Dict
 from loguru import logger
 
-from optimizer.rag.vector_store import get_vector_store
+from optimizer.pattern_db.vector_store import get_vector_store
 from autoeval.config.settings import get_settings
 
 
 class Retriever:
-    """RAG retriever for golden reference context"""
+    """Retriever for golden reference context"""
 
     def __init__(self):
         self.settings = get_settings()
@@ -23,7 +23,7 @@ class Retriever:
         Args:
             query: Query text (question)
             k: Number of results (defaults to settings.RETRIEVAL_TOP_K)
-            threshold: Minimum similarity score (defaults to settings.RAG_RELEVANCE_THRESHOLD)
+            threshold: Minimum similarity score (defaults to settings.PATTERN_RELEVANCE_THRESHOLD)
 
         Returns:
             List of relevant context dicts (may be empty if none meet threshold)
@@ -32,7 +32,7 @@ class Retriever:
             k = self.settings.RETRIEVAL_TOP_K
 
         if threshold is None:
-            threshold = getattr(self.settings, 'RAG_RELEVANCE_THRESHOLD', 0.0)
+            threshold = getattr(self.settings, 'PATTERN_RELEVANCE_THRESHOLD', 0.0)
 
         logger.debug(f"Retrieving top-{k} results for query (threshold={threshold})")
         results = self.vector_store.search(query, k=k)

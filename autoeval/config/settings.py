@@ -28,11 +28,11 @@ class Settings(BaseSettings):
     STRATIFIED_SAMPLING: bool = True
     RANDOM_SEED: int = 42
 
-    # RAG Configuration
+    # Pattern Retrieval Configuration
     EMBEDDING_DIMENSION: int = 3072  # text-embedding-3-large
-    RETRIEVAL_TOP_K: int = 5
-    RAG_RELEVANCE_THRESHOLD: float = 0.65  # Minimum similarity score (0.0 = disabled, 0.65 = recommended)
-    USE_SMART_ROUTING: bool = False  # Enable smart routing to skip RAG for predicted OOD questions
+    RETRIEVAL_TOP_K: int = 5  # Number of patterns to retrieve for dynamic prompts
+    PATTERN_RELEVANCE_THRESHOLD: float = 0.65  # Minimum similarity score (0.0 = disabled, 0.65 = recommended)
+    USE_SMART_ROUTING: bool = False  # Enable smart routing to skip pattern retrieval for predicted OOD questions
     VECTOR_STORE_TYPE: str = "faiss"  # or "chroma"
     USE_EMBEDDING_CACHE: bool = True
     REBUILD_VECTOR_INDEX: bool = False  # Set to True to rebuild index from scratch

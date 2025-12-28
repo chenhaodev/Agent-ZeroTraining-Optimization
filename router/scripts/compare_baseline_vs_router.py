@@ -4,7 +4,7 @@ A/B Test: Baseline DeepSeek API vs Smart Router
 
 Compares:
 - Baseline: Direct DeepSeek calls (no routing, no RAG)
-- Router: Weakness-aware routing with RAG patterns
+- Router: Weakness-aware routing with pattern retrieval patterns
 
 Test set: Partial questions from auto-eval + OOD questions
 """
@@ -110,14 +110,14 @@ def call_baseline(question: str, api_client) -> dict:
 
 def call_router(question: str, entity_type: str, api_client, decision_engine, pattern_storage) -> dict:
     """
-    Router: Smart routing with weakness detection + RAG patterns
+    Router: Smart routing with weakness detection + pattern retrieval patterns
 
     Returns:
         dict with answer, latency, routing_decision, patterns_used
     """
     logger.info(f"[ROUTER] Using smart routing...")
 
-    # Get routing decision (checks weakness patterns first, then RAG)
+    # Get routing decision (checks weakness patterns first, then pattern retrieval)
     decision = decision_engine.get_routing_decision(
         question=question,
         entity_type=entity_type,
@@ -126,7 +126,7 @@ def call_router(question: str, entity_type: str, api_client, decision_engine, pa
     )
 
     logger.info(f"  Routing tier: {decision.get('routing_tier', 'unknown')}")
-    logger.info(f"  Use RAG: {decision['use_rag']}")
+    logger.info(f"  Use RAG: {decision['use_patterns']}")
     logger.info(f"  Weakness patterns: {len(decision.get('weakness_patterns', []))}")
 
     # Build enhanced prompt
@@ -144,8 +144,8 @@ def call_router(question: str, entity_type: str, api_client, decision_engine, pa
             weakness_section = "\n\n⚠️ 特别注意（常见遗漏点）：\n" + "\n".join(weakness_reminders)
             augmentation.append(("weakness", weakness_section))
 
-    # Add RAG patterns if needed
-    if decision['use_rag']:
+    # Add pattern retrieval patterns if needed
+    if decision['use_patterns']:
         # Map singular entity_type to plural category names used in pattern storage
         category_map = {
             'disease': 'diseases',
@@ -165,7 +165,7 @@ def call_router(question: str, entity_type: str, api_client, decision_engine, pa
 
         if relevant_patterns:
             # Log retrieved patterns for debugging
-            logger.info(f"  Retrieved {len(relevant_patterns)} RAG patterns:")
+            logger.info(f"  Retrieved {len(relevant_patterns)} pattern retrieval patterns:")
             for i, p in enumerate(relevant_patterns, 1):
                 logger.info(f"    {i}. [{p['category']:12s}] {p['description'][:80]}...")
 
@@ -176,7 +176,7 @@ def call_router(question: str, entity_type: str, api_client, decision_engine, pa
             pattern_section = "\n\n📋 相关知识点补充：\n" + "\n".join(pattern_reminders)
             augmentation.append(("rag_patterns", pattern_section))
         else:
-            logger.info(f"  No RAG patterns found above threshold 0.5")
+            logger.info(f"  No pattern retrieval patterns found above threshold 0.5")
 
     # Construct final prompt
     augmented_prompt = base_prompt
@@ -333,7 +333,7 @@ def main():
 
     print(f"\nRouter Behavior:")
     print(f"  - Used weakness patterns: {weakness_used}/{len(results)} questions")
-    print(f"  - Used RAG patterns: {rag_used}/{len(results)} questions")
+    print(f"  - Used pattern retrieval patterns: {rag_used}/{len(results)} questions")
 
     print(f"\n💡 Next Step: Manually review answers in {output_file}")
     print(f"   Compare quality, completeness, and accuracy")

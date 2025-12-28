@@ -1,5 +1,5 @@
 """
-Answer generation service using DeepSeek with dynamic RAG-based prompt optimization.
+Answer generation service using DeepSeek with dynamic pattern retrieval-based prompt optimization.
 """
 
 import yaml
@@ -29,7 +29,7 @@ class AnswerGenerator:
         self,
         prompt_version: str = "1.0",
         use_dynamic_prompts: bool = True,
-        rag_k: int = 5,
+        num_patterns: int = 5,
         use_category_rules: bool = True,
         use_smart_routing: bool = False
     ):
@@ -38,16 +38,16 @@ class AnswerGenerator:
 
         Args:
             prompt_version: Prompt version to use (only if not using dynamic prompts)
-            use_dynamic_prompts: Whether to use RAG-based dynamic prompts
-            rag_k: Number of patterns to retrieve for dynamic prompts
+            use_dynamic_prompts: Whether to use pattern retrieval-based dynamic prompts
+            num_patterns: Number of patterns to retrieve for dynamic prompts
             use_category_rules: Whether to use Tier 2 category-specific rules
-            use_smart_routing: Whether to use smart routing to skip RAG for OOD questions
+            use_smart_routing: Whether to use smart routing to skip pattern retrieval for OOD questions
         """
         self.settings = get_settings()
         self.api_client = get_api_client()
         self.prompt_version = prompt_version
         self.use_dynamic_prompts = use_dynamic_prompts
-        self.rag_k = rag_k
+        self.num_patterns = num_patterns
         self.use_category_rules = use_category_rules
         self.use_smart_routing = use_smart_routing
 
@@ -58,12 +58,12 @@ class AnswerGenerator:
                 self.use_smart_routing = False
             else:
                 self.router = DecisionEngine()
-                logger.info(f"Smart routing enabled - will skip RAG for predicted OOD questions")
+                logger.info(f"Smart routing enabled - will skip pattern retrieval for predicted OOD questions")
 
         # Initialize prompt optimizer for dynamic prompts
         if use_dynamic_prompts:
             self.prompt_optimizer = PromptOptimizer()
-            logger.info(f"Using dynamic prompts with RAG (k={rag_k}, category_rules={use_category_rules})")
+            logger.info(f"Using dynamic prompts with pattern retrieval (k={num_patterns}, category_rules={use_category_rules})")
         else:
             # Load static prompt
             prompt_path = self.settings.get_prompt_path("deepseek_system")
@@ -82,32 +82,32 @@ class AnswerGenerator:
             Answer object
         """
         # Smart routing: Get complete routing decision (weakness-first priority)
-        should_use_rag = True  # Default to using RAG
+        should_use_patterns = True  # Default to using pattern retrieval
         routing_reason = "No routing applied"
         has_weakness = False
 
         if self.use_smart_routing and self.use_dynamic_prompts:
-            # Use get_routing_decision() which checks weakness FIRST, then RAG
+            # Use get_routing_decision() which checks weakness FIRST, then pattern retrieval
             decision = self.router.get_routing_decision(
                 question=question.question,
                 entity_type=None,  # Will be inferred from question
                 min_confidence=0.70,
                 auto_reload=False  # Avoid repeated reloads during batch processing
             )
-            should_use_rag = decision['use_rag']
-            routing_reason = decision['rag_reason']
+            should_use_patterns = decision['use_patterns']
+            routing_reason = decision['pattern_reason']
             has_weakness = decision['has_weaknesses']
 
             logger.info(
                 f"Smart routing: tier={decision.get('routing_tier', 'unknown')}, "
-                f"use_rag={should_use_rag}, has_weakness={has_weakness}, "
+                f"use_patterns={should_use_patterns}, has_weakness={has_weakness}, "
                 f"reason='{routing_reason}'"
             )
 
         # Build system prompt (static or dynamic)
         if self.use_dynamic_prompts:
             # Get entity type from question (source_entity_type field)
-            # Map source_entity_type to category names for RAG retrieval
+            # Map source_entity_type to category names for pattern retrieval retrieval
             entity_type_map = {
                 'disease': 'diseases',
                 'examination': 'examinations',
@@ -116,13 +116,13 @@ class AnswerGenerator:
             }
             entity_type = entity_type_map.get(question.source_entity_type, 'general')
 
-            # Build dynamic prompt with RAG-retrieved patterns
-            # Smart routing decision: skip RAG if router says so
+            # Build dynamic prompt with pattern retrieval-retrieved patterns
+            # Smart routing decision: skip pattern retrieval if router says so
             system_prompt = self.prompt_optimizer.build_dynamic_prompt(
                 question=question.question,
                 entity_type=entity_type,
-                use_rag=should_use_rag,  # Router decision!
-                rag_k=self.rag_k,
+                use_patterns=should_use_patterns,  # Router decision!
+                num_patterns=self.num_patterns,
                 use_category_rules=self.use_category_rules
             )
         else:

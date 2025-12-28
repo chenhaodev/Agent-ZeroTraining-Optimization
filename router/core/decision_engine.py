@@ -3,7 +3,7 @@ Smart Router Decision Engine with Hot-Reload Capability.
 
 This module provides:
 1. Weakness pattern matching (Tier 1 - HIGHEST PRIORITY)
-2. RAG decision-making for supplemental info (Tier 2)
+2. pattern retrieval decision-making for supplemental info (Tier 2)
 3. Hot-reload when weakness catalog is updated
 """
 
@@ -23,7 +23,7 @@ class DecisionEngine:
     Smart routing decision engine with hot-reload capability.
 
     Features:
-    - Fast rule-based RAG decisions
+    - Fast rule-based pattern retrieval decisions
     - Weakness pattern matching
     - Auto-reload when weakness catalog updates
     """
@@ -158,20 +158,20 @@ class DecisionEngine:
         self._last_reload_check = datetime.now()
         return reloaded
 
-    def should_use_rag(
+    def should_use_patterns(
         self,
         question: str,
         min_confidence: float = 0.70
     ) -> Tuple[bool, str, float]:
         """
-        Decide if RAG should be used for this question.
+        Decide if pattern retrieval should be used for this question.
 
         Args:
             question: The question text
-            min_confidence: Minimum confidence to use RAG (0.0-1.0)
+            min_confidence: Minimum confidence to use pattern retrieval (0.0-1.0)
 
         Returns:
-            Tuple of (use_rag, reason, confidence)
+            Tuple of (use_patterns, reason, confidence)
         """
         question_lower = question.lower()
 
@@ -204,7 +204,7 @@ class DecisionEngine:
                 if len(prefix) >= 2 and prefix in question and prefix not in ['检查', '手术', '疫苗']:
                     return True, f"Partial match: '{entity_name}'", 0.60
 
-        # Strategy 5: Default - use RAG with threshold filtering
+        # Strategy 5: Default - use pattern retrieval with threshold filtering
         return True, "Uncertain - defer to threshold filter", 0.50
 
     def get_routing_decision(
@@ -215,17 +215,17 @@ class DecisionEngine:
         auto_reload: bool = True
     ) -> Dict[str, Any]:
         """
-        Complete routing decision with CORRECT priority: weakness patterns first, then RAG.
+        Complete routing decision with CORRECT priority: weakness patterns first, then pattern retrieval.
 
         This implements the correct three-tier routing strategy:
         - Tier 1: Weakness pattern matching (check if hits known weakness - HIGHEST PRIORITY)
-        - Tier 2: RAG retrieval for supplemental info (if no weakness match)
+        - Pattern Retrieval retrieval for supplemental info (if no weakness match)
         - Tier 3: Baseline only (if neither applies)
 
         Args:
             question: The question text
             entity_type: Optional entity type ('diseases', 'vaccines', etc.)
-            min_confidence: Minimum confidence for RAG usage
+            min_confidence: Minimum confidence for pattern retrieval usage
             auto_reload: Whether to auto-check for data updates
 
         Returns:
@@ -248,24 +248,24 @@ class DecisionEngine:
 
         has_weaknesses = len(weakness_patterns) > 0
 
-        # Step 2: If no weakness match, check RAG for supplemental info
+        # Step 2: If no weakness match, check pattern database for supplemental info
         if not has_weaknesses:
-            # No weakness pattern hit - check if RAG has golden-ref content
-            use_rag, rag_reason, rag_confidence = self.should_use_rag(question, min_confidence)
+            # No weakness pattern hit - check if pattern database has golden-ref content
+            use_patterns, rag_reason, rag_confidence = self.should_use_patterns(question, min_confidence)
         else:
             # Weakness pattern found - use updated prompt with inline reminders
-            # RAG may still supplement with additional context
-            use_rag = True  # Allow RAG to provide supplemental bad case examples
+            # pattern retrieval may still supplement with additional context
+            use_patterns = True  # Allow pattern retrieval to provide supplemental bad case examples
             rag_reason = f"Supplemental context for weakness: {weakness_patterns[0]['weakness_id']}"
             rag_confidence = 0.85  # High confidence when weakness is matched
 
         decision = {
-            'use_rag': use_rag,
+            'use_patterns': use_patterns,
             'rag_reason': rag_reason,
             'rag_confidence': rag_confidence,
             'weakness_patterns': weakness_patterns,
             'has_weaknesses': has_weaknesses,
-            'routing_tier': 'weakness' if has_weaknesses else ('rag' if use_rag else 'baseline'),
+            'routing_tier': 'weakness' if has_weaknesses else ('pattern_retrieval' if use_patterns else 'baseline'),
             'last_reload_check': self._last_reload_check.isoformat()
         }
 
@@ -273,7 +273,7 @@ class DecisionEngine:
         if has_weaknesses:
             pattern_ids = [w['weakness_id'] for w in weakness_patterns]
             logger.debug(
-                f"Routing: use_rag={use_rag}, weaknesses={pattern_ids}"
+                f"Routing: use_patterns={use_patterns}, weaknesses={pattern_ids}"
             )
 
         return decision

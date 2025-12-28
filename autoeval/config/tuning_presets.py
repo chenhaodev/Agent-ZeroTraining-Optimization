@@ -34,7 +34,7 @@ def load_preset(preset_name: str = "balanced") -> Dict[str, Any]:
 
         preset = presets[preset_name]
         logger.info(f"Loaded tuning preset: {preset_name}")
-        logger.info(f"  - RAG k={preset.get('rag_k', 5)}")
+        logger.info(f"  - RAG k={preset.get('num_patterns', 5)}")
         logger.info(f"  - Min severity={preset.get('min_severity', 'minor')}")
         logger.info(f"  - Category rules={'enabled' if preset.get('use_category_rules', True) else 'disabled'}")
         logger.info(f"  - Estimated tokens: {preset.get('estimated_tokens', 'N/A')}")
@@ -52,7 +52,7 @@ def get_default_preset() -> Dict[str, Any]:
     return {
         'description': '默认平衡配置',
         'use_dynamic_prompts': True,
-        'rag_k': 5,
+        'num_patterns': 5,
         'min_severity': 'minor',
         'use_category_rules': True,
         'estimated_tokens': 800,
@@ -108,7 +108,7 @@ def compare_presets() -> str:
         lines.append("\n" + "="*80)
         lines.append("Tuning Preset Comparison")
         lines.append("="*80)
-        lines.append(f"{'Preset':<20} {'Tokens':<10} {'Accuracy':<10} {'RAG-k':<8} {'Category':<12}")
+        lines.append(f"{'Preset':<20} {'Tokens':<10} {'Accuracy':<10} {'Pattern count':<8} {'Category':<12}")
         lines.append("-"*80)
 
         for name, config in presets.items():
@@ -117,10 +117,10 @@ def compare_presets() -> str:
 
             tokens = config.get('estimated_tokens', 'N/A')
             accuracy = config.get('estimated_accuracy', 'N/A')
-            rag_k = config.get('rag_k', 'N/A')
+            num_patterns = config.get('num_patterns', 'N/A')
             category = 'Yes' if config.get('use_category_rules', False) else 'No'
 
-            lines.append(f"{name:<20} {tokens:<10} {accuracy:<10} {rag_k:<8} {category:<12}")
+            lines.append(f"{name:<20} {tokens:<10} {accuracy:<10} {num_patterns:<8} {category:<12}")
 
         lines.append("="*80)
         return "\n".join(lines)
@@ -147,7 +147,7 @@ def apply_preset_to_config(preset_name: str, config_dict: Optional[Dict[str, Any
 
     # Apply preset settings
     config_dict['use_dynamic_prompts'] = preset.get('use_dynamic_prompts', True)
-    config_dict['rag_k'] = preset.get('rag_k', 5)
+    config_dict['num_patterns'] = preset.get('num_patterns', 5)
     config_dict['min_severity'] = preset.get('min_severity', 'minor')
     config_dict['use_category_rules'] = preset.get('use_category_rules', True)
 

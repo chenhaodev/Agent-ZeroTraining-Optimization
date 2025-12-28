@@ -244,7 +244,7 @@ def main():
 
     print(f"\n💡 Usage:")
     print(f"   The decision engine will now use these weakness patterns for smart routing.")
-    print(f"   When a question matches an entity with known weaknesses, RAG will be triggered.")
+    print(f"   When a question matches an entity with known weaknesses, pattern retrieval will be triggered.")
 
     print(f"\n✅ Weakness patterns ready for production use!")
     print()

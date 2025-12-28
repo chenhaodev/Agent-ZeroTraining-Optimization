@@ -188,7 +188,7 @@ def call_baseline(question: str, api_client) -> dict:
 
 
 def call_router(question: str, entity_type: str, api_client, decision_engine, pattern_storage) -> dict:
-    """Router: Smart routing with weakness detection + RAG patterns"""
+    """Router: Smart routing with weakness detection + pattern retrieval patterns"""
     # Get routing decision
     decision = decision_engine.get_routing_decision(
         question=question,
@@ -211,8 +211,8 @@ def call_router(question: str, entity_type: str, api_client, decision_engine, pa
             weakness_section = "\n\n⚠️ 特别注意（常见遗漏点）：\n" + "\n".join(weakness_reminders)
             augmentation.append(("weakness", weakness_section))
 
-    # Add RAG patterns if needed
-    if decision['use_rag']:
+    # Add pattern retrieval patterns if needed
+    if decision['use_patterns']:
         # Map singular to plural
         category_map = {
             'disease': 'diseases',
@@ -385,7 +385,7 @@ def main():
 
     print(f"\nRouter Behavior:")
     print(f"  - Used weakness patterns: {weakness_used}/{len(results)} questions")
-    print(f"  - Used RAG patterns: {rag_used}/{len(results)} questions ({rag_used/len(results)*100:.1f}%)")
+    print(f"  - Used pattern retrieval patterns: {rag_used}/{len(results)} questions ({rag_used/len(results)*100:.1f}%)")
 
 
 if __name__ == "__main__":

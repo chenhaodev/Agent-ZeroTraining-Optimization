@@ -84,7 +84,7 @@ def test_drop_in_replacement():
     if hasattr(router_response, 'x_routing_decision') and router_response.x_routing_decision:
         decision = router_response.x_routing_decision
         console.print(f"\n[magenta]Routing Decision:[/magenta]")
-        console.print(f"  - Use RAG: {decision['use_rag']}")
+        console.print(f"  - Use RAG: {decision['use_patterns']}")
         console.print(f"  - Confidence: {decision['rag_confidence']:.2f}")
         console.print(f"  - Weaknesses found: {len(decision['weakness_patterns'])}")
 
@@ -145,18 +145,18 @@ def test_a_b_comparison():
         )
 
         # Extract routing info
-        use_rag = False
+        use_patterns = False
         weaknesses = 0
         if hasattr(router_resp, 'x_routing_decision') and router_resp.x_routing_decision:
             decision = router_resp.x_routing_decision
-            use_rag = decision['use_rag']
+            use_patterns = decision['use_patterns']
             weaknesses = len(decision['weakness_patterns'])
 
         results.append({
             "question": question,
             "baseline_tokens": baseline_resp.usage.total_tokens,
             "router_tokens": router_resp.usage.total_tokens,
-            "use_rag": use_rag,
+            "use_patterns": use_patterns,
             "weaknesses": weaknesses,
             "baseline_answer": baseline_resp.choices[0].message.content[:100],
             "router_answer": router_resp.choices[0].message.content[:100]
@@ -173,7 +173,7 @@ def test_a_b_comparison():
     for r in results:
         table.add_row(
             r['question'][:30] + "...",
-            "✓" if r['use_rag'] else "✗",
+            "✓" if r['use_patterns'] else "✗",
             str(r['weaknesses']),
             str(r['baseline_tokens']),
             str(r['router_tokens'])

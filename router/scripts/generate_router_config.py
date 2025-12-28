@@ -3,7 +3,7 @@
 Router Configuration Generator - Function 2
 
 Generates smart routing configuration based on weakness patterns
-and evaluation results. Decides when to use LLM-API, RAG, ReACT, etc.
+and evaluation results. Decides when to use LLM-API, pattern retrieval, ReACT, etc.
 """
 
 import sys
@@ -78,7 +78,7 @@ Examples:
         '--min-confidence',
         type=float,
         default=0.70,
-        help='Minimum confidence for RAG usage (default: 0.70)'
+        help='Minimum confidence for pattern retrieval usage (default: 0.70)'
     )
 
     return parser.parse_args()
@@ -166,13 +166,13 @@ def generate_router_config(min_confidence=0.70):
             },
             'tier_3': {
                 'name': 'Baseline Fallback',
-                'description': 'Use baseline prompt when no RAG or weakness match',
+                'description': 'Use baseline prompt when no pattern retrieval or weakness match',
                 'action': 'use_baseline_prompt'
             }
         },
         'thresholds': {
-            'rag_confidence': min_confidence,
-            'rag_relevance': settings.RAG_RELEVANCE_THRESHOLD,
+            'pattern_confidence': min_confidence,
+            'pattern_relevance': settings.PATTERN_RELEVANCE_THRESHOLD,
             'weakness_frequency': 0.15,
             'weakness_top_k': 2
         },
@@ -182,11 +182,11 @@ def generate_router_config(min_confidence=0.70):
                 'model': settings.ANSWER_GEN_MODEL,
                 'description': 'Direct LLM-API call with enhanced prompts'
             },
-            'RAG': {
+            'PATTERN_RETRIEVAL': {
                 'enabled': settings.USE_SMART_ROUTING,
                 'retrieval_k': settings.RETRIEVAL_TOP_K,
-                'threshold': settings.RAG_RELEVANCE_THRESHOLD,
-                'description': 'Retrieval-augmented generation from golden-refs'
+                'threshold': settings.PATTERN_RELEVANCE_THRESHOLD,
+                'description': 'Dynamic prompts with relevant error pattern reminders'
             },
             'WEAKNESS': {
                 'enabled': True,
@@ -242,7 +242,7 @@ def test_routing_decisions():
 
         # Display decision
         rag_status = "✅ USE RAG" if decision['use_rag'] else "❌ SKIP RAG"
-        logger.info(f"    RAG: {rag_status} (confidence: {decision['rag_confidence']:.2f})")
+        logger.info(f"    RAG: {rag_status} (confidence: {decision['pattern_confidence']:.2f})")
         logger.info(f"    Reason: {decision['rag_reason']}")
 
         if decision['has_weaknesses']:
@@ -327,12 +327,12 @@ def main():
         logger.info(f"\nRouter configuration includes:")
         logger.info(f"  - {config['entity_coverage']['total_entities']} entities indexed")
         logger.info(f"  - {config['weakness_patterns']['total_patterns']} weakness patterns")
-        logger.info(f"  - 3-tier routing logic (Weakness → RAG supplement → Baseline)")
+        logger.info(f"  - 3-tier routing logic (Weakness → pattern retrieval supplement → Baseline)")
         logger.info(f"  - 4 routing strategies available")
 
         logger.info(f"\nThresholds:")
-        logger.info(f"  - RAG confidence: {config['thresholds']['rag_confidence']}")
-        logger.info(f"  - RAG relevance: {config['thresholds']['rag_relevance']}")
+        logger.info(f"  - pattern retrieval confidence: {config['thresholds']['pattern_confidence']}")
+        logger.info(f"  - pattern retrieval relevance: {config['thresholds']['pattern_relevance']}")
         logger.info(f"  - Weakness frequency: {config['thresholds']['weakness_frequency']}")
 
         logger.info(f"\nPerformance Targets:")

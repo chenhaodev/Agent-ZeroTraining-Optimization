@@ -4,7 +4,7 @@ Optimizer - Convert LLM weaknesses into improved prompts
 
 Takes evaluation results from autoeval and generates:
 1. Improved prompt versions (v1.0 → v1.1 → v1.2...)
-2. Hierarchical RAG index (when prompts get too long)
+2. Hierarchical Pattern Storage index (when prompts get too long)
 3. Weakness pattern storage
 """
 
@@ -178,8 +178,8 @@ def main():
     logger.info(f"  Found {len(analysis.get('error_patterns', []))} error patterns")
     logger.info(f"  Identified {len(analysis.get('knowledge_gaps', []))} knowledge gaps")
 
-    # Store patterns with RAG
-    logger.info("\n[Step 2/4] Storing patterns in hierarchical RAG...")
+    # Store patterns with pattern retrieval
+    logger.info("\n[Step 2/4] Storing patterns in hierarchical pattern storage...")
     pattern_storage = PatternStorage()
 
     for pattern in analysis.get('error_patterns', []):
@@ -207,7 +207,7 @@ def main():
     logger.info(f"\n📈 Optimization Summary:")
     logger.info(f"  Previous version: {float(new_version) - 0.1:.1f}")
     logger.info(f"  New version: {new_version}")
-    logger.info(f"  Total patterns in RAG: {stats['pattern_storage']['total_patterns']}")
+    logger.info(f"  Total patterns in pattern database: {stats['pattern_storage']['total_patterns']}")
     logger.info(f"  Pattern categories: {len(set(p.get('category', 'unknown') for p in analysis.get('error_patterns', [])))}")
 
     logger.info(f"\n💡 Top Improvements:")
@@ -218,7 +218,7 @@ def main():
     logger.info(f"\n📁 Output Files:")
     logger.info(f"  Prompt: outputs/prompts/deepseek_system_v{new_version}.yaml")
     logger.info(f"  Patterns: outputs/cache/error_patterns/patterns.json")
-    logger.info(f"  RAG Index: outputs/cache/error_patterns/patterns.index")
+    logger.info(f"  Pattern Index: outputs/cache/error_patterns/patterns.index")
 
     logger.info("\n" + "=" * 60)
     logger.info("✅ Optimization Complete!")

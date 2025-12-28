@@ -201,10 +201,10 @@ Answer: Comprehensive, addresses all key points ✅
 | Version | Base Prompt | Memory Patterns | RAG Patterns | Total Tokens (Static) | Total Tokens (Runtime) |
 |---------|-------------|-----------------|--------------|------------------------|------------------------|
 | v1.0    | 650         | 0               | 0            | 650                    | 650                    |
-| v1.1    | 650         | 0               | 29           | 650                    | ~900 (with RAG)        |
-| v1.2    | 650         | 0               | 29           | 650                    | ~900 (with RAG)        |
-| v1.3    | 650         | 0               | 61           | 650                    | ~900 (with RAG)        |
-| v2.0*   | 650         | ~300 (high-freq)| 100+         | 950                    | ~1,200 (with RAG)      |
+| v1.1    | 650         | 0               | 29           | 650                    | ~900 (with pattern retrieval)        |
+| v1.2    | 650         | 0               | 29           | 650                    | ~900 (with pattern retrieval)        |
+| v1.3    | 650         | 0               | 61           | 650                    | ~900 (with pattern retrieval)        |
+| v2.0*   | 650         | ~300 (high-freq)| 100+         | 950                    | ~1,200 (with pattern retrieval)      |
 
 *Projected after multiple evaluation runs
 
@@ -344,7 +344,7 @@ Evaluate (sample=100)
 
 ## Conclusion
 
-✅ **Test PASSED** - The hierarchical prompt + RAG system is:
+✅ **Test PASSED** - The hierarchical prompt + pattern retrieval system is:
 - ✅ Working as designed
 - ✅ Preventing prompt bloat
 - ✅ Storing patterns correctly

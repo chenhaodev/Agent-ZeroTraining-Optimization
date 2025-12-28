@@ -32,7 +32,7 @@ class ChatCompletionRequest(BaseModel):
 
     # Router-specific extensions (optional, prefixed with 'x_')
     x_entity_type: Optional[str] = Field(None, description="Entity type hint for routing")
-    x_min_confidence: Optional[float] = Field(0.70, description="Minimum RAG confidence")
+    x_min_confidence: Optional[float] = Field(0.70, description="Minimum pattern retrieval confidence")
     x_disable_routing: Optional[bool] = Field(False, description="Disable smart routing")
     x_disable_weaknesses: Optional[bool] = Field(False, description="Disable weakness patterns")
 

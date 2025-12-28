@@ -299,4 +299,4 @@ python router/scripts/route.py \
 **Key Insight:**
 DeepSeek's main weakness is **lack of medical details** (conservative treatment, surgical specifics, examination protocols). All 29 patterns are knowledge gaps, suggesting the base knowledge needs enhancement rather than just prompt improvements.
 
-Next: Test v1.2 with RAG to see if retrieving relevant patterns improves completeness scores! 🚀
+Next: Test v1.2 with pattern retrieval to see if retrieving relevant patterns improves completeness scores! 🚀

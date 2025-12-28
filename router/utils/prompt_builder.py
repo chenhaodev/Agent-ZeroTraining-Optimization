@@ -39,7 +39,7 @@ class PromptBuilder:
         rag_context: Optional[str] = None
     ) -> str:
         """
-        Build enhanced prompt with weakness patterns and optional RAG context.
+        Build enhanced prompt with weakness patterns and optional pattern retrieval context.
 
         Args:
             base_prompt: Base system prompt (uses default if not provided)
@@ -52,7 +52,7 @@ class PromptBuilder:
         # Use default or provided base prompt
         prompt = base_prompt or self.DEFAULT_BASE_PROMPT
 
-        # Add RAG context if provided
+        # Add pattern retrieval context if provided
         if rag_context:
             prompt += f"\n\n## 权威医学参考资料\n\n{rag_context}"
 
@@ -82,7 +82,7 @@ class PromptBuilder:
         This implements the full tiered system:
         - Tier 0: Base system prompt
         - Tier 1: Category-specific rules (if provided)
-        - Tier 2: RAG context (if provided)
+        - Pattern Retrieval context (if provided)
         - Tier 3: Weakness pattern reminders (if matched)
 
         Args:
@@ -101,7 +101,7 @@ class PromptBuilder:
         if category_rules:
             prompt += f"\n\n## 领域专项规则\n\n{category_rules}"
 
-        # Tier 2: RAG context
+        # Pattern Retrieval context
         if rag_context:
             prompt += f"\n\n## 权威医学参考资料\n\n{rag_context}"
 

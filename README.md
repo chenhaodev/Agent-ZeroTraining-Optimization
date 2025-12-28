@@ -1,17 +1,17 @@
-# LLM Evaluation & Optimization Pipeline
+# LLM Self-Improvement via Dynamic Prompts
 
-An automated system to evaluate LLM performance on medical tasks, optimize prompts based on identified weaknesses, and deploy intelligent routing in production.
+Learn from LLM mistakes and automatically generate context-aware prompts that inject relevant error reminders, improving response quality without retraining.
 
 ---
 ## Overview
 
-This repository contains three integrated systems for improving LLM performance on domain-specific tasks (medical/healthcare):
+This repository contains three integrated systems for improving LLM performance through **dynamic prompt engineering**:
 
-1. **autoeval** - Automatically evaluate LLM against golden references, identify weaknesses
-2. **optimizer** - Convert weaknesses into improved prompts using hierarchical RAG
-3. **router** - Production API with intelligent routing based on LLM weaknesses
+1. **autoeval** - Evaluate LLM against golden references, identify weaknesses
+2. **optimizer** - Extract error patterns and build searchable pattern database
+3. **router** - Production API with dynamic prompts tailored per question
 
-**Use Case:** Identify where your LLM fails on medical questions, automatically generate better prompts, and deploy smart routing that knows when to use RAG vs direct LLM.
+**Core Idea:** Learn from past mistakes → Store error patterns → Dynamically inject relevant reminders into prompts → LLM avoids repeating the same errors.
 
 ---
 ## Architecture
@@ -20,30 +20,30 @@ This repository contains three integrated systems for improving LLM performance 
 ┌─────────────────────────────────────────────────────────────┐
 │ 1. autoeval/                                                │
 │    • Samples entities from golden medical references        │
-│    • Generates test questions (GPT-5.1)                     │
+│    • Generates test questions (OpenAI)                      │
 │    • Gets answers from target LLM (e.g., DeepSeek)          │
-│    • Evaluates quality (GPT-5.1 + direct golden-ref lookup) │
-│    • Outputs: weakness patterns, evaluation reports         │
+│    • Evaluates quality (LLM judge + golden-ref lookup)      │
+│    • Outputs: evaluation reports with scores & errors       │
 └────────────────┬────────────────────────────────────────────┘
                  │
                  ▼
 ┌─────────────────────────────────────────────────────────────┐
 │ 2. optimizer/                                               │
-│    • Analyzes error patterns from autoeval                  │
-│    • Stores patterns with hierarchical RAG                  │
+│    • Extracts error patterns from evaluation reports        │
+│    • Stores patterns in vector database (FAISS)             │
 │    • Generates improved prompts (v1.0 → v1.1 → v1.2...)     │
-│    • Scales to 1000s of patterns without prompt bloat       │
-│    • Outputs: optimized prompts, weakness catalog           │
+│    • Retrieves relevant patterns per question dynamically   │
+│    • Outputs: versioned prompts, pattern vector store       │
 └────────────────┬────────────────────────────────────────────┘
                  │
                  ▼
 ┌─────────────────────────────────────────────────────────────┐
 │ 3. router/                                                  │
 │    • Serves OpenAI-compatible API                           │
-│    • Routes requests based on weakness patterns             │
-│    • Decides: use LLM directly, use RAG, or hybrid          │
-│    • Hot-reloads when weakness catalog updates              │
-│    • Outputs: production API with intelligent routing       │
+│    • Matches questions to known weakness patterns           │
+│    • Injects relevant error reminders into prompts          │
+│    • Routes to DeepSeek with enhanced system prompt         │
+│    • Outputs: streaming responses + routing metadata        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -59,20 +59,28 @@ This repository contains three integrated systems for improving LLM performance 
 │   └── utils/         # JSON parser, reporting
 │
 ├── optimizer/         # Prompt optimization system
-│   ├── config/        # Weakness catalog
 │   ├── core/          # Pattern analysis, storage, optimization
-│   ├── rag/           # Hierarchical RAG for pattern storage
+│   ├── pattern_db/    # Vector database for pattern storage & retrieval
 │   └── scripts/       # optimize.py (main entry point)
 │
 ├── router/            # Smart routing system
 │   ├── api/           # FastAPI application
-│   ├── config/        # Router settings
 │   ├── core/          # Decision engine, weakness matcher
-│   ├── scripts/       # serve_router.py (main entry point)
+│   ├── scripts/       # serve_router.py, testing scripts
 │   └── services/      # LLM client integrations
 │
-└── refs/              # Golden reference data (medical CSVs)
-    └── golden-refs/   # 5,730+ medical entities
+├── tools/             # Standalone utilities
+│   ├── analyze_patterns.py
+│   ├── build_weakness_patterns.py
+│   ├── monitor_performance.py
+│   ├── optimize_threshold.py
+│   ├── list_reports.py
+│   └── cleanup_repo.sh
+│
+├── refs/              # Golden reference data (medical CSVs)
+│   └── golden-refs/   # 5,730+ medical entities
+│
+└── outputs/           # Generated reports, prompts, cache
 ```
 
 ---
@@ -90,7 +98,7 @@ pip install -r router/requirements.txt
 # Configure API keys
 cp .env.example .env
 # Edit .env and add:
-#   POE_API_KEY=...        # For GPT-5.1 (question generation & evaluation)
+#   OPENAI_API_KEY=...     # For question generation & evaluation
 #   DEEPSEEK_API_KEY=...   # For target LLM testing
 ```
 
@@ -107,8 +115,7 @@ python autoeval/scripts/evaluate.py --sample-size=10
 # Custom configuration
 python autoeval/scripts/evaluate.py \
     --sample-size=50 \
-    --questions-per-entity=5 \
-    --rag-k=8
+    --questions-per-entity=5
 
 # Compare baseline vs optimized
 python autoeval/scripts/evaluate.py --compare-mode
@@ -116,9 +123,9 @@ python autoeval/scripts/evaluate.py --compare-mode
 
 **What happens:**
 1. Samples 10 medical entities from `refs/golden-refs/`
-2. Generates 30 questions using GPT-5.1
+2. Generates 30 questions using OpenAI API
 3. Gets 30 answers from DeepSeek
-4. Evaluates each answer by direct lookup of golden reference (GPT-5.1 as judge)
+4. Evaluates each answer by direct lookup of golden reference
 5. Identifies error patterns and knowledge gaps
 
 **Outputs:**
@@ -129,7 +136,7 @@ python autoeval/scripts/evaluate.py --compare-mode
 
 ### 2. Optimizer
 
-**Purpose:** Convert evaluation results into improved prompts using hierarchical RAG.
+**Purpose:** Extract error patterns and build a searchable database for dynamic prompt assembly.
 
 ```bash
 # Optimize using latest evaluation
@@ -148,14 +155,13 @@ python optimizer/scripts/optimize.py --list-patterns
 **What happens:**
 1. Loads evaluation report from autoeval
 2. Analyzes error patterns (PatternAnalyzer)
-3. Stores patterns in hierarchical RAG (FAISS + embeddings)
+3. Stores patterns in vector database (FAISS + embeddings)
 4. Generates improved prompt version (v1.0 → v1.1)
-5. Uses RAG to retrieve relevant patterns per question (scales infinitely)
+5. Enables retrieval of relevant patterns per question at runtime
 
 **Outputs:**
 - `outputs/prompts/deepseek_system_v1.1.yaml` - Improved prompt
-- `outputs/cache/error_patterns/patterns.json` - Pattern database
-- `outputs/cache/error_patterns/patterns.index` - FAISS index
+- `outputs/cache/error_patterns/` - Pattern storage (JSON + FAISS index)
 
 **Example Output:**
 ```
@@ -171,44 +177,37 @@ Top Improvements:
   3. Explain testing procedures step-by-step
 ```
 
-**Key Innovation:** Hierarchical RAG
-- Base prompt stays small (~500 tokens)
-- Retrieves top-5 relevant patterns per question
-- Scales to 1000s of patterns without prompt bloat
-- Total: ~800 tokens per request (efficient!)
+**Key Innovation:** Dynamic Prompt Engineering (Not Traditional RAG)
+- **Not RAG**: Doesn't retrieve external knowledge documents
+- **Not Fine-tuning**: Doesn't retrain model weights
+- **Dynamic Prompts**: Selects & combines relevant error reminders per question
+- **How**: Base prompt + retrieved error patterns = customized prompt per request
+- **Benefit**: Scales to 1000s of learned patterns without prompt bloat
 
 ---
 
 ### 3. Router
 
-**Purpose:** Production API that routes requests intelligently based on LLM weaknesses.
+**Purpose:** Production API that dynamically customizes prompts per question using learned error patterns.
 
 ```bash
 # Start router API
 python router/scripts/serve_router.py --port=8000
 
-# Generate router configuration
-python router/scripts/generate_router_config.py
-
-# Test router
+# Test and compare
 python router/scripts/test_router_llm_api.py
+python router/scripts/compare_baseline_vs_router.py
+python router/scripts/ab_test_extended.py
 ```
 
 **What happens:**
-1. Loads optimized prompts and weakness patterns
+1. Loads optimized prompts and weakness pattern database
 2. Serves OpenAI-compatible API at `http://localhost:8000`
-3. For each request:
-   - Matches question against weakness patterns
-   - Decides: use LLM directly, use RAG, or use both
-   - Injects relevant prompt improvements
-   - Returns response + routing metadata
-
-**API Endpoints:**
-- `POST /v1/chat/completions` - OpenAI-compatible endpoint
-- `POST /api/v1/route` - Get routing decision
-- `POST /api/v1/prompt` - Get optimized prompt
-- `GET /api/v1/stats` - Router statistics
-- `POST /api/v1/reload` - Hot-reload weakness catalog
+3. For each incoming question:
+   - Searches for similar past error patterns
+   - Injects relevant reminders into system prompt
+   - Forwards enhanced request to DeepSeek API
+   - Returns response with routing metadata
 
 **Example Usage:**
 
@@ -230,23 +229,19 @@ response = client.chat.completions.create(
 
 print(response.choices[0].message.content)
 # Router automatically:
-# - Detected this is about chronic disease
-# - Injected relevant weakness reminders
-# - Ensured prevention measures are included
+# - Searched: "What is diabetes?" → found past errors on chronic diseases
+# - Injected: "Remember to include prevention measures" into system prompt
+# - Result: More complete answer than baseline DeepSeek
 ```
 
-**Routing Logic:**
+**How it works:**
 ```
-Tier 1: Weakness pattern match (HIGHEST PRIORITY)
-  → Question hits known DeepSeek weakness
-  → Use updated prompt with inline reminders + bad case examples
-
-Tier 2: RAG supplemental info (if no weakness match)
-  → Retrieve golden-ref content or similar bad cases
-  → Add as context to base prompt
-
-Tier 3: Baseline only (if neither applies)
-  → Use base improved prompt without augmentation
+For each question:
+1. Search pattern database for similar past errors
+2. If matches found → inject error reminders into system prompt
+3. If no matches → use base optimized prompt
+4. Forward to DeepSeek with enhanced prompt
+5. Return response with metadata (patterns used, routing decision)
 ```
 
 ---
@@ -254,25 +249,52 @@ Tier 3: Baseline only (if neither applies)
 ## Workflow Example
 
 ```bash
-# Week 1: Baseline evaluation
-python autoeval/scripts/evaluate.py --sample-size=100 --baseline-only
-# Result: Average score 3.2/5.0
+# Step 1: Run initial evaluation
+python autoeval/scripts/evaluate.py --sample-size=100
+# Output: Report shows errors and weaknesses
 
-# Week 1: Generate optimized prompt
+# Step 2: Generate optimized prompt from errors
 python optimizer/scripts/optimize.py
-# Output: deepseek_system_v1.1.yaml (23 weakness patterns)
+# Output: deepseek_system_v1.1.yaml with pattern database
 
-# Week 2: Re-evaluate with v1.1
-python autoeval/scripts/evaluate.py --sample-size=100 --prompt-version=1.1
-# Result: Average score 4.1/5.0 (+28% improvement!)
+# Step 3: Test improvement with A/B comparison
+python router/scripts/compare_baseline_vs_router.py
+# Compares baseline vs router-enhanced responses
 
-# Week 2: Deploy router
+# Step 4: Deploy production API
 python router/scripts/serve_router.py
-# Production API with smart routing
+# Router serves requests with pattern-based enhancements
 
-# Week 3: Monitor and iterate
-python optimizer/scripts/optimize.py --stats
-# Track prompt versions and pattern growth
+# Step 5: Continue learning (iterate steps 1-2)
+python autoeval/scripts/evaluate.py --sample-size=50
+python optimizer/scripts/optimize.py
+# Accumulates more patterns over time
+```
+
+---
+
+## Utilities
+
+Additional tools for monitoring and analysis:
+
+```bash
+# Analyze pattern quality and find duplicates
+python tools/analyze_patterns.py
+
+# Build entity-specific weakness mappings
+python tools/build_weakness_patterns.py
+
+# Monitor performance and track metrics
+python tools/monitor_performance.py
+
+# Optimize retrieval thresholds
+python tools/optimize_threshold.py
+
+# List all evaluation reports
+python tools/list_reports.py
+
+# Clean up repository
+bash tools/cleanup_repo.sh
 ```
 
 ---

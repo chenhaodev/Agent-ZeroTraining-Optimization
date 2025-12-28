@@ -82,7 +82,7 @@ def create_app() -> FastAPI:
         Get routing decision for a question.
 
         This endpoint returns:
-        - Whether to use RAG retrieval
+        - Whether to use pattern retrieval retrieval
         - Matched weakness patterns
         - Confidence scores and reasoning
 
@@ -105,7 +105,7 @@ def create_app() -> FastAPI:
             ]
 
             return RouteResponse(
-                use_rag=decision['use_rag'],
+                use_patterns=decision['use_patterns'],
                 rag_reason=decision['rag_reason'],
                 rag_confidence=decision['rag_confidence'],
                 weakness_patterns=weakness_patterns,
@@ -153,7 +153,7 @@ def create_app() -> FastAPI:
             ]
 
             routing_response = RouteResponse(
-                use_rag=decision['use_rag'],
+                use_patterns=decision['use_patterns'],
                 rag_reason=decision['rag_reason'],
                 rag_confidence=decision['rag_confidence'],
                 weakness_patterns=weakness_patterns,
@@ -163,7 +163,7 @@ def create_app() -> FastAPI:
 
             return PromptResponse(
                 enhanced_prompt=enhanced_prompt,
-                use_rag=decision['use_rag'],
+                use_patterns=decision['use_patterns'],
                 weakness_patterns_applied=len(decision['weakness_patterns']),
                 routing_decision=routing_response
             )
@@ -280,12 +280,12 @@ def create_app() -> FastAPI:
         - Compatible with OpenAI SDK (just change the base_url)
         - Automatic prompt enhancement based on question
         - Weakness pattern injection
-        - RAG decision making
+        - pattern retrieval decision making
         - Streaming support
 
         Router-specific parameters (optional):
         - x_entity_type: Hint for better routing (e.g., "diseases")
-        - x_min_confidence: Minimum RAG confidence threshold (default: 0.70)
+        - x_min_confidence: Minimum pattern retrieval confidence threshold (default: 0.70)
         - x_disable_routing: Skip routing, call LLM directly (default: False)
         - x_disable_weaknesses: Skip weakness patterns (default: False)
 
@@ -338,7 +338,7 @@ def create_app() -> FastAPI:
                 auto_reload=settings.ENABLE_HOT_RELOAD
             )
 
-            logger.info(f"Routing decision: use_rag={decision['use_rag']}, "
+            logger.info(f"Routing decision: use_patterns={decision['use_patterns']}, "
                        f"confidence={decision['rag_confidence']:.2f}, "
                        f"weaknesses={len(decision['weakness_patterns'])}")
 

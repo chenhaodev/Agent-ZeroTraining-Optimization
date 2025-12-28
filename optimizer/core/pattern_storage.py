@@ -1,5 +1,5 @@
 """
-Pattern storage system using RAG for efficient error pattern retrieval.
+Pattern storage system for efficient error pattern retrieval.
 Stores error patterns as embeddings and retrieves relevant ones based on question similarity.
 """
 
@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Optional
 from loguru import logger
 
 from autoeval.config.settings import get_settings
-from optimizer.rag.embedder import Embedder
+from optimizer.pattern_db.embedder import Embedder
 
 
 class PatternStorage:
@@ -159,7 +159,7 @@ class PatternStorage:
             k: Number of patterns to retrieve
             category: Optional filter by category (diseases, vaccines, etc.)
             min_severity: Minimum severity to include (critical > major > minor)
-            threshold: Minimum relevance score (0-1, uses RAG_RELEVANCE_THRESHOLD if None)
+            threshold: Minimum relevance score (0-1, uses PATTERN_RELEVANCE_THRESHOLD if None)
 
         Returns:
             List of relevant patterns sorted by relevance (may be empty if none meet threshold)
@@ -170,7 +170,7 @@ class PatternStorage:
 
         # Get threshold from settings if not provided
         if threshold is None:
-            threshold = getattr(self.settings, 'RAG_RELEVANCE_THRESHOLD', 0.0)
+            threshold = getattr(self.settings, 'PATTERN_RELEVANCE_THRESHOLD', 0.0)
 
         try:
             # Embed the question

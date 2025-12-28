@@ -21,7 +21,7 @@ logger.add("outputs/logs/evaluation.log", rotation="10 MB", level="DEBUG")
 
 from autoeval.core.loader import DataLoader
 from autoeval.core.sampler import sample_data
-from optimizer.rag.vector_store import get_vector_store
+from optimizer.pattern_db.vector_store import get_vector_store
 from autoeval.services.question_generator import QuestionGenerator
 from autoeval.services.answer_generator import AnswerGenerator
 from autoeval.services.evaluator import Evaluator
@@ -36,19 +36,19 @@ from autoeval.config.tuning_presets import load_preset, list_presets
 def parse_args():
     """Parse command-line arguments"""
     parser = argparse.ArgumentParser(
-        description="Medical AI Evaluation Agent - Build advanced prompts with TIERED RAG",
+        description="Medical AI Evaluation Agent - Build advanced prompts with dynamic pattern injection",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   # Basic usage with defaults (balanced preset)
   python main.py
 
-  # Disable RAG entirely (baseline)
-  python main.py --no-rag
+  # Disable pattern retrieval (baseline)
+  python main.py --baseline
 
-  # Custom RAG-k value
-  python main.py --rag-k 3        # Cost-optimized
-  python main.py --rag-k 8        # High accuracy
+  # Custom pattern count
+  python main.py --num-patterns 3        # Cost-optimized
+  python main.py --num-patterns 8        # High accuracy
 
   # Use preset configuration
   python main.py --preset cost_optimized
@@ -58,7 +58,7 @@ Examples:
   python main.py --no-category-rules
 
   # Combine options
-  python main.py --rag-k 8 --sample-size 50
+  python main.py --num-patterns 8 --sample-size 50
   python main.py --preset balanced --questions-per-entity 5
 
   # Validation & Comparison
@@ -68,19 +68,19 @@ Examples:
         """
     )
 
-    # Prompt Optimization Configuration (RAG for AnswerGenerator, not Evaluator!)
-    rag_group = parser.add_argument_group('Prompt Optimization Configuration')
-    rag_group.add_argument(
-        '--no-rag',
+    # Prompt Optimization Configuration (Dynamic Pattern Injection)
+    pattern_group = parser.add_argument_group('Dynamic Prompt Configuration')
+    pattern_group.add_argument(
+        '--baseline',
         action='store_true',
-        help='Disable learned pattern retrieval (baseline mode - no prompt optimization)'
+        help='Disable pattern retrieval (baseline mode - no dynamic prompt optimization)'
     )
-    rag_group.add_argument(
-        '--rag-k',
+    pattern_group.add_argument(
+        '--num-patterns',
         type=int,
-        help='Number of learned error patterns to retrieve for dynamic prompts (1-10). Note: Evaluator uses direct lookup, not RAG.'
+        help='Number of learned error patterns to retrieve for dynamic prompts (1-10). Note: Evaluator uses direct lookup.'
     )
-    rag_group.add_argument(
+    pattern_group.add_argument(
         '--no-category-rules',
         action='store_true',
         help='Disable Tier 2 category-specific rules'
@@ -167,8 +167,8 @@ Examples:
 def apply_config(args, settings):
     """Apply command-line arguments to configuration"""
     config = {
-        'use_rag': True,
-        'rag_k': 5,
+        'use_patterns': True,
+        'num_patterns': 5,
         'use_category_rules': True,
         'sample_size': 10,
         'questions_per_entity': 3,
@@ -180,25 +180,25 @@ def apply_config(args, settings):
     if args.preset:
         logger.info(f"📋 Loading preset: {args.preset}")
         preset = load_preset(args.preset)
-        config['rag_k'] = preset.get('rag_k', 5)
+        config['num_patterns'] = preset.get('num_patterns', 5)
         config['use_category_rules'] = preset.get('use_category_rules', True)
-        config['use_rag'] = (preset.get('rag_k', 0) > 0)
+        config['use_patterns'] = (preset.get('num_patterns', 0) > 0)
 
-        logger.info(f"  RAG-k: {config['rag_k']}")
+        logger.info(f"  Pattern count: {config['num_patterns']}")
         logger.info(f"  Category rules: {config['use_category_rules']}")
         logger.info(f"  Estimated tokens: {preset.get('estimated_tokens', 'N/A')}")
         logger.info(f"  Estimated accuracy: {preset.get('estimated_accuracy', 'N/A')}/5.0")
 
     # Override with explicit flags
-    if args.no_rag:
-        config['use_rag'] = False
-        config['rag_k'] = 0
-        logger.info("🔕 RAG disabled (baseline mode)")
+    if args.baseline:
+        config['use_patterns'] = False
+        config['num_patterns'] = 0
+        logger.info("🔕 pattern retrieval disabled (baseline mode)")
 
-    if args.rag_k is not None:
-        config['rag_k'] = args.rag_k
-        config['use_rag'] = (args.rag_k > 0)
-        logger.info(f"🔧 RAG-k set to: {args.rag_k}")
+    if args.num_patterns is not None:
+        config['num_patterns'] = args.num_patterns
+        config['use_patterns'] = (args.num_patterns > 0)
+        logger.info(f"🔧 Pattern count set to: {args.num_patterns}")
 
     if args.no_category_rules:
         config['use_category_rules'] = False
@@ -269,8 +269,8 @@ def run_evaluation_workflow(config, settings, variant_name="default"):
     # Step 5: Generate answers
     logger.info(f"\n[{variant_name}] Step 5/7: Generating answers with DeepSeek...")
     answer_gen = AnswerGenerator(
-        use_dynamic_prompts=config['use_rag'],
-        rag_k=config['rag_k'],
+        use_dynamic_prompts=config['use_patterns'],
+        num_patterns=config['num_patterns'],
         use_category_rules=config['use_category_rules'],
         prompt_version=config.get('prompt_version', '1.0')
     )
@@ -282,7 +282,7 @@ def run_evaluation_workflow(config, settings, variant_name="default"):
 
     logger.info(f"Total answers generated: {len(qa_pairs)}")
 
-    # Step 6: Evaluate with direct golden-ref lookup (no RAG!)
+    # Step 6: Evaluate with direct golden-ref lookup (baseline (no patterns)!)
     logger.info(f"\n[{variant_name}] Step 6/7: Evaluating answers...")
     evaluator = Evaluator()
     evaluations = evaluator.evaluate_batch(qa_pairs)
@@ -307,8 +307,8 @@ def run_comparison(config, settings):
     Run OOD validation comparing baseline vs optimized prompts.
 
     Steps:
-    1. Run baseline evaluation (no RAG, no category rules)
-    2. Run optimized evaluation (with RAG + category rules + latest prompt)
+    1. Run baseline evaluation (baseline (no patterns), no category rules)
+    2. Run optimized evaluation (with pattern retrieval + category rules + latest prompt)
     3. Generate comparison report
     """
     logger.info("="*80)
@@ -326,27 +326,27 @@ def run_comparison(config, settings):
 
     # Configuration for baseline
     baseline_config = config.copy()
-    baseline_config['use_rag'] = False
-    baseline_config['rag_k'] = 0
+    baseline_config['use_patterns'] = False
+    baseline_config['num_patterns'] = 0
     baseline_config['use_category_rules'] = False
     baseline_config['prompt_version'] = '1.0'
 
     # Configuration for optimized
     optimized_config = config.copy()
-    optimized_config['use_rag'] = True
-    optimized_config['rag_k'] = config.get('rag_k', 5)
+    optimized_config['use_patterns'] = True
+    optimized_config['num_patterns'] = config.get('num_patterns', 5)
     optimized_config['use_category_rules'] = True
     optimized_config['prompt_version'] = config.get('prompt_version', latest_version)
 
     # Run baseline evaluation
     logger.info("\n" + "="*80)
-    logger.info("🔵 Running BASELINE evaluation (no RAG, no category rules, v1.0)")
+    logger.info("🔵 Running BASELINE evaluation (baseline (no patterns), no category rules, v1.0)")
     logger.info("="*80)
     baseline_results = run_evaluation_workflow(baseline_config, settings, variant_name="BASELINE")
 
     # Run optimized evaluation
     logger.info("\n" + "="*80)
-    logger.info(f"🟢 Running OPTIMIZED evaluation (RAG-k={optimized_config['rag_k']}, category rules, v{optimized_config['prompt_version']})")
+    logger.info(f"🟢 Running OPTIMIZED evaluation (Pattern count={optimized_config['num_patterns']}, category rules, v{optimized_config['prompt_version']})")
     logger.info("="*80)
     optimized_results = run_evaluation_workflow(optimized_config, settings, variant_name="OPTIMIZED")
 
@@ -530,7 +530,7 @@ def main():
             print(f"  {description}")
             # Load full preset to show details
             preset = load_preset(name)
-            print(f"  RAG-k: {preset.get('rag_k', 'N/A')}")
+            print(f"  Pattern count: {preset.get('num_patterns', 'N/A')}")
             print(f"  Category rules: {'Yes' if preset.get('use_category_rules', False) else 'No'}")
             print(f"  Tokens: ~{preset.get('estimated_tokens', 'N/A')}")
             print(f"  Accuracy: ~{preset.get('estimated_accuracy', 'N/A')}/5.0")
@@ -546,7 +546,7 @@ def main():
 
     logger.info("=" * 60)
     logger.info("Medical AI Evaluation Agent")
-    logger.info("Build Advanced Prompt + TIERED RAG")
+    logger.info("Build Advanced Prompt + Dynamic Pattern Injection")
     logger.info("=" * 60)
 
     # Handle comparison mode
@@ -558,8 +558,8 @@ def main():
     # Handle baseline-only mode
     if args.baseline_only:
         logger.info("\n🔵 Mode: Baseline Evaluation Only")
-        config['use_rag'] = False
-        config['rag_k'] = 0
+        config['use_patterns'] = False
+        config['num_patterns'] = 0
         config['use_category_rules'] = False
         config['prompt_version'] = '1.0'
 
@@ -567,9 +567,9 @@ def main():
     logger.info("\n📊 Configuration:")
     logger.info(f"  Sample size: {config['sample_size']}")
     logger.info(f"  Questions per entity: {config['questions_per_entity']}")
-    logger.info(f"  RAG enabled: {config['use_rag']}")
-    if config['use_rag']:
-        logger.info(f"  RAG-k: {config['rag_k']}")
+    logger.info(f"  pattern retrieval enabled: {config['use_patterns']}")
+    if config['use_patterns']:
+        logger.info(f"  Pattern count: {config['num_patterns']}")
     logger.info(f"  Category rules (Tier 2): {config['use_category_rules']}")
     if 'prompt_version' in config:
         logger.info(f"  Prompt version: {config['prompt_version']}")
@@ -633,8 +633,8 @@ def main():
         # Step 5: Generate answers (with parallel processing)
         logger.info(f"\n[Step 5/7] Generating answers with DeepSeek...")
         answer_gen = AnswerGenerator(
-            use_dynamic_prompts=config['use_rag'],
-            rag_k=config['rag_k'],
+            use_dynamic_prompts=config['use_patterns'],
+            num_patterns=config['num_patterns'],
             use_category_rules=config['use_category_rules'],
             prompt_version=config.get('prompt_version', '1.0')
         )
@@ -645,7 +645,7 @@ def main():
 
         logger.info(f"Total answers generated: {len(qa_pairs)}")
 
-    # Step 6: Evaluate with direct golden-ref lookup (no RAG - parallel processing)
+    # Step 6: Evaluate with direct golden-ref lookup (baseline (no patterns) - parallel processing)
     step_num = "Re-Evaluation" if args.load_qa_from else "[Step 6/7]"
     logger.info(f"\n{step_num} Evaluating answers with GPT-5.1 (as judge)...")
     evaluator = Evaluator()

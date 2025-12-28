@@ -15,7 +15,7 @@ repo_root = Path(__file__).parent.parent
 sys.path.insert(0, str(repo_root))
 
 from optimizer.core.pattern_storage import PatternStorage
-from optimizer.rag.embedder import Embedder
+from optimizer.pattern_db.embedder import Embedder
 from loguru import logger
 
 

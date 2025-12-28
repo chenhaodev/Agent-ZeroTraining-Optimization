@@ -12,7 +12,7 @@
 Verify that the router seamlessly integrates the optimizer's output by:
 1. Loading 169 categorized error patterns from optimizer cache
 2. Retrieving relevant patterns using category-based filtering
-3. Augmenting DeepSeek prompts with RAG patterns
+3. Augmenting DeepSeek prompts with pattern retrieval patterns
 4. Improving answer quality by addressing known weaknesses
 
 ### Results Overview
@@ -22,7 +22,7 @@ Verify that the router seamlessly integrates the optimizer's output by:
 - ✅ Category filtering working correctly
 - ✅ Threshold 0.5 provides good precision/recall balance
 
-**Questions with RAG Augmentation:**
+**Questions with pattern retrieval Augmentation:**
 1. 膝关节半月板损伤 (diseases): 3 patterns
 2. 破伤风针和破伤风疫苗 (vaccines): 2 patterns
 3. 妇科超声检查 (examinations): 3 patterns
@@ -50,7 +50,7 @@ Verify that the router seamlessly integrates the optimizer's output by:
 - Only explains one meaning of "破伤风针"
 - Doesn't clarify the term's ambiguity
 
-**Router Answer (with RAG):**
+**Router Answer (with pattern retrieval):**
 > "**破伤风针**：这是一个**比较模糊的日常说法**，通常指**两种情况**：
 > 1. **"破伤风抗毒素"或"破伤风免疫球蛋白"** (被动免疫)
 > 2. **"破伤风疫苗（加强针）"** (主动免疫)"
@@ -199,7 +199,7 @@ Optimizer Output → Pattern Storage → Router Integration
 - ✅ Loads pattern storage
 - ✅ Maps entity types (singular → plural)
 - ✅ Retrieves top-k patterns per question
-- ✅ Augments DeepSeek prompts with RAG context
+- ✅ Augments DeepSeek prompts with pattern retrieval context
 
 ---
 
