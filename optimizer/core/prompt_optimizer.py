@@ -312,7 +312,7 @@ class PromptOptimizer:
         Args:
             question: The question being answered
             entity_type: Type of entity (diseases, vaccines, examinations, surgeries)
-            use_patterns: Whether to use RAG for pattern retrieval
+            use_patterns: Whether to use pattern retrieval for dynamic prompts
             num_patterns: Number of patterns to retrieve
             use_category_rules: Whether to include Tier 2 category-specific rules
 
@@ -354,7 +354,7 @@ class PromptOptimizer:
                 for rule in rules:
                     base_text += f"• {rule}\n"
 
-        # Tier 3: Add RAG-retrieved patterns if enabled
+        # Tier 3: Add dynamically retrieved patterns if enabled
         if use_patterns:
             relevant_patterns = self.pattern_storage.retrieve_relevant(
                 question=question,
@@ -376,7 +376,7 @@ class PromptOptimizer:
                         base_text += f"{emoji} {guideline}\n"
 
         # Tier 4: Add weakness pattern reminders (NEW!)
-        # These are added regardless of RAG availability
+        # These are added regardless of pattern retrieval availability
         weakness_additions = self.weakness_matcher.get_prompt_additions(
             question=question,
             entity_type=entity_type,

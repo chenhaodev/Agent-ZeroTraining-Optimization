@@ -42,7 +42,7 @@ class Retriever:
             filtered_results = [r for r in results if r['similarity'] >= threshold]
             if len(filtered_results) < len(results):
                 logger.info(
-                    f"RAG relevance filter: {len(results)} → {len(filtered_results)} results "
+                    f"Pattern relevance filter: {len(results)} → {len(filtered_results)} results "
                     f"(threshold={threshold:.2f})"
                 )
             results = filtered_results

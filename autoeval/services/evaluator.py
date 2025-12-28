@@ -21,7 +21,7 @@ class Evaluator:
         self.settings = get_settings()
         self.api_client = get_api_client()
 
-        # Load golden-refs for direct lookup (no RAG needed!)
+        # Load golden-refs for direct lookup (no pattern retrieval needed!)
         self.golden_refs = self._load_golden_refs()
         logger.info(f"Loaded {sum(len(v) for v in self.golden_refs.values())} golden-ref entities for evaluation")
 
@@ -50,7 +50,7 @@ class Evaluator:
 
     def _get_reference_context(self, question: Question) -> str:
         """
-        Get reference context via direct lookup (no RAG/embedding needed).
+        Get reference context via direct lookup (no pattern retrieval/embedding needed).
 
         Since questions are generated from sampled entities, we already know
         which entity to compare against - just look it up directly!
@@ -107,7 +107,7 @@ class Evaluator:
         """
         logger.info(f"Evaluating answer for: {question.question[:50]}...")
 
-        # Get reference context via direct lookup (no RAG!)
+        # Get reference context via direct lookup (no pattern retrieval!)
         reference_context = self._get_reference_context(question)
 
         # Build evaluation prompt

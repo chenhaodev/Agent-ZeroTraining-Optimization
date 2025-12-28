@@ -34,7 +34,7 @@ def load_preset(preset_name: str = "balanced") -> Dict[str, Any]:
 
         preset = presets[preset_name]
         logger.info(f"Loaded tuning preset: {preset_name}")
-        logger.info(f"  - RAG k={preset.get('num_patterns', 5)}")
+        logger.info(f"  - Pattern retrieval k={preset.get('num_patterns', 5)}")
         logger.info(f"  - Min severity={preset.get('min_severity', 'minor')}")
         logger.info(f"  - Category rules={'enabled' if preset.get('use_category_rules', True) else 'disabled'}")
         logger.info(f"  - Estimated tokens: {preset.get('estimated_tokens', 'N/A')}")

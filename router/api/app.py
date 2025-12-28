@@ -123,7 +123,7 @@ def create_app() -> FastAPI:
         Get enhanced prompt with weakness patterns injected.
 
         This endpoint:
-        1. Gets routing decision (RAG + weakness patterns)
+        1. Gets routing decision (pattern retrieval + weakness patterns)
         2. Builds enhanced prompt with patterns
         3. Returns ready-to-use prompt for LLM
 

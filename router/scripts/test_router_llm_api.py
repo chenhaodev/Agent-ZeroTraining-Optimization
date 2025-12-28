@@ -84,7 +84,7 @@ def test_drop_in_replacement():
     if hasattr(router_response, 'x_routing_decision') and router_response.x_routing_decision:
         decision = router_response.x_routing_decision
         console.print(f"\n[magenta]Routing Decision:[/magenta]")
-        console.print(f"  - Use RAG: {decision['use_patterns']}")
+        console.print(f"  - Use Patterns: {decision['use_patterns']}")
         console.print(f"  - Confidence: {decision['rag_confidence']:.2f}")
         console.print(f"  - Weaknesses found: {len(decision['weakness_patterns'])}")
 
@@ -165,7 +165,7 @@ def test_a_b_comparison():
     # Show results table
     table = Table(title="A/B Comparison Results")
     table.add_column("Question", style="cyan")
-    table.add_column("RAG", justify="center")
+    table.add_column("Patterns", justify="center")
     table.add_column("Weaknesses", justify="center")
     table.add_column("Baseline Tokens", justify="right")
     table.add_column("Router Tokens", justify="right")

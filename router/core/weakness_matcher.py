@@ -1,6 +1,6 @@
 """
 Weakness pattern matcher for identifying DeepSeek API weaknesses.
-Used by router to add targeted prompts even when RAG doesn't match.
+Used by router to add targeted prompts even when pattern retrieval doesn't match.
 """
 
 import json

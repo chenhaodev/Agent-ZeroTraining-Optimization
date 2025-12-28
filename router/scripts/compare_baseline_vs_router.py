@@ -3,8 +3,8 @@
 A/B Test: Baseline DeepSeek API vs Smart Router
 
 Compares:
-- Baseline: Direct DeepSeek calls (no routing, no RAG)
-- Router: Weakness-aware routing with pattern retrieval patterns
+- Baseline: Direct DeepSeek calls (no routing, no pattern retrieval)
+- Router: Weakness-aware routing with pattern retrieval
 
 Test set: Partial questions from auto-eval + OOD questions
 """
@@ -77,7 +77,7 @@ TEST_QUESTIONS = [
 
 def call_baseline(question: str, api_client) -> dict:
     """
-    Baseline: Direct DeepSeek API call without routing or RAG
+    Baseline: Direct DeepSeek API call without routing or pattern retrieval
 
     Returns:
         dict with answer, latency, tokens
@@ -126,7 +126,7 @@ def call_router(question: str, entity_type: str, api_client, decision_engine, pa
     )
 
     logger.info(f"  Routing tier: {decision.get('routing_tier', 'unknown')}")
-    logger.info(f"  Use RAG: {decision['use_patterns']}")
+    logger.info(f"  Use patterns: {decision['use_patterns']}")
     logger.info(f"  Weakness patterns: {len(decision.get('weakness_patterns', []))}")
 
     # Build enhanced prompt
@@ -329,11 +329,11 @@ def main():
     print(f"  - Router:   {avg_router_len:.0f} chars ({avg_router_len - avg_baseline_len:+.0f} chars)")
 
     weakness_used = sum(1 for r in results if r['router']['weakness_count'] > 0)
-    rag_used = sum(1 for r in results if 'rag_patterns' in r['router']['augmentation_types'])
+    patterns_used = sum(1 for r in results if 'rag_patterns' in r['router']['augmentation_types'])
 
     print(f"\nRouter Behavior:")
     print(f"  - Used weakness patterns: {weakness_used}/{len(results)} questions")
-    print(f"  - Used pattern retrieval patterns: {rag_used}/{len(results)} questions")
+    print(f"  - Used retrieved patterns: {patterns_used}/{len(results)} questions")
 
     print(f"\n💡 Next Step: Manually review answers in {output_file}")
     print(f"   Compare quality, completeness, and accuracy")

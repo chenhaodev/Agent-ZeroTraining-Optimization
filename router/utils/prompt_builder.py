@@ -44,7 +44,7 @@ class PromptBuilder:
         Args:
             base_prompt: Base system prompt (uses default if not provided)
             weakness_patterns: List of matched weakness patterns
-            rag_context: Optional RAG-retrieved context
+            rag_context: Optional pattern-retrieved context
 
         Returns:
             Enhanced prompt string
@@ -88,7 +88,7 @@ class PromptBuilder:
         Args:
             base_prompt: Base system prompt
             category_rules: Category-specific guidelines
-            rag_context: RAG-retrieved context
+            rag_context: Pattern-retrieved context
             weakness_patterns: Matched weakness patterns
 
         Returns:
@@ -162,6 +162,6 @@ class PromptBuilder:
             'char_count': len(prompt),
             'line_count': len(prompt.split('\n')),
             'estimated_tokens': len(prompt) // 2,  # Rough estimate for Chinese
-            'has_rag_section': '权威医学参考资料' in prompt,
+            'has_pattern_section': '权威医学参考资料' in prompt,
             'has_weakness_section': '特别提醒' in prompt
         }

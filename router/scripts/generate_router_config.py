@@ -151,7 +151,7 @@ def generate_router_config(min_confidence=0.70):
         },
         'routing_tiers': {
             'tier_1': {
-                'name': 'RAG Content Check',
+                'name': 'Pattern Database Check',
                 'description': 'Check if entity exists in database',
                 'strategies': ['exact_match', 'category_match', 'partial_match'],
                 'confidence_threshold': min_confidence,
@@ -241,8 +241,8 @@ def test_routing_decisions():
         )
 
         # Display decision
-        rag_status = "✅ USE RAG" if decision['use_rag'] else "❌ SKIP RAG"
-        logger.info(f"    RAG: {rag_status} (confidence: {decision['pattern_confidence']:.2f})")
+        patterns_status = "✅ USE PATTERNS" if decision['use_rag'] else "❌ SKIP PATTERNS"
+        logger.info(f"    Patterns: {patterns_status} (confidence: {decision['pattern_confidence']:.2f})")
         logger.info(f"    Reason: {decision['rag_reason']}")
 
         if decision['has_weaknesses']:
@@ -299,7 +299,7 @@ def show_stats():
     logger.info(f"\n🎯 Routing Coverage Estimate:")
     # Estimate how many questions will benefit from each tier
     logger.info(f"  Tier 1 (Weakness): ~15-25% of questions hit known weaknesses (HIGHEST PRIORITY)")
-    logger.info(f"  Tier 2 (RAG supplement): ~70-80% of questions get supplemental context")
+    logger.info(f"  Tier 2 (Pattern retrieval): ~70-80% of questions get supplemental context")
     logger.info(f"  Tier 3 (Baseline): ~5-10% of questions use base prompt only (fallback)")
 
 
