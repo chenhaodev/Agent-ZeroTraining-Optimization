@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-12-28",
+    "description": "Entity names and associated weakness patterns for smart routing",
+    "total_entities": 0,
+    "total_weakness_patterns": 0
+  },
+  "entities": {
+    "diseases": {
+      "糖尿病": {
+        "weakness_patterns": [
+          {
+            "id": "lifestyle_details",
+            "description": "常忽略具体的生活方式建议细节（如运动时长、强度、饮食比例等）",
+            "severity": "major",
+            "confidence": 0.85
+          },
+          {
+            "id": "medication_timing",
+            "description": "未明确说明用药时机和餐前餐后的具体要求",
+            "severity": "major",
+            "confidence": 0.80
+          }
+        ]
+      },
+      "高血压": {
+        "weakness_patterns": [
+          {
+            "id": "exercise_contraindications",
+            "description": "缺少运动禁忌症的具体说明（如血压超过多少不宜运动）",
+            "severity": "critical",
+            "confidence": 0.90
+          }
+        ]
+      },
+      "半月板损伤": {
+        "weakness_patterns": [
+          {
+            "id": "concurrent_injuries",
+            "description": "容易遗漏合并损伤（如前交叉韧带损伤）的可能性",
+            "severity": "major",
+            "confidence": 0.75
+          }
+        ]
+      }
+    },
+    "examinations": {
+      "CT检查": {
+        "weakness_patterns": [
+          {
+            "id": "contrast_contraindications",
+            "description": "对比剂禁忌症说明不够详细（肾功能、碘过敏等）",
+            "severity": "critical",
+            "confidence": 0.95
+          },
+          {
+            "id": "preparation_requirements",
+            "description": "检查前准备事项不够具体（空腹时长、药物限制等）",
+            "severity": "major",
+            "confidence": 0.80
+          }
+        ]
+      },
+      "妇科超声": {
+        "weakness_patterns": [
+          {
+            "id": "procedure_types",
+            "description": "未区分经腹和经阴道超声的不同适应症和准备要求",
+            "severity": "major",
+            "confidence": 0.85
+          }
+        ]
+      }
+    },
+    "surgeries": {
+      "阑尾炎手术": {
+        "weakness_patterns": [
+          {
+            "id": "recovery_timeline",
+            "description": "术后恢复时间线不够详细（排气、下床、饮食进阶等）",
+            "severity": "major",
+            "confidence": 0.80
+          }
+        ]
+      }
+    },
+    "vaccines": {
+      "破伤风疫苗": {
+        "weakness_patterns": [
+          {
+            "id": "terminology_ambiguity",
+            "description": "未区分'破伤风针'的多种含义（抗毒素vs疫苗加强针）",
+            "severity": "major",
+            "confidence": 0.90
+          }
+        ]
+      },
+      "HPV疫苗": {
+        "weakness_patterns": [
+          {
+            "id": "vaccination_schedule",
+            "description": "不同价型（二价/四价/九价）的接种程序说明不够清晰",
+            "severity": "major",
+            "confidence": 0.85
+          }
+        ]
+      }
+    }
+  },
+  "usage_notes": [
+    "This file is manually curated based on observed weaknesses in DeepSeek API responses",
+    "Weakness patterns are used by the decision engine for smart routing",
+    "High-confidence patterns (>0.8) trigger RAG augmentation",
+    "Critical severity patterns always trigger RAG regardless of confidence"
+  ]
+}

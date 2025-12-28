@@ -1,0 +1,38 @@
+# Category-specific rules for different entity types
+# These are applied as Tier 2 rules when use_category_rules=True
+
+diseases:
+  description: "疾病类问题的专项要求"
+  rules:
+    - "说明疾病的主要症状和体征"
+    - "解释可能的病因和危险因素"
+    - "介绍常见的诊断方法"
+    - "提供一般的治疗方向"
+    - "强调预防措施和生活方式调整"
+
+examinations:
+  description: "检查类问题的专项要求"
+  rules:
+    - "解释检查的目的和适应证"
+    - "说明检查前的准备工作"
+    - "描述检查的基本流程"
+    - "解释可能的不适或风险"
+    - "说明结果的一般意义"
+
+surgeries:
+  description: "手术操作类问题的专项要求"
+  rules:
+    - "说明手术的适应证和禁忌证"
+    - "解释手术的基本步骤"
+    - "提及术前准备要点"
+    - "说明术后注意事项"
+    - "提及可能的并发症"
+
+vaccines:
+  description: "疫苗类问题的专项要求"
+  rules:
+    - "说明疫苗的接种对象和适应症"
+    - "解释接种时间和剂次"
+    - "提及常见的副作用"
+    - "说明接种前后的注意事项"
+    - "解释疫苗的保护效果"

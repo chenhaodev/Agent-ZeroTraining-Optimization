@@ -1,0 +1,17 @@
+# Optimizer System - Prompt Improvement & Hierarchical RAG
+
+# Core dependencies
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+numpy>=1.24.0
+
+# Vector store & embeddings for hierarchical RAG
+faiss-cpu>=1.7.4
+openai>=1.6.0
+
+# YAML for prompt templates
+pyyaml>=6.0.0
+
+# Utilities
+loguru>=0.7.0
+tenacity>=8.2.0

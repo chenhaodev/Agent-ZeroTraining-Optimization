@@ -1,0 +1,5342 @@
+[
+  {
+    "description": "保守治疗中膝关节固定的具体方法（如石膏托固定）和时长。",
+    "guideline": "加强关于 保守治疗中膝关节固定的具体方法（如石膏托固定）和时长。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 0
+  },
+  {
+    "description": "半月板血供分区的详细概念（红-红区、红-白区、白-白区）及其与愈合能力的关系。",
+    "guideline": "加强关于 半月板血供分区的详细概念（红-红区、红-白区、白-白区）及其与愈合能力的关系。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 2
+  },
+  {
+    "description": "半月板损伤可能合并其他膝关节结构（如前交叉韧带）损伤的情况。",
+    "guideline": "加强关于 半月板损伤可能合并其他膝关节结构（如前交叉韧带）损伤的情况。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 4
+  },
+  {
+    "description": "关节镜手术麻醉方式（腰麻/全麻）的选择及手术大致时长。",
+    "guideline": "加强关于 关节镜手术麻醉方式（腰麻/全麻）的选择及手术大致时长。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 6
+  },
+  {
+    "description": "对半月板损伤的长期并发症（如股四头肌萎缩）的提及不够全面。",
+    "guideline": "加强关于 对半月板损伤的长期并发症（如股四头肌萎缩）的提及不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 8
+  },
+  {
+    "description": "对影像学检查在诊断流程中的角色定位不够精确，可能高估了X光片的作用。",
+    "guideline": "加强关于 对影像学检查在诊断流程中的角色定位不够精确，可能高估了X光片的作用。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 10
+  },
+  {
+    "description": "未涵盖所有诊断方法，特别是关节镜检查的诊断角色。",
+    "guideline": "加强关于 未涵盖所有诊断方法，特别是关节镜检查的诊断角色。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 12
+  },
+  {
+    "description": "妇科超声检查的局限性和适用范围（如对某些病变的敏感性/特异性不足）。",
+    "guideline": "加强关于 妇科超声检查的局限性和适用范围（如对某些病变的敏感性/特异性不足）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 14
+  },
+  {
+    "description": "不同超声检查方式（经腹 vs. 经阴道）的详细适应症、优缺点对比及选择标准。",
+    "guideline": "加强关于 不同超声检查方式（经腹 vs. 经阴道）的详细适应症、优缺点对比及选择标准。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 16
+  },
+  {
+    "description": "检查前更具体的准备事项（如经腹超声需要憋尿到什么程度，检查时机是否与月经周期有关）。",
+    "guideline": "加强关于 检查前更具体的准备事项（如经腹超声需要憋尿到什么程度，检查时机是否与月经周期有关）。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 18
+  },
+  {
+    "description": "对月经异常的非生殖系统结构性病因（如全身性疾病、凝血问题、药物影响）认识不足，未在回答中明确区分超声检查的适用范围。",
+    "guideline": "加强关于 对月经异常的非生殖系统结构性病因（如全身性疾病、凝血问题、药物影响）认识不足，未在回答中明确区分超声检查的适用范围。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 20
+  },
+  {
+    "description": "对多囊卵巢综合征（PCOS）的诊断标准解释不够精确，可能将超声发现与疾病诊断过度简化关联。",
+    "guideline": "加强关于 对多囊卵巢综合征（PCOS）的诊断标准解释不够精确，可能将超声发现与疾病诊断过度简化关联。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 22
+  },
+  {
+    "description": "未提及超声检查对于某些早期或微小病变（如早期子宫内膜癌、微小粘连）的敏感性有限，可能需要更高级的影像学或侵入性检查。",
+    "guideline": "加强关于 未提及超声检查对于某些早期或微小病变（如早期子宫内膜癌、微小粘连）的敏感性有限，可能需要更高级的影像学或侵入性检查。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 24
+  },
+  {
+    "description": "参考资料未提供，无法进行权威性对比验证。回答基于通用医学知识，但无法确认其与特定最新临床指南或特定医疗机构规定的完全一致性。",
+    "guideline": "加强关于 参考资料未提供，无法进行权威性对比验证。回答基于通用医学知识，但无法确认其与特定最新临床指南或特定医疗机构规定的完全一致性。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 26
+  },
+  {
+    "description": "缺乏对最新国际疾病分类（ICD-11）术语标准的引用",
+    "guideline": "加强关于 缺乏对最新国际疾病分类（ICD-11）术语标准的引用 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 28
+  },
+  {
+    "description": "未提及不同国家和地区在手术准入标准、流程上的差异",
+    "guideline": "加强关于 未提及不同国家和地区在手术准入标准、流程上的差异 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 30
+  },
+  {
+    "description": "未详细说明手术后长期随访和健康管理的重要性",
+    "guideline": "加强关于 未详细说明手术后长期随访和健康管理的重要性 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 32
+  },
+  {
+    "description": "未明确区分不同手术类型（如男变女、女变男，或面部、胸部、生殖器手术等）可能要求的特定术前检查差异。",
+    "guideline": "加强关于 未明确区分不同手术类型（如男变女、女变男，或面部、胸部、生殖器手术等）可能要求的特定术前检查差异。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 34
+  },
+  {
+    "description": "未提及可能需要的特定年龄要求或对未成年患者的特殊评估流程（如需要父母/监护人同意、多学科团队评估等）。",
+    "guideline": "加强关于 未提及可能需要的特定年龄要求或对未成年患者的特殊评估流程（如需要父母/监护人同意、多学科团队评估等）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 36
+  },
+  {
+    "description": "未详细说明某些检查（如影像学检查）的具体适应症，例如哪些手术需要盆腔超声、哪些需要喉部影像等。",
+    "guideline": "加强关于 未详细说明某些检查（如影像学检查）的具体适应症，例如哪些手术需要盆腔超声、哪些需要喉部影像等。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 38
+  },
+  {
+    "description": "对不同亚型性别肯定手术（如面部、胸部、生殖器、其他）的术后护理要点和特异性风险缺乏详细区分。",
+    "guideline": "加强关于 对不同亚型性别肯定手术（如面部、胸部、生殖器、其他）的术后护理要点和特异性风险缺乏详细区分。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 40
+  },
+  {
+    "description": "对术后长期多学科随访的具体内容（如外科、内分泌科、精神心理科、语音治疗、生育咨询等）的整合管理强调不足。",
+    "guideline": "加强关于 对术后长期多学科随访的具体内容（如外科、内分泌科、精神心理科、语音治疗、生育咨询等）的整合管理强调不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 42
+  },
+  {
+    "description": "对并发症的管理策略（如疤痕处理、扩张困难、激素水平调整）提及较少，更多是风险罗列。",
+    "guideline": "加强关于 对并发症的管理策略（如疤痕处理、扩张困难、激素水平调整）提及较少，更多是风险罗列。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 44
+  },
+  {
+    "description": "对破伤风抗毒素（TAT）保护期的精确描述存在轻微偏差。",
+    "guideline": "加强关于 对破伤风抗毒素（TAT）保护期的精确描述存在轻微偏差。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 46
+  },
+  {
+    "description": "未提及破伤风疫苗（类毒素）在受伤后作为加强剂接种时，其保护作用的启动时间（通常需要数天至一周才能产生足够的保护性抗体）。",
+    "guideline": "加强关于 未提及破伤风疫苗（类毒素）在受伤后作为加强剂接种时，其保护作用的启动时间（通常需要数天至一周才能产生足够的保护性抗体）。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 48
+  },
+  {
+    "description": "对破伤风主动免疫（疫苗）和被动免疫（免疫球蛋白/抗毒素）在暴露后预防中的不同作用机制和时间动力学理解不够精确。未能清晰区分疫苗的'长期预防'和免疫球蛋白的'即时中和'作用。",
+    "guideline": "加强关于 对破伤风主动免疫（疫苗）和被动免疫（免疫球蛋白/抗毒素）在暴露后预防中的不同作用机制和时间动力学理解不够精确。未能清晰区分疫苗的'长期预防'和免疫球蛋白的'即时中和'作用。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 50
+  },
+  {
+    "description": "未详细说明儿童国家免疫规划程序与成人免疫的关系。",
+    "guideline": "加强关于 未详细说明儿童国家免疫规划程序与成人免疫的关系。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 52
+  },
+  {
+    "description": "未提及破伤风抗毒素（TAT）和破伤风免疫球蛋白（TIG）在伤后应用的具体选择标准（如TAT皮试过敏时使用TIG）。",
+    "guideline": "加强关于 未提及破伤风抗毒素（TAT）和破伤风免疫球蛋白（TIG）在伤后应用的具体选择标准（如TAT皮试过敏时使用TIG）。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 54
+  },
+  {
+    "description": "未明确说明“保护效果”指的是对疾病的预防，而非防止细菌感染。",
+    "guideline": "加强关于 未明确说明“保护效果”指的是对疾病的预防，而非防止细菌感染。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 56
+  },
+  {
+    "description": "半月板的血液供应分区（红-红区、红-白区、白-白区）及其对损伤愈合能力和治疗选择的决定性影响。",
+    "guideline": "加强关于 半月板的血液供应分区（红-红区、红-白区、白-白区）及其对损伤愈合能力和治疗选择的决定性影响。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 29
+  },
+  {
+    "description": "保守治疗中更具体的医疗处置措施，如石膏固定和关节腔注射。",
+    "guideline": "加强关于 保守治疗中更具体的医疗处置措施，如石膏固定和关节腔注射。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 31
+  },
+  {
+    "description": "对“关节交锁”和“弹响”症状的病理机制解释可更深入（如碎片卡压）。",
+    "guideline": "加强关于 对“关节交锁”和“弹响”症状的病理机制解释可更深入（如碎片卡压）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 33
+  },
+  {
+    "description": "未明确区分急性创伤性损伤和慢性退变性损伤在人群、机制和症状上的细微差别（虽然提到了原因，但症状描述未明确区分）。",
+    "guideline": "加强关于 未明确区分急性创伤性损伤和慢性退变性损伤在人群、机制和症状上的细微差别（虽然提到了原因，但症状描述未明确区分）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 35
+  },
+  {
+    "description": "对半月板损伤的急性和慢性分类及其对应的典型疼痛模式（急性外伤史 vs. 慢性退行性无明确外伤史）的区分和阐述不够清晰。",
+    "guideline": "加强关于 对半月板损伤的急性和慢性分类及其对应的典型疼痛模式（急性外伤史 vs. 慢性退行性无明确外伤史）的区分和阐述不够清晰。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 37
+  },
+  {
+    "description": "对症状的全面性掌握略有不足，遗漏了“股四头肌萎缩”这一后期体征。",
+    "guideline": "加强关于 对症状的全面性掌握略有不足，遗漏了“股四头肌萎缩”这一后期体征。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 39
+  },
+  {
+    "description": "对影像学检查在诊断流程中的角色定位不够精确，特别是X光片的定位。",
+    "guideline": "加强关于 对影像学检查在诊断流程中的角色定位不够精确，特别是X光片的定位。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 41
+  },
+  {
+    "description": "对诊断“金标准”的阐述虽然正确（MRI），但未提及关节镜作为最终诊断和治疗一体化手段的地位。",
+    "guideline": "加强关于 对诊断“金标准”的阐述虽然正确（MRI），但未提及关节镜作为最终诊断和治疗一体化手段的地位。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 43
+  },
+  {
+    "description": "妇科超声检查的局限性和适用范围（如对特定病变的敏感性/特异性）。",
+    "guideline": "加强关于 妇科超声检查的局限性和适用范围（如对特定病变的敏感性/特异性）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 45
+  },
+  {
+    "description": "不同超声检查途径（经腹 vs. 经阴道）的详细适应症、优缺点对比及选择标准。",
+    "guideline": "加强关于 不同超声检查途径（经腹 vs. 经阴道）的详细适应症、优缺点对比及选择标准。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 47
+  },
+  {
+    "description": "检查前更具体的准备事项（如经腹超声需要憋尿到什么程度，经阴道超声是否需避开月经期等）。",
+    "guideline": "加强关于 检查前更具体的准备事项（如经腹超声需要憋尿到什么程度，经阴道超声是否需避开月经期等）。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 49
+  },
+  {
+    "description": "对月经异常的非结构性、非妇科内分泌原因（如血液系统疾病、全身性疾病）认识不足。",
+    "guideline": "加强关于 对月经异常的非结构性、非妇科内分泌原因（如血液系统疾病、全身性疾病）认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 51
+  },
+  {
+    "description": "对“多囊卵巢”超声表现与“多囊卵巢综合征”临床诊断之间的区别阐述不够精确。",
+    "guideline": "加强关于 对“多囊卵巢”超声表现与“多囊卵巢综合征”临床诊断之间的区别阐述不够精确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 53
+  },
+  {
+    "description": "未提及某些特定情况下超声检查的局限性，例如对于非常早期的子宫内膜癌或某些类型的子宫畸形，超声可能敏感性不足。",
+    "guideline": "加强关于 未提及某些特定情况下超声检查的局限性，例如对于非常早期的子宫内膜癌或某些类型的子宫畸形，超声可能敏感性不足。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 55
+  },
+  {
+    "description": "对妇科超声检查的第三种常见途径——经直肠超声的适应症及准备要求了解不足。",
+    "guideline": "加强关于 对妇科超声检查的第三种常见途径——经直肠超声的适应症及准备要求了解不足。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 57
+  },
+  {
+    "description": "对月经期进行经阴道超声检查的临床适应症和常见性强调不够，可能过于简化了“避开月经期”这一建议。",
+    "guideline": "加强关于 对月经期进行经阴道超声检查的临床适应症和常见性强调不够，可能过于简化了“避开月经期”这一建议。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 59
+  },
+  {
+    "description": "缺乏对当前国际和国内主要诊疗指南（如世界跨性别健康专业协会WPATH标准）的直接引用，以支撑其描述的严格医学流程。",
+    "guideline": "加强关于 缺乏对当前国际和国内主要诊疗指南（如世界跨性别健康专业协会WPATH标准）的直接引用，以支撑其描述的严格医学流程。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 61
+  },
+  {
+    "description": "未提及手术的绝对和相对禁忌症（如未控制的精神疾病、严重的内科疾病、吸烟等可增加手术风险的因素）。",
+    "guideline": "加强关于 未提及手术的绝对和相对禁忌症（如未控制的精神疾病、严重的内科疾病、吸烟等可增加手术风险的因素）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 63
+  },
+  {
+    "description": "对手术具体术式的描述较为概括，未说明不同术式（如阴道成形术中的皮瓣法与非皮瓣法，阴茎成形术中的多种术式选择）的优缺点、适应症及功能差异。",
+    "guideline": "加强关于 对手术具体术式的描述较为概括，未说明不同术式（如阴道成形术中的皮瓣法与非皮瓣法，阴茎成形术中的多种术式选择）的优缺点、适应症及功能差异。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 65
+  },
+  {
+    "description": "未提及手术后需要长期随访，包括可能的二次修复手术、激素的持续管理、以及心理支持的延续。",
+    "guideline": "加强关于 未提及手术后需要长期随访，包括可能的二次修复手术、激素的持续管理、以及心理支持的延续。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 67
+  },
+  {
+    "description": "未明确说明\"真实生活体验\"（现多称\"社会性别角色生活体验\"）的具体时长要求在不同指南和地区存在差异（通常为12个月或以上）。",
+    "guideline": "加强关于 未明确说明\"真实生活体验\"（现多称\"社会性别角色生活体验\"）的具体时长要求在不同指南和地区存在差异（通常为12个月或以上）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 69
+  },
+  {
+    "description": "缺乏对最新国际指南（如WPATH SOC 8）中关于评估流程、时长要求、知情同意模式等具体细节的引用。",
+    "guideline": "加强关于 缺乏对最新国际指南（如WPATH SOC 8）中关于评估流程、时长要求、知情同意模式等具体细节的引用。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 71
+  },
+  {
+    "description": "未详细区分不同类型变性手术（如上部手术、下部手术、面部手术等）可能需要的特定术前评估差异。",
+    "guideline": "加强关于 未详细区分不同类型变性手术（如上部手术、下部手术、面部手术等）可能需要的特定术前评估差异。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 73
+  },
+  {
+    "description": "未提及可能需要的多学科团队（MDT）评估的具体构成和运作方式。",
+    "guideline": "加强关于 未提及可能需要的多学科团队（MDT）评估的具体构成和运作方式。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 75
+  },
+  {
+    "description": "未涉及对未成年患者或存在特定共病（如严重精神疾病、复杂内分泌问题）患者的特殊评估考量。",
+    "guideline": "加强关于 未涉及对未成年患者或存在特定共病（如严重精神疾病、复杂内分泌问题）患者的特殊评估考量。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 77
+  },
+  {
+    "description": "对特定手术类型（如面部女性化/男性化手术、气管软骨削切术等）的术后特殊注意事项和风险覆盖不足。",
+    "guideline": "加强关于 对特定手术类型（如面部女性化/男性化手术、气管软骨削切术等）的术后特殊注意事项和风险覆盖不足。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 79
+  },
+  {
+    "description": "对术后可能发生的、与手术技术相关的特定神经损伤（如感觉神经或运动神经）及其恢复过程描述不够具体。",
+    "guideline": "加强关于 对术后可能发生的、与手术技术相关的特定神经损伤（如感觉神经或运动神经）及其恢复过程描述不够具体。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 81
+  },
+  {
+    "description": "对“外观不满意”这一风险的具体内涵（如对称性、疤痕位置、植入物相关问题等）可进一步阐述。",
+    "guideline": "加强关于 对“外观不满意”这一风险的具体内涵（如对称性、疤痕位置、植入物相关问题等）可进一步阐述。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 83
+  },
+  {
+    "description": "对破伤风抗毒素（TAT）与破伤风人免疫球蛋白（HTIG）的具体保护期差异掌握不够精确。",
+    "guideline": "加强关于 对破伤风抗毒素（TAT）与破伤风人免疫球蛋白（HTIG）的具体保护期差异掌握不够精确。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 85
+  },
+  {
+    "description": "对“破伤风针”这一日常用语在临床实践中可能涵盖的多种医学含义（被动免疫制剂 vs. 主动免疫加强针）解释不够全面，存在术语与通俗理解之间的转换缺口。",
+    "guideline": "加强关于 对“破伤风针”这一日常用语在临床实践中可能涵盖的多种医学含义（被动免疫制剂 vs. 主动免疫加强针）解释不够全面，存在术语与通俗理解之间的转换缺口。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 87
+  },
+  {
+    "description": "对破伤风暴露后预防中‘主动免疫’（疫苗）和‘被动免疫’（免疫球蛋白）作用机制和时间线的精确区分有待加强。未能明确指出疫苗产生保护性抗体的时间远晚于暴露后预防的‘窗口期’，其在此情境下的主要价值是‘未来保护’而非‘即时治疗’。",
+    "guideline": "加强关于 对破伤风暴露后预防中‘主动免疫’（疫苗）和‘被动免疫’（免疫球蛋白）作用机制和时间线的精确区分有待加强。未能明确指出疫苗产生保护性抗体的时间远晚于暴露后预防的‘窗口期’，其在此情境下的主要价值是‘未来保护’而非‘即时治疗’。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 89
+  },
+  {
+    "description": "对基础免疫保护期的具体时长描述不够精确，将高风险伤口情况下的加强接种时间点（5年）与基础免疫的一般保护期（至少10年）混为一谈。",
+    "guideline": "加强关于 对基础免疫保护期的具体时长描述不够精确，将高风险伤口情况下的加强接种时间点（5年）与基础免疫的一般保护期（至少10年）混为一谈。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 91
+  },
+  {
+    "description": "半月板损伤可能合并的复合伤（如前交叉韧带断裂）。",
+    "guideline": "加强关于 半月板损伤可能合并的复合伤（如前交叉韧带断裂）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 61
+  },
+  {
+    "description": "保守治疗的具体方法，包括固定方式（石膏托）和药物选择。",
+    "guideline": "加强关于 保守治疗的具体方法，包括固定方式（石膏托）和药物选择。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 63
+  },
+  {
+    "description": "半月板血液供应的分区（红-红区、红-白区、白-白区）及其对治疗选择和预后的决定性影响。",
+    "guideline": "加强关于 半月板血液供应的分区（红-红区、红-白区、白-白区）及其对治疗选择和预后的决定性影响。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 65
+  },
+  {
+    "description": "关节镜手术麻醉方式的选择（腰麻 vs. 全麻）及考虑因素。",
+    "guideline": "加强关于 关节镜手术麻醉方式的选择（腰麻 vs. 全麻）及考虑因素。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 67
+  },
+  {
+    "description": "术后恢复的具体时间线和不同手术方式（如缝合 vs. 切除）的康复差异。",
+    "guideline": "加强关于 术后恢复的具体时间线和不同手术方式（如缝合 vs. 切除）的康复差异。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 69
+  },
+  {
+    "description": "AI回答在症状描述上非常全面，但遗漏了损伤后期可能出现的“股四头肌萎缩”这一体征。虽然这并非急性期核心症状，但对于患者理解损伤的长期影响和康复重要性有一定价值。",
+    "guideline": "加强关于 AI回答在症状描述上非常全面，但遗漏了损伤后期可能出现的“股四头肌萎缩”这一体征。虽然这并非急性期核心症状，但对于患者理解损伤的长期影响和康复重要性有一定价值。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 71
+  },
+  {
+    "description": "对特定职业（如长期蹲位工作者）的针对性预防建议提及不足。",
+    "guideline": "加强关于 对特定职业（如长期蹲位工作者）的针对性预防建议提及不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 73
+  },
+  {
+    "description": "AI回答在解释2型糖尿病风险因素时，对“年龄”这一因素的具体阈值（≥40岁）描述不够精确。",
+    "guideline": "加强关于 AI回答在解释2型糖尿病风险因素时，对“年龄”这一因素的具体阈值（≥40岁）描述不够精确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 75
+  },
+  {
+    "description": "AI回答未提及参考资料中提到的其他2型糖尿病风险人群，如“有高血压、高血脂、动脉粥样硬化性心脑血管疾病”、“有多囊卵巢综合征”、“有糖调节受损的病史”等。这些信息对于帮助患者全面评估自身风险有参考价值。",
+    "guideline": "加强关于 AI回答未提及参考资料中提到的其他2型糖尿病风险人群，如“有高血压、高血脂、动脉粥样硬化性心脑血管疾病”、“有多囊卵巢综合征”、“有糖调节受损的病史”等。这些信息对于帮助患者全面评估自身风险有参考价值。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 77
+  },
+  {
+    "description": "对糖尿病典型症状“三多一少”的完整表述。",
+    "guideline": "加强关于 对糖尿病典型症状“三多一少”的完整表述。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 79
+  },
+  {
+    "description": "对诊断糖尿病必须依据静脉血糖（而非指尖血糖）的明确区分。",
+    "guideline": "加强关于 对诊断糖尿病必须依据静脉血糖（而非指尖血糖）的明确区分。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 81
+  },
+  {
+    "description": "对2型糖尿病患者早期可能无明显症状的提及。",
+    "guideline": "加强关于 对2型糖尿病患者早期可能无明显症状的提及。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 83
+  },
+  {
+    "description": "对就诊科室的补充说明（基层医院可看普通内科）。",
+    "guideline": "加强关于 对就诊科室的补充说明（基层医院可看普通内科）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 85
+  },
+  {
+    "description": "新生儿皮肤护理中，对特定类型润肤产品（如植物油的潜在风险）的详细知识。",
+    "guideline": "加强关于 新生儿皮肤护理中，对特定类型润肤产品（如植物油的潜在风险）的详细知识。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 87
+  },
+  {
+    "description": "环境因素（如湿度）对新生儿皮肤健康的具体影响及调控建议。",
+    "guideline": "加强关于 环境因素（如湿度）对新生儿皮肤健康的具体影响及调控建议。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 89
+  },
+  {
+    "description": "基础护理中关于确保液体摄入和衣物洗涤剂选择的细节。",
+    "guideline": "加强关于 基础护理中关于确保液体摄入和衣物洗涤剂选择的细节。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 91
+  },
+  {
+    "description": "对新生儿脱皮生理机制的完整阐述（如角质层功能、胎脂作用）。",
+    "guideline": "加强关于 对新生儿脱皮生理机制的完整阐述（如角质层功能、胎脂作用）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 93
+  },
+  {
+    "description": "对家庭护理具体操作参数的掌握（如环境湿度、水温、保湿剂涂抹时机）。",
+    "guideline": "加强关于 对家庭护理具体操作参数的掌握（如环境湿度、水温、保湿剂涂抹时机）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 95
+  },
+  {
+    "description": "对特定护理产品（如植物类婴儿油）潜在风险的认知。",
+    "guideline": "加强关于 对特定护理产品（如植物类婴儿油）潜在风险的认知。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 97
+  },
+  {
+    "description": "对预防脱皮的基础生理需求（确保水分充足）的强调不足。",
+    "guideline": "加强关于 对预防脱皮的基础生理需求（确保水分充足）的强调不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 99
+  },
+  {
+    "description": "对特定护肤品成分（如植物油的油酸）潜在风险的认知不全面。",
+    "guideline": "加强关于 对特定护肤品成分（如植物油的油酸）潜在风险的认知不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 101
+  },
+  {
+    "description": "对护理细节（如体位调整）的覆盖不够完整。",
+    "guideline": "加强关于 对护理细节（如体位调整）的覆盖不够完整。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 103
+  },
+  {
+    "description": "对游走脾确诊后的标准处理流程认知不全面，尤其是对“所有确诊患者均需住院评估”以及“尽早干预（脾固定/切除）是普遍原则”的强调不足。",
+    "guideline": "加强关于 对游走脾确诊后的标准处理流程认知不全面，尤其是对“所有确诊患者均需住院评估”以及“尽早干预（脾固定/切除）是普遍原则”的强调不足。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 105
+  },
+  {
+    "description": "对游走脾的流行病学特征（最常见于儿童，与特定综合征相关）及特定人群（育龄妇女、盆腔游走脾）的特殊管理策略了解不够深入。",
+    "guideline": "加强关于 对游走脾的流行病学特征（最常见于儿童，与特定综合征相关）及特定人群（育龄妇女、盆腔游走脾）的特殊管理策略了解不够深入。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 107
+  },
+  {
+    "description": "对“游走脾”与“异位脾”的概念区分不够精确。",
+    "guideline": "加强关于 对“游走脾”与“异位脾”的概念区分不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 109
+  },
+  {
+    "description": "对游走脾病因的全面理解（过度强调先天性，对后天性因素提及不足）",
+    "guideline": "加强关于 对游走脾病因的全面理解（过度强调先天性，对后天性因素提及不足） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 111
+  },
+  {
+    "description": "对游走脾可能引发的多种并发症（如胃底静脉曲张、脾亢、胰腺炎等）的认知",
+    "guideline": "加强关于 对游走脾可能引发的多种并发症（如胃底静脉曲张、脾亢、胰腺炎等）的认知 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 113
+  },
+  {
+    "description": "对特定患者群体（如育龄期妇女、盆腔游走脾患者）治疗原则的特殊考量",
+    "guideline": "加强关于 对特定患者群体（如育龄期妇女、盆腔游走脾患者）治疗原则的特殊考量 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 115
+  },
+  {
+    "description": "对诊断检查（如放射性同位素扫描、血管造影）的准确率及具体应用场景的详细数据",
+    "guideline": "加强关于 对诊断检查（如放射性同位素扫描、血管造影）的准确率及具体应用场景的详细数据 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 117
+  },
+  {
+    "description": "对游走脾不同影像学诊断方法（超声、CT、核素显像）的敏感性和特异性（准确率）的具体数据掌握不全面。",
+    "guideline": "加强关于 对游走脾不同影像学诊断方法（超声、CT、核素显像）的敏感性和特异性（准确率）的具体数据掌握不全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 119
+  },
+  {
+    "description": "对游走脾具体治疗策略（如手法复位、脾固定术、脾切除术）的适用人群和临床指征的细节了解不够深入。",
+    "guideline": "加强关于 对游走脾具体治疗策略（如手法复位、脾固定术、脾切除术）的适用人群和临床指征的细节了解不够深入。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 121
+  },
+  {
+    "description": "沙门氏菌感染的疾病谱：除了常见的自限性胃肠炎（沙门氏菌病），还包括伤寒、副伤寒（肠热症）、败血症等更严重的全身性疾病，其症状、病程和治疗均有不同。",
+    "guideline": "加强关于 沙门氏菌感染的疾病谱：除了常见的自限性胃肠炎（沙门氏菌病），还包括伤寒、副伤寒（肠热症）、败血症等更严重的全身性疾病，其症状、病程和治疗均有不同。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 123
+  },
+  {
+    "description": "沙门氏菌感染后的不同临床表现：包括无症状带菌状态。",
+    "guideline": "加强关于 沙门氏菌感染后的不同临床表现：包括无症状带菌状态。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 125
+  },
+  {
+    "description": "沙门氏菌感染的确诊方法和标准流程。",
+    "guideline": "加强关于 沙门氏菌感染的确诊方法和标准流程。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 127
+  },
+  {
+    "description": "沙门氏菌感染的具体治疗方案（如抗生素选择），尽管出于安全考虑，AI回答中不提供具体用药建议是合理的，但可以提及治疗需由医生根据病情决定，可能包括补液和支持治疗，严重时使用抗生素。",
+    "guideline": "加强关于 沙门氏菌感染的具体治疗方案（如抗生素选择），尽管出于安全考虑，AI回答中不提供具体用药建议是合理的，但可以提及治疗需由医生根据病情决定，可能包括补液和支持治疗，严重时使用抗生素。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 129
+  },
+  {
+    "description": "沙门氏菌感染的完整疾病谱：无症状带菌、伤寒/肠热症、败血症的临床表现。",
+    "guideline": "加强关于 沙门氏菌感染的完整疾病谱：无症状带菌、伤寒/肠热症、败血症的临床表现。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 131
+  },
+  {
+    "description": "沙门氏菌感染确诊方法（细菌培养是金标准）。",
+    "guideline": "加强关于 沙门氏菌感染确诊方法（细菌培养是金标准）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 133
+  },
+  {
+    "description": "特定抗生素治疗的具体药物名称、类别及重要的使用注意事项（如喹诺酮类对未成年人的限制）。",
+    "guideline": "加强关于 特定抗生素治疗的具体药物名称、类别及重要的使用注意事项（如喹诺酮类对未成年人的限制）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 135
+  },
+  {
+    "description": "对沙门氏菌传播的核心机制（粪-口途径）的表述不够精确和突出。",
+    "guideline": "加强关于 对沙门氏菌传播的核心机制（粪-口途径）的表述不够精确和突出。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 137
+  },
+  {
+    "description": "对水源安全的具体要求（“不食用未经处理的水”）表述不够直接和全面。",
+    "guideline": "加强关于 对水源安全的具体要求（“不食用未经处理的水”）表述不够直接和全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 139
+  },
+  {
+    "description": "对卡波西肉瘤不同类型（特别是经典型和非洲型）的临床特征（如骨骼改变、水肿）描述不够详细。",
+    "guideline": "加强关于 对卡波西肉瘤不同类型（特别是经典型和非洲型）的临床特征（如骨骼改变、水肿）描述不够详细。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 141
+  },
+  {
+    "description": "对卡波西肉瘤的预后描述过于笼统，未区分不同类型（如经典型、非洲型、AIDS相关型）的生存率和死亡率差异。",
+    "guideline": "加强关于 对卡波西肉瘤的预后描述过于笼统，未区分不同类型（如经典型、非洲型、AIDS相关型）的生存率和死亡率差异。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 143
+  },
+  {
+    "description": "对特定高危人群（如贫血、伴发其他恶性肿瘤或吸烟者）的提及缺失。",
+    "guideline": "加强关于 对特定高危人群（如贫血、伴发其他恶性肿瘤或吸烟者）的提及缺失。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 145
+  },
+  {
+    "description": "对卡波西肉瘤不同临床类型（经典型、非洲型、AIDS伴发型、医源型）的症状学差异掌握不全面，未能根据类型细化症状描述。",
+    "guideline": "加强关于 对卡波西肉瘤不同临床类型（经典型、非洲型、AIDS伴发型、医源型）的症状学差异掌握不全面，未能根据类型细化症状描述。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 147
+  },
+  {
+    "description": "对皮损的质地变化（如海绵样到橡皮样）和部分自然病程（如结节自行消退）等细节描述不足。",
+    "guideline": "加强关于 对皮损的质地变化（如海绵样到橡皮样）和部分自然病程（如结节自行消退）等细节描述不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 149
+  },
+  {
+    "description": "对全部风险因素（如贫血、伴发其他肿瘤、吸烟）的列举不够完整。",
+    "guideline": "加强关于 对全部风险因素（如贫血、伴发其他肿瘤、吸烟）的列举不够完整。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 151
+  },
+  {
+    "description": "对卡波西肉瘤核心病因（HHV-8感染）的关联性及针对性治疗策略阐述不足。",
+    "guideline": "加强关于 对卡波西肉瘤核心病因（HHV-8感染）的关联性及针对性治疗策略阐述不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 153
+  },
+  {
+    "description": "对局部治疗（如激光治疗）和全身性治疗中更广泛的药物选择（如多种免疫调节剂、抗血管生成药物）覆盖不够全面。",
+    "guideline": "加强关于 对局部治疗（如激光治疗）和全身性治疗中更广泛的药物选择（如多种免疫调节剂、抗血管生成药物）覆盖不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 155
+  },
+  {
+    "description": "对疾病管理策略的完整谱系（从观察等待到积极干预）介绍不够完整。",
+    "guideline": "加强关于 对疾病管理策略的完整谱系（从观察等待到积极干预）介绍不够完整。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 157
+  },
+  {
+    "description": "肺结节根据数目的分类（孤立性 vs. 多发性）及其临床意义，特别是多发性结节（>10个）的病因倾向。",
+    "guideline": "加强关于 肺结节根据数目的分类（孤立性 vs. 多发性）及其临床意义，特别是多发性结节（>10个）的病因倾向。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 159
+  },
+  {
+    "description": "在怀疑恶性时，肿瘤科也是重要的就诊科室选项之一。",
+    "guideline": "加强关于 在怀疑恶性时，肿瘤科也是重要的就诊科室选项之一。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 161
+  },
+  {
+    "description": "三类肺结节（实性、磨玻璃、部分实性）恶性概率的明确排序。",
+    "guideline": "加强关于 三类肺结节（实性、磨玻璃、部分实性）恶性概率的明确排序。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 163
+  },
+  {
+    "description": "对PET-CT在肺结节评估中精确适应症的理解（应区分结节整体直径与实性成分直径）。",
+    "guideline": "加强关于 对PET-CT在肺结节评估中精确适应症的理解（应区分结节整体直径与实性成分直径）。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 165
+  },
+  {
+    "description": "对各类活检技术（如TTNB）的术语规范性及优缺点描述的完整性。",
+    "guideline": "加强关于 对各类活检技术（如TTNB）的术语规范性及优缺点描述的完整性。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 167
+  },
+  {
+    "description": "参考资料强调肺结节病因多样（感染、良性肿瘤、血管性疾病、炎性疾病等），且绝大多数为良性。AI回答在解释为何生活方式调整是“辅助性”时，未能充分阐述这一背景，可能导致患者对结节性质的理解过于单一（偏向肿瘤性）。",
+    "guideline": "加强关于 参考资料强调肺结节病因多样（感染、良性肿瘤、血管性疾病、炎性疾病等），且绝大多数为良性。AI回答在解释为何生活方式调整是“辅助性”时，未能充分阐述这一背景，可能导致患者对结节性质的理解过于单一（偏向肿瘤性）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 169
+  },
+  {
+    "description": "参考资料在“生活方式”部分，将“定期复诊和复查”与“保持良好的睡眠和饮食习惯，适当运动和锻炼”并列，并明确建议“不要过度焦虑”。AI回答虽然也提到了这些，但将饮食和生活习惯部分阐述得非常详细，可能无意中淡化了“定期随访”作为首要且核心措施的地位，尽管开头有强调。",
+    "guideline": "加强关于 参考资料在“生活方式”部分，将“定期复诊和复查”与“保持良好的睡眠和饮食习惯，适当运动和锻炼”并列，并明确建议“不要过度焦虑”。AI回答虽然也提到了这些，但将饮食和生活习惯部分阐述得非常详细，可能无意中淡化了“定期随访”作为首要且核心措施的地位，尽管开头有强调。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 171
+  },
+  {
+    "description": "对家族性高胆固醇血症（FH）的遗传学分类（纯合子/杂合子）及其临床意义的理解不全面。",
+    "guideline": "加强关于 对家族性高胆固醇血症（FH）的遗传学分类（纯合子/杂合子）及其临床意义的理解不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 173
+  },
+  {
+    "description": "对FH的具体诊断标准（包括LDL-C阈值和组合条件）掌握不够精确。",
+    "guideline": "加强关于 对FH的具体诊断标准（包括LDL-C阈值和组合条件）掌握不够精确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 175
+  },
+  {
+    "description": "对FH的详细治疗目标（分层LDL-C目标值）了解不足。",
+    "guideline": "加强关于 对FH的详细治疗目标（分层LDL-C目标值）了解不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 177
+  },
+  {
+    "description": "对FH需要鉴别的其他遗传性脂质紊乱疾病（如家族性载脂蛋白B-100缺陷、多基因高胆固醇血症等）未作提及。",
+    "guideline": "加强关于 对FH需要鉴别的其他遗传性脂质紊乱疾病（如家族性载脂蛋白B-100缺陷、多基因高胆固醇血症等）未作提及。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 179
+  },
+  {
+    "description": "对FH具体诊断标准（包括成人和儿童的血脂阈值、组合条件）的精确掌握。",
+    "guideline": "加强关于 对FH具体诊断标准（包括成人和儿童的血脂阈值、组合条件）的精确掌握。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 181
+  },
+  {
+    "description": "对FH具体治疗目标（分层、量化）的精确掌握。",
+    "guideline": "加强关于 对FH具体治疗目标（分层、量化）的精确掌握。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 183
+  },
+  {
+    "description": "对FH“早发”心脑血管疾病的年龄定义（特别是女性）的精确掌握。",
+    "guideline": "加强关于 对FH“早发”心脑血管疾病的年龄定义（特别是女性）的精确掌握。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 185
+  },
+  {
+    "description": "对FH某些非典型或罕见临床表现（如游走性多关节炎）的循证依据掌握。",
+    "guideline": "加强关于 对FH某些非典型或罕见临床表现（如游走性多关节炎）的循证依据掌握。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 187
+  },
+  {
+    "description": "对家族性高胆固醇血症（FH）具体诊断流程的细节掌握不够精确，例如确诊所需的血脂检测次数和间隔时间。",
+    "guideline": "加强关于 对家族性高胆固醇血症（FH）具体诊断流程的细节掌握不够精确，例如确诊所需的血脂检测次数和间隔时间。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 189
+  },
+  {
+    "description": "对FH诊断标准中不同年龄段（特别是儿童与成人）的具体数值切点和筛查策略差异了解不够全面。",
+    "guideline": "加强关于 对FH诊断标准中不同年龄段（特别是儿童与成人）的具体数值切点和筛查策略差异了解不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 191
+  },
+  {
+    "description": "对FH需要鉴别的其他疾病（如家族性载脂蛋白B-100缺陷、多基因高胆固醇血症等）未在回答中提及，虽然问题主要聚焦于“确诊检查”，但了解鉴别诊断有助于理解检查的全面性。",
+    "guideline": "加强关于 对FH需要鉴别的其他疾病（如家族性载脂蛋白B-100缺陷、多基因高胆固醇血症等）未在回答中提及，虽然问题主要聚焦于“确诊检查”，但了解鉴别诊断有助于理解检查的全面性。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 193
+  },
+  {
+    "description": "对类鼻疽的复发率、特定高危人群（脾切除、HIV感染者）以及精确的维持治疗疗程（20周）信息掌握不完整。",
+    "guideline": "加强关于 对类鼻疽的复发率、特定高危人群（脾切除、HIV感染者）以及精确的维持治疗疗程（20周）信息掌握不完整。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 195
+  },
+  {
+    "description": "对急性期患者的隔离管理措施未提及。",
+    "guideline": "加强关于 对急性期患者的隔离管理措施未提及。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 197
+  },
+  {
+    "description": "对类鼻疽临床表现的完整分类体系（如隐匿性感染、无症状肺浸润）掌握不够全面。",
+    "guideline": "加强关于 对类鼻疽临床表现的完整分类体系（如隐匿性感染、无症状肺浸润）掌握不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 199
+  },
+  {
+    "description": "对特定临床表现（如急性肺部感染）的典型影像学特征描述不足。",
+    "guideline": "加强关于 对特定临床表现（如急性肺部感染）的典型影像学特征描述不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 201
+  },
+  {
+    "description": "对急性败血症型累及中枢神经系统的具体表现描述不够突出。",
+    "guideline": "加强关于 对急性败血症型累及中枢神经系统的具体表现描述不够突出。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 203
+  },
+  {
+    "description": "对类鼻疽感染谱的认识不够全面，未能区分显性感染与隐匿性感染在治疗原则上的根本不同。",
+    "guideline": "加强关于 对类鼻疽感染谱的认识不够全面，未能区分显性感染与隐匿性感染在治疗原则上的根本不同。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 205
+  },
+  {
+    "description": "对完整治疗方案（特别是维持治疗的确切时长）及特定并发症（如需要外科干预的情况）的细节掌握不够精确。",
+    "guideline": "加强关于 对完整治疗方案（特别是维持治疗的确切时长）及特定并发症（如需要外科干预的情况）的细节掌握不够精确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 207
+  },
+  {
+    "description": "对“摇晃综合征”这一术语在医学语境中的正式性及其与“虐待性头部创伤”关系的表述不够精确。",
+    "guideline": "加强关于 对“摇晃综合征”这一术语在医学语境中的正式性及其与“虐待性头部创伤”关系的表述不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 209
+  },
+  {
+    "description": "对致伤机制的描述略窄，未明确提及“加速-减速力”这一核心物理概念及其他可能的暴力形式（如拍打、撞击）。",
+    "guideline": "加强关于 对致伤机制的描述略窄，未明确提及“加速-减速力”这一核心物理概念及其他可能的暴力形式（如拍打、撞击）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 211
+  },
+  {
+    "description": "对婴儿特异性体征（如囟门隆起）的覆盖不足。",
+    "guideline": "加强关于 对婴儿特异性体征（如囟门隆起）的覆盖不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 213
+  },
+  {
+    "description": "未提及诊断方法（如神经影像学检查、眼底镜检查）和具体的治疗原则（如支持治疗、颈部制动），尽管患者问题未直接询问，但对于一个全面的疾病介绍而言，这些是重要的医学背景信息。",
+    "guideline": "加强关于 未提及诊断方法（如神经影像学检查、眼底镜检查）和具体的治疗原则（如支持治疗、颈部制动），尽管患者问题未直接询问，但对于一个全面的疾病介绍而言，这些是重要的医学背景信息。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 215
+  },
+  {
+    "description": "对白血病患者易感感染和易出血的病理生理机制解释不够全面，仅聚焦于血细胞数量减少，未提及细胞功能异常、凝血系统激活、血管壁破坏等其他关键机制。",
+    "guideline": "加强关于 对白血病患者易感感染和易出血的病理生理机制解释不够全面，仅聚焦于血细胞数量减少，未提及细胞功能异常、凝血系统激活、血管壁破坏等其他关键机制。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 217
+  },
+  {
+    "description": "未提及白血病可能的口腔局部症状（如牙龈增生、坏死、口臭等），这些有时是早期表现。",
+    "guideline": "加强关于 未提及白血病可能的口腔局部症状（如牙龈增生、坏死、口臭等），这些有时是早期表现。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 219
+  },
+  {
+    "description": "对“类白血病反应”这一需要鉴别的概念未作说明。",
+    "guideline": "加强关于 对“类白血病反应”这一需要鉴别的概念未作说明。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 221
+  },
+  {
+    "description": "对急性白血病与慢性白血病在症状表现、起病方式上的核心差异阐述不够清晰。",
+    "guideline": "加强关于 对急性白血病与慢性白血病在症状表现、起病方式上的核心差异阐述不够清晰。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 223
+  },
+  {
+    "description": "对白血病诊断流程的完整性描述不足，遗漏了体格检查、生化、影像学等辅助检查手段。",
+    "guideline": "加强关于 对白血病诊断流程的完整性描述不足，遗漏了体格检查、生化、影像学等辅助检查手段。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 225
+  },
+  {
+    "description": "对家族性白血病（特别是同卵双胞胎）的具体遗传风险数据掌握不够精确。",
+    "guideline": "加强关于 对家族性白血病（特别是同卵双胞胎）的具体遗传风险数据掌握不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 227
+  },
+  {
+    "description": "在病因分类上，未能完全遵循参考资料中“生物因素、物理因素、化学因素、遗传因素、其他血液病”的清晰框架，而是整合为“遗传因素、环境因素、获得性基因突变”，虽然逻辑通顺，但可能遗漏了“免疫功能异常”作为独立病因项的明确表述。",
+    "guideline": "加强关于 在病因分类上，未能完全遵循参考资料中“生物因素、物理因素、化学因素、遗传因素、其他血液病”的清晰框架，而是整合为“遗传因素、环境因素、获得性基因突变”，虽然逻辑通顺，但可能遗漏了“免疫功能异常”作为独立病因项的明确表述。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 229
+  },
+  {
+    "description": "PET-CT检查的禁忌证（如特定患者群体、血糖要求）。",
+    "guideline": "加强关于 PET-CT检查的禁忌证（如特定患者群体、血糖要求）。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 231
+  },
+  {
+    "description": "检查后的具体注意事项（如辐射防护措施）。",
+    "guideline": "加强关于 检查后的具体注意事项（如辐射防护措施）。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 233
+  },
+  {
+    "description": "检查结果中关键定量参数（如SUV值）的解读。",
+    "guideline": "加强关于 检查结果中关键定量参数（如SUV值）的解读。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 235
+  },
+  {
+    "description": "对糖尿病患者进行PET-CT检查前的血糖控制具体数值标准掌握不精确。",
+    "guideline": "加强关于 对糖尿病患者进行PET-CT检查前的血糖控制具体数值标准掌握不精确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 237
+  },
+  {
+    "description": "对检查后放射性示踪剂排出期间，需要避免与敏感人群（孕妇、儿童）接触的具体时长建议不够精确。",
+    "guideline": "加强关于 对检查后放射性示踪剂排出期间，需要避免与敏感人群（孕妇、儿童）接触的具体时长建议不够精确。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 239
+  },
+  {
+    "description": "对PET-CT报告物理形态（彩图、结论页在前）的直观描述。",
+    "guideline": "加强关于 对PET-CT报告物理形态（彩图、结论页在前）的直观描述。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 241
+  },
+  {
+    "description": "在解释SUV值时，未使用“提示恶性程度大小”这一更贴近患者认知的直白表述。",
+    "guideline": "加强关于 在解释SUV值时，未使用“提示恶性程度大小”这一更贴近患者认知的直白表述。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 243
+  },
+  {
+    "description": "对鼻翼缩窄手术的绝对和相对禁忌证了解不足。",
+    "guideline": "加强关于 对鼻翼缩窄手术的绝对和相对禁忌证了解不足。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 245
+  },
+  {
+    "description": "对手术的具体术式分类（如基于切除部位）描述不够详细。",
+    "guideline": "加强关于 对手术的具体术式分类（如基于切除部位）描述不够详细。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 247
+  },
+  {
+    "description": "对围手术期管理的具体细节（如术前检查、术后用药、复查时间）覆盖不全。",
+    "guideline": "加强关于 对围手术期管理的具体细节（如术前检查、术后用药、复查时间）覆盖不全。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 249
+  },
+  {
+    "description": "对特定术前准备的细节掌握不够全面，例如未提及女性患者需避开月经期。",
+    "guideline": "加强关于 对特定术前准备的细节掌握不够全面，例如未提及女性患者需避开月经期。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 251
+  },
+  {
+    "description": "对术前检查项目的列举与权威参考资料存在部分差异，例如未包含免疫系统检查，但自行添加了参考资料未明确要求的胸部X光片。",
+    "guideline": "加强关于 对术前检查项目的列举与权威参考资料存在部分差异，例如未包含免疫系统检查，但自行添加了参考资料未明确要求的胸部X光片。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 253
+  },
+  {
+    "description": "对术后即刻复查时间点的描述不够精确。AI回答未提及，而参考资料明确指出“术后第二天就需要复查”。",
+    "guideline": "加强关于 对术后即刻复查时间点的描述不够精确。AI回答未提及，而参考资料明确指出“术后第二天就需要复查”。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 255
+  },
+  {
+    "description": "术后具体用药指导（如金霉素眼膏的使用）",
+    "guideline": "加强关于 术后具体用药指导（如金霉素眼膏的使用） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 257
+  },
+  {
+    "description": "术后早期（如第二天）的复查安排",
+    "guideline": "加强关于 术后早期（如第二天）的复查安排 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 259
+  },
+  {
+    "description": "术后对鼻尖皮肤颜色的监测",
+    "guideline": "加强关于 术后对鼻尖皮肤颜色的监测 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 261
+  },
+  {
+    "description": "针对近视患者的特殊注意事项（如佩戴隐形眼镜）",
+    "guideline": "加强关于 针对近视患者的特殊注意事项（如佩戴隐形眼镜） 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 263
+  },
+  {
+    "description": "卡介苗补种的具体年龄分界点和操作流程（特别是3月龄前后补种条件的差异）。",
+    "guideline": "加强关于 卡介苗补种的具体年龄分界点和操作流程（特别是3月龄前后补种条件的差异）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 265
+  },
+  {
+    "description": "卡介苗与其他疫苗（尤其是新生儿首针乙肝疫苗）同时接种的可行性。",
+    "guideline": "加强关于 卡介苗与其他疫苗（尤其是新生儿首针乙肝疫苗）同时接种的可行性。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 267
+  },
+  {
+    "description": "接种禁忌中关于新生儿体重的具体量化标准。",
+    "guideline": "加强关于 接种禁忌中关于新生儿体重的具体量化标准。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 269
+  },
+  {
+    "description": "对卡介苗局部反应出现时间的精确描述存在轻微偏差。参考资料明确为“大约2周左右”，而AI回答将起始时间范围扩大至“2-4周”。",
+    "guideline": "加强关于 对卡介苗局部反应出现时间的精确描述存在轻微偏差。参考资料明确为“大约2周左右”，而AI回答将起始时间范围扩大至“2-4周”。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 271
+  },
+  {
+    "description": "AI助手在回答中未明确提及卡介苗接种的具体年龄限制和补种原则（如<3月龄可直接补种，3月龄-3岁需皮试，≥4岁不需补种），虽然这不是患者问题的核心，但作为背景知识可以更完整。",
+    "guideline": "加强关于 AI助手在回答中未明确提及卡介苗接种的具体年龄限制和补种原则（如<3月龄可直接补种，3月龄-3岁需皮试，≥4岁不需补种），虽然这不是患者问题的核心，但作为背景知识可以更完整。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 273
+  },
+  {
+    "description": "AI助手未提及卡介苗可与乙肝疫苗同时接种（选不同部位）这一实用信息，虽然与预防家庭传染无直接关系，但属于疫苗相关常识。",
+    "guideline": "加强关于 AI助手未提及卡介苗可与乙肝疫苗同时接种（选不同部位）这一实用信息，虽然与预防家庭传染无直接关系，但属于疫苗相关常识。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 275
+  },
+  {
+    "description": "半月板的解剖位置、数量和详细功能（如润滑关节）。",
+    "guideline": "加强关于 半月板的解剖位置、数量和详细功能（如润滑关节）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 169
+  },
+  {
+    "description": "半月板损伤的详细生物力学机制和四因素理论。",
+    "guideline": "加强关于 半月板损伤的详细生物力学机制和四因素理论。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 171
+  },
+  {
+    "description": "半月板损伤可能合并的其他膝关节损伤。",
+    "guideline": "加强关于 半月板损伤可能合并的其他膝关节损伤。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 173
+  },
+  {
+    "description": "半月板损伤的具体诊断流程和检查手段的用途。",
+    "guideline": "加强关于 半月板损伤的具体诊断流程和检查手段的用途。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 175
+  },
+  {
+    "description": "半月板损伤的详细治疗原则、保守与手术治疗的适应症及具体方法。",
+    "guideline": "加强关于 半月板损伤的详细治疗原则、保守与手术治疗的适应症及具体方法。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 177
+  },
+  {
+    "description": "半月板损伤的长期预后和未及时治疗的后果。",
+    "guideline": "加强关于 半月板损伤的长期预后和未及时治疗的后果。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 179
+  },
+  {
+    "description": "AI回答在症状部分未提及损伤后期可能出现的股四头肌萎缩。",
+    "guideline": "加强关于 AI回答在症状部分未提及损伤后期可能出现的股四头肌萎缩。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 181
+  },
+  {
+    "description": "AI回答未区分急性损伤与慢性损伤在症状表现上的细微差别（如慢性损伤可能没有明确外伤史、肿胀可能不明显等）。参考资料对此有详细描述。",
+    "guideline": "加强关于 AI回答未区分急性损伤与慢性损伤在症状表现上的细微差别（如慢性损伤可能没有明确外伤史、肿胀可能不明显等）。参考资料对此有详细描述。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 183
+  },
+  {
+    "description": "对半月板损伤愈合能力的理解存在偏差，未能准确区分不同血供区域的愈合潜力。",
+    "guideline": "加强关于 对半月板损伤愈合能力的理解存在偏差，未能准确区分不同血供区域的愈合潜力。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 185
+  },
+  {
+    "description": "对损伤机制的描述停留在现象层面，未深入总结经典的“四因素”理论。",
+    "guideline": "加强关于 对损伤机制的描述停留在现象层面，未深入总结经典的“四因素”理论。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 187
+  },
+  {
+    "description": "对流行病学特征（如性别差异）的覆盖不够全面。",
+    "guideline": "加强关于 对流行病学特征（如性别差异）的覆盖不够全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 189
+  },
+  {
+    "description": "对糖尿病诊断标准的详细数值（如空腹血糖≥7.0 mmol/L）未在回答中明确列出，虽然建议就医检测，但补充具体诊断阈值可增强科普深度。",
+    "guideline": "加强关于 对糖尿病诊断标准的详细数值（如空腹血糖≥7.0 mmol/L）未在回答中明确列出，虽然建议就医检测，但补充具体诊断阈值可增强科普深度。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 191
+  },
+  {
+    "description": "未提及“糖尿病前期”（糖调节受损）的概念，这是预防和管理的重要环节。",
+    "guideline": "加强关于 未提及“糖尿病前期”（糖调节受损）的概念，这是预防和管理的重要环节。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 193
+  },
+  {
+    "description": "对并发症的列举（如急性并发症、感染）不如参考资料详细。",
+    "guideline": "加强关于 对并发症的列举（如急性并发症、感染）不如参考资料详细。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 195
+  },
+  {
+    "description": "未涉及低血糖的具体定义（糖尿病患者血糖≤3.9 mmol/L）及处理建议。",
+    "guideline": "加强关于 未涉及低血糖的具体定义（糖尿病患者血糖≤3.9 mmol/L）及处理建议。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 197
+  },
+  {
+    "description": "对糖尿病症状的性别特异性表现（如女性会阴部瘙痒、男性勃起功能障碍）认知不足。",
+    "guideline": "加强关于 对糖尿病症状的性别特异性表现（如女性会阴部瘙痒、男性勃起功能障碍）认知不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 199
+  },
+  {
+    "description": "对“三多一少”典型症状与糖尿病分型（1型 vs 2型）的关联性强调不够。",
+    "guideline": "加强关于 对“三多一少”典型症状与糖尿病分型（1型 vs 2型）的关联性强调不够。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 201
+  },
+  {
+    "description": "对糖尿病患者水果摄入的具体前提条件（血糖控制水平）和量化建议（每日克数）掌握不够精确。",
+    "guideline": "加强关于 对糖尿病患者水果摄入的具体前提条件（血糖控制水平）和量化建议（每日克数）掌握不够精确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 203
+  },
+  {
+    "description": "对主食烹饪形态（干 vs. 稀）对血糖影响的强调略有不足。",
+    "guideline": "加强关于 对主食烹饪形态（干 vs. 稀）对血糖影响的强调略有不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 205
+  },
+  {
+    "description": "新生儿脱皮与胎脂量的关系（胎脂少则脱皮更明显）",
+    "guideline": "加强关于 新生儿脱皮与胎脂量的关系（胎脂少则脱皮更明显） 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 207
+  },
+  {
+    "description": "针对新生儿皮肤护理的具体环境参数（温湿度）建议",
+    "guideline": "加强关于 针对新生儿皮肤护理的具体环境参数（温湿度）建议 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 209
+  },
+  {
+    "description": "保湿护理的具体操作细节（频率、最佳涂抹时机）",
+    "guideline": "加强关于 保湿护理的具体操作细节（频率、最佳涂抹时机） 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 211
+  },
+  {
+    "description": "基础水分摄入（母乳/配方奶）对皮肤健康的重要性",
+    "guideline": "加强关于 基础水分摄入（母乳/配方奶）对皮肤健康的重要性 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 213
+  },
+  {
+    "description": "抚触用油的选择（需避免高油酸成分的植物油）",
+    "guideline": "加强关于 抚触用油的选择（需避免高油酸成分的植物油） 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 215
+  },
+  {
+    "description": "对新生儿生理性脱皮的具体时间范围（如需要两周左右完善）描述不够明确。",
+    "guideline": "加强关于 对新生儿生理性脱皮的具体时间范围（如需要两周左右完善）描述不够明确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 217
+  },
+  {
+    "description": "对“确保水分充足”这一基础护理要点的强调不足。",
+    "guideline": "加强关于 对“确保水分充足”这一基础护理要点的强调不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 219
+  },
+  {
+    "description": "对某些护肤品成分（如植物类油）潜在风险的具体说明不够详细。",
+    "guideline": "加强关于 对某些护肤品成分（如植物类油）潜在风险的具体说明不够详细。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 221
+  },
+  {
+    "description": "对新生儿皮肤脱皮属于正常生理现象的认识不足。",
+    "guideline": "加强关于 对新生儿皮肤脱皮属于正常生理现象的认识不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 223
+  },
+  {
+    "description": "对特定护理产品（如植物类婴儿油）潜在风险的了解不全面。",
+    "guideline": "加强关于 对特定护理产品（如植物类婴儿油）潜在风险的了解不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 225
+  },
+  {
+    "description": "对预防脱皮的基础——确保水分充足（通过喂养）的强调不够。",
+    "guideline": "加强关于 对预防脱皮的基础——确保水分充足（通过喂养）的强调不够。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 227
+  },
+  {
+    "description": "游走脾的流行病学特征（如好发人群：儿童、中年经产妇）及其与特定先天性疾病的关系。",
+    "guideline": "加强关于 游走脾的流行病学特征（如好发人群：儿童、中年经产妇）及其与特定先天性疾病的关系。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 229
+  },
+  {
+    "description": "游走脾可能引发的、除脾蒂扭转、压迫和脾亢以外的其他并发症（如胃底静脉曲张、胰腺相关并发症、脾破裂）。",
+    "guideline": "加强关于 游走脾可能引发的、除脾蒂扭转、压迫和脾亢以外的其他并发症（如胃底静脉曲张、胰腺相关并发症、脾破裂）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 231
+  },
+  {
+    "description": "针对不同患者群体（如育龄期妇女、盆腔游走脾）更具体和积极的手术治疗指征。",
+    "guideline": "加强关于 针对不同患者群体（如育龄期妇女、盆腔游走脾）更具体和积极的手术治疗指征。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 233
+  },
+  {
+    "description": "游走脾与相关医学术语（如异位脾）的概念辨析。",
+    "guideline": "加强关于 游走脾与相关医学术语（如异位脾）的概念辨析。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 235
+  },
+  {
+    "description": "对游走脾的流行病学特征（好发人群）掌握不全面。",
+    "guideline": "加强关于 对游走脾的流行病学特征（好发人群）掌握不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 237
+  },
+  {
+    "description": "对游走脾可能引发的多种具体并发症（除脾蒂扭转外）列举不够详尽。",
+    "guideline": "加强关于 对游走脾可能引发的多种具体并发症（除脾蒂扭转外）列举不够详尽。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 239
+  },
+  {
+    "description": "对特定人群（如育龄期妇女、盆腔游走脾患者）的特殊治疗指征了解不足。",
+    "guideline": "加强关于 对特定人群（如育龄期妇女、盆腔游走脾患者）的特殊治疗指征了解不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 241
+  },
+  {
+    "description": "对游走脾不同影像学检查（超声、CT、核素扫描）诊断准确率的量化对比认识不足。",
+    "guideline": "加强关于 对游走脾不同影像学检查（超声、CT、核素扫描）诊断准确率的量化对比认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 243
+  },
+  {
+    "description": "对游走脾确诊后的治疗原则，特别是针对特定人群（如育龄妇女）更积极的手术指征把握不够全面。",
+    "guideline": "加强关于 对游走脾确诊后的治疗原则，特别是针对特定人群（如育龄妇女）更积极的手术指征把握不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 245
+  },
+  {
+    "description": "对沙门氏菌属的多样性（是一类细菌而非单一菌种）及其所致疾病谱（包括无症状感染、伤寒、肠热症、败血症等）的认识不全面。",
+    "guideline": "加强关于 对沙门氏菌属的多样性（是一类细菌而非单一菌种）及其所致疾病谱（包括无症状感染、伤寒、肠热症、败血症等）的认识不全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 247
+  },
+  {
+    "description": "缺乏对沙门氏菌感染标准诊断方法和治疗原则的介绍。",
+    "guideline": "加强关于 缺乏对沙门氏菌感染标准诊断方法和治疗原则的介绍。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 249
+  },
+  {
+    "description": "沙门氏菌感染的完整疾病谱，包括无症状带菌、伤寒/肠热症、败血症等临床表现及其典型症状（如伤寒的长期发热、阶梯式升温、玫瑰疹、缓脉等）。",
+    "guideline": "加强关于 沙门氏菌感染的完整疾病谱，包括无症状带菌、伤寒/肠热症、败血症等临床表现及其典型症状（如伤寒的长期发热、阶梯式升温、玫瑰疹、缓脉等）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 251
+  },
+  {
+    "description": "沙门氏菌感染确诊的“金标准”是细菌培养（从血液、粪便、脓液或呕吐物中分离出病原菌）。",
+    "guideline": "加强关于 沙门氏菌感染确诊的“金标准”是细菌培养（从血液、粪便、脓液或呕吐物中分离出病原菌）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 253
+  },
+  {
+    "description": "治疗方面，AI强调了“通常不需要抗生素”和“切勿自行服用”，这是正确的安全建议。但参考资料提供了更具体的有效药物信息（如喹诺酮类、β-内酰胺类），以及使用注意事项（如喹诺酮类对未成年人的潜在风险）。AI回答在治疗细节上存在知识缺口，但因其面向患者，未提供具体药名是更安全的做法。",
+    "guideline": "加强关于 治疗方面，AI强调了“通常不需要抗生素”和“切勿自行服用”，这是正确的安全建议。但参考资料提供了更具体的有效药物信息（如喹诺酮类、β-内酰胺类），以及使用注意事项（如喹诺酮类对未成年人的潜在风险）。AI回答在治疗细节上存在知识缺口，但因其面向患者，未提供具体药名是更安全的做法。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 255
+  },
+  {
+    "description": "对沙门氏菌感染的核心传播机制（粪-口途径）的明确阐述。",
+    "guideline": "加强关于 对沙门氏菌感染的核心传播机制（粪-口途径）的明确阐述。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 257
+  },
+  {
+    "description": "对“无症状带菌者”这一概念的提及，这有助于公众理解传染源的广泛性。",
+    "guideline": "加强关于 对“无症状带菌者”这一概念的提及，这有助于公众理解传染源的广泛性。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 259
+  },
+  {
+    "description": "对特定高危接触场景（如接触感染的家禽后需及时洗手消毒）的强调。",
+    "guideline": "加强关于 对特定高危接触场景（如接触感染的家禽后需及时洗手消毒）的强调。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 261
+  },
+  {
+    "description": "对卡波西肉瘤“低度恶性”这一核心病理性质的强调不足。",
+    "guideline": "加强关于 对卡波西肉瘤“低度恶性”这一核心病理性质的强调不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 263
+  },
+  {
+    "description": "对经典型卡波西肉瘤在中国特定人群（新疆地区）的流行病学特点描述不完整。",
+    "guideline": "加强关于 对经典型卡波西肉瘤在中国特定人群（新疆地区）的流行病学特点描述不完整。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 265
+  },
+  {
+    "description": "对非洲型卡波西肉瘤的临床亚型及其特点（特别是儿童受累）描述过于简略。",
+    "guideline": "加强关于 对非洲型卡波西肉瘤的临床亚型及其特点（特别是儿童受累）描述过于简略。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 267
+  },
+  {
+    "description": "对无症状或极轻微患者的“观察等待”治疗策略未提及。",
+    "guideline": "加强关于 对无症状或极轻微患者的“观察等待”治疗策略未提及。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 269
+  },
+  {
+    "description": "未提供各临床类型（如经典型、非洲型、AIDS伴发型）具体的预后或生存率数据（如参考资料中提到的平均生存时间）。",
+    "guideline": "加强关于 未提供各临床类型（如经典型、非洲型、AIDS伴发型）具体的预后或生存率数据（如参考资料中提到的平均生存时间）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 271
+  },
+  {
+    "description": "对卡波西肉瘤早期皮损可能自行消退这一临床特点的认知。",
+    "guideline": "加强关于 对卡波西肉瘤早期皮损可能自行消退这一临床特点的认知。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 273
+  },
+  {
+    "description": "对皮损质地变化（早期质软如海绵，陈旧后坚硬如橡皮）的描述。",
+    "guideline": "加强关于 对皮损质地变化（早期质软如海绵，陈旧后坚硬如橡皮）的描述。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 275
+  },
+  {
+    "description": "对骨骼改变这一特征性表现的了解。",
+    "guideline": "加强关于 对骨骼改变这一特征性表现的了解。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 277
+  },
+  {
+    "description": "对非洲型卡波西肉瘤具体亚型及其临床特点的详细知识。",
+    "guideline": "加强关于 对非洲型卡波西肉瘤具体亚型及其临床特点的详细知识。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 279
+  },
+  {
+    "description": "对卡波西肉瘤无症状或极轻微病例的初始管理策略（观察等待）的阐述不够明确。",
+    "guideline": "加强关于 对卡波西肉瘤无症状或极轻微病例的初始管理策略（观察等待）的阐述不够明确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 281
+  },
+  {
+    "description": "对特定靶向/免疫调节药物（如西罗莫司、抗血管生成药物）的具体名称和类别提及不足。",
+    "guideline": "加强关于 对特定靶向/免疫调节药物（如西罗莫司、抗血管生成药物）的具体名称和类别提及不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 283
+  },
+  {
+    "description": "对艾滋病相关型卡波西肉瘤治疗在延长生存期方面的局限性（参考资料中“不能延长生命”的表述）未作说明，可能使患者对治疗期望产生偏差。",
+    "guideline": "加强关于 对艾滋病相关型卡波西肉瘤治疗在延长生存期方面的局限性（参考资料中“不能延长生命”的表述）未作说明，可能使患者对治疗期望产生偏差。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 285
+  },
+  {
+    "description": "对肺结节基于数量的分类（孤立性 vs. 多发性）及其不同的临床意义阐述不足。",
+    "guideline": "加强关于 对肺结节基于数量的分类（孤立性 vs. 多发性）及其不同的临床意义阐述不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 287
+  },
+  {
+    "description": "对家族性高胆固醇血症（FH）的遗传学亚型（纯合子/杂合子）及其临床意义的理解不深入。",
+    "guideline": "加强关于 对家族性高胆固醇血症（FH）的遗传学亚型（纯合子/杂合子）及其临床意义的理解不深入。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 289
+  },
+  {
+    "description": "对FH的诊断流程，特别是针对不同年龄段的筛查建议和具体阈值掌握不全面。",
+    "guideline": "加强关于 对FH的诊断流程，特别是针对不同年龄段的筛查建议和具体阈值掌握不全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 291
+  },
+  {
+    "description": "对FH的精细化治疗目标、阶梯治疗方案及不同药物的循证证据等级了解不够详细。",
+    "guideline": "加强关于 对FH的精细化治疗目标、阶梯治疗方案及不同药物的循证证据等级了解不够详细。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 293
+  },
+  {
+    "description": "对FH与其他遗传性高脂血症的鉴别诊断知识有所欠缺。",
+    "guideline": "加强关于 对FH与其他遗传性高脂血症的鉴别诊断知识有所欠缺。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 295
+  },
+  {
+    "description": "对FH诊断标准中LDL-C具体阈值的精确掌握（如4.7 mmol/L vs 4.9 mmol/L）。",
+    "guideline": "加强关于 对FH诊断标准中LDL-C具体阈值的精确掌握（如4.7 mmol/L vs 4.9 mmol/L）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 297
+  },
+  {
+    "description": "对不同年龄段（儿童、青少年、成人）血脂筛查的具体策略、指标（如非-HDL-C的应用）和阈值的了解。",
+    "guideline": "加强关于 对不同年龄段（儿童、青少年、成人）血脂筛查的具体策略、指标（如非-HDL-C的应用）和阈值的了解。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 299
+  },
+  {
+    "description": "对“不提倡仅凭症状体征筛查”这一临床共识的强调。",
+    "guideline": "加强关于 对“不提倡仅凭症状体征筛查”这一临床共识的强调。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 301
+  },
+  {
+    "description": "诊断流程的细节，如确诊所需的重复血脂检测要求。",
+    "guideline": "加强关于 诊断流程的细节，如确诊所需的重复血脂检测要求。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 303
+  },
+  {
+    "description": "针对不同年龄段（儿童、青少年、成人）的筛查策略和具体血脂阈值。",
+    "guideline": "加强关于 针对不同年龄段（儿童、青少年、成人）的筛查策略和具体血脂阈值。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 305
+  },
+  {
+    "description": "鉴别诊断中提到的其他遗传性脂质紊乱疾病（如家族性载脂蛋白B-100缺陷、多基因高胆固醇血症等）。",
+    "guideline": "加强关于 鉴别诊断中提到的其他遗传性脂质紊乱疾病（如家族性载脂蛋白B-100缺陷、多基因高胆固醇血症等）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 307
+  },
+  {
+    "description": "对类鼻疽的别名、生物恐怖战剂背景、完整的临床分型（特别是隐匿性和无症状型）、更详细的易感因素列表、具体的诊断实验室方法、完整的治疗方案（包括维持治疗时长和外科干预指征）以及急性期患者管理措施，存在信息覆盖不全的情况。",
+    "guideline": "加强关于 对类鼻疽的别名、生物恐怖战剂背景、完整的临床分型（特别是隐匿性和无症状型）、更详细的易感因素列表、具体的诊断实验室方法、完整的治疗方案（包括维持治疗时长和外科干预指征）以及急性期患者管理措施，存在信息覆盖不全的情况。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 309
+  },
+  {
+    "description": "对类鼻疽临床表现的完整分类体系（如隐匿性感染、无症状肺浸润、慢性化脓性感染、复发性感染）掌握不够全面。",
+    "guideline": "加强关于 对类鼻疽临床表现的完整分类体系（如隐匿性感染、无症状肺浸润、慢性化脓性感染、复发性感染）掌握不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 311
+  },
+  {
+    "description": "对特定临床表现（如急性肺部感染）的典型影像学特征（上叶实变伴薄壁空洞）了解不足。",
+    "guideline": "加强关于 对特定临床表现（如急性肺部感染）的典型影像学特征（上叶实变伴薄壁空洞）了解不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 313
+  },
+  {
+    "description": "对播散性感染中，中枢神经系统受累的具体表现（脑炎/脑膜炎）强调不够。",
+    "guideline": "加强关于 对播散性感染中，中枢神经系统受累的具体表现（脑炎/脑膜炎）强调不够。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 315
+  },
+  {
+    "description": "对类鼻疽其他重要易感人群（如酒精中毒、脾切除、HIV感染者）的认识。",
+    "guideline": "加强关于 对类鼻疽其他重要易感人群（如酒精中毒、脾切除、HIV感染者）的认识。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 317
+  },
+  {
+    "description": "对类鼻疽治疗复杂性和预后的详细认知（虽然患者问题未直接询问，但作为背景知识可增强回答深度）。",
+    "guideline": "加强关于 对类鼻疽治疗复杂性和预后的详细认知（虽然患者问题未直接询问，但作为背景知识可增强回答深度）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 319
+  },
+  {
+    "description": "对摇晃综合征的完整定义（可能包含拍打、撞击、拉扯等其他伤害形式）认识不够全面。",
+    "guideline": "加强关于 对摇晃综合征的完整定义（可能包含拍打、撞击、拉扯等其他伤害形式）认识不够全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 321
+  },
+  {
+    "description": "对摇晃综合征临床表现的列举不够详尽，遗漏了如喂养困难、四肢活动异常、囟门隆起等具体表现。",
+    "guideline": "加强关于 对摇晃综合征临床表现的列举不够详尽，遗漏了如喂养困难、四肢活动异常、囟门隆起等具体表现。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 323
+  },
+  {
+    "description": "缺乏对摇晃综合征高发年龄段（尤其是2-4个月婴儿）的明确说明。",
+    "guideline": "加强关于 缺乏对摇晃综合征高发年龄段（尤其是2-4个月婴儿）的明确说明。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 325
+  },
+  {
+    "description": "AI回答在症状列举上基本准确，但未能完全覆盖参考资料中提到的所有常见表现，特别是“四肢乏力或活动异常”和“失明”。在病因描述上，AI回答聚焦于“剧烈摇晃”，而参考资料还提到了“被强力拍打、撞击、拉扯等伤害”，病因范围更广。在诊断和治疗部分，AI回答未涉及（这符合其回答患者问题的定位），但参考资料提供了更详细的医学信息。",
+    "guideline": "加强关于 AI回答在症状列举上基本准确，但未能完全覆盖参考资料中提到的所有常见表现，特别是“四肢乏力或活动异常”和“失明”。在病因描述上，AI回答聚焦于“剧烈摇晃”，而参考资料还提到了“被强力拍打、撞击、拉扯等伤害”，病因范围更广。在诊断和治疗部分，AI回答未涉及（这符合其回答患者问题的定位），但参考资料提供了更详细的医学信息。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 327
+  },
+  {
+    "description": "对摇晃综合征最高危的婴儿年龄段（2-4个月）的认知不够突出。",
+    "guideline": "加强关于 对摇晃综合征最高危的婴儿年龄段（2-4个月）的认知不够突出。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 329
+  },
+  {
+    "description": "对可能增加摇晃综合征风险的特定家庭或照顾者背景因素（如物质滥用、精神病史、家庭压力等）缺乏识别和针对性建议。",
+    "guideline": "加强关于 对可能增加摇晃综合征风险的特定家庭或照顾者背景因素（如物质滥用、精神病史、家庭压力等）缺乏识别和针对性建议。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 331
+  },
+  {
+    "description": "对白血病危害的终极严重性（即死亡风险）的明确提及略显保守。",
+    "guideline": "加强关于 对白血病危害的终极严重性（即死亡风险）的明确提及略显保守。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 333
+  },
+  {
+    "description": "对“类白血病反应”这一需要与白血病鉴别的概念未作说明，虽然这更偏向诊断细节，但在解释“是什么病”时，提及鉴别诊断有助于更全面理解。",
+    "guideline": "加强关于 对“类白血病反应”这一需要与白血病鉴别的概念未作说明，虽然这更偏向诊断细节，但在解释“是什么病”时，提及鉴别诊断有助于更全面理解。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 335
+  },
+  {
+    "description": "对白血病症状的全面性描述略有不足，特别是未区分急性与慢性白血病在症状表现上的差异（如慢性白血病早期症状隐匿）。",
+    "guideline": "加强关于 对白血病症状的全面性描述略有不足，特别是未区分急性与慢性白血病在症状表现上的差异（如慢性白血病早期症状隐匿）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 337
+  },
+  {
+    "description": "未提及白血病细胞浸润其他器官可能导致的特定症状（如神经系统症状、消化道症状等）。",
+    "guideline": "加强关于 未提及白血病细胞浸润其他器官可能导致的特定症状（如神经系统症状、消化道症状等）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 339
+  },
+  {
+    "description": "对特定病毒（HTLV-1）与白血病类型（成人T细胞白血病）的确切因果关系及传播途径的阐述不够精确和完整。",
+    "guideline": "加强关于 对特定病毒（HTLV-1）与白血病类型（成人T细胞白血病）的确切因果关系及传播途径的阐述不够精确和完整。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 341
+  },
+  {
+    "description": "未引用具体的遗传流行病学数据（如同卵双胞胎发病率）来强化“遗传易感性”的观点。",
+    "guideline": "加强关于 未引用具体的遗传流行病学数据（如同卵双胞胎发病率）来强化“遗传易感性”的观点。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 343
+  },
+  {
+    "description": "对念珠菌性龟头炎的传染性认识不足，未将其作为核心信息进行传达。",
+    "guideline": "加强关于 对念珠菌性龟头炎的传染性认识不足，未将其作为核心信息进行传达。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 345
+  },
+  {
+    "description": "对疾病可能导致的长期并发症（如包皮纤维化、尿道口狭窄）描述不够具体。",
+    "guideline": "加强关于 对疾病可能导致的长期并发症（如包皮纤维化、尿道口狭窄）描述不够具体。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 347
+  },
+  {
+    "description": "对特定高危人群（如性活跃青壮年、有冶游史者）的强调不够突出。",
+    "guideline": "加强关于 对特定高危人群（如性活跃青壮年、有冶游史者）的强调不够突出。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 349
+  },
+  {
+    "description": "对念珠菌性龟头炎皮损形态的精确描述（如干燥光滑、红色小丘疹）存在不足。",
+    "guideline": "加强关于 对念珠菌性龟头炎皮损形态的精确描述（如干燥光滑、红色小丘疹）存在不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 351
+  },
+  {
+    "description": "对疾病临床表现的全面性掌握有待加强，未能涵盖少数但重要的变异表现（如急性水肿型、高度敏感者的急性反应）。",
+    "guideline": "加强关于 对疾病临床表现的全面性掌握有待加强，未能涵盖少数但重要的变异表现（如急性水肿型、高度敏感者的急性反应）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 353
+  },
+  {
+    "description": "对症状可能累及的部位（如尿道口）及其引发的特定症状（尿频）描述不够完整。",
+    "guideline": "加强关于 对症状可能累及的部位（如尿道口）及其引发的特定症状（尿频）描述不够完整。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 355
+  },
+  {
+    "description": "治疗药物的完整谱系：除了提到的几种常见抗真菌药，对其他有效药物（如伊曲康唑、苦参凝胶、中药外洗、制霉菌素）的认知不足。",
+    "guideline": "加强关于 治疗药物的完整谱系：除了提到的几种常见抗真菌药，对其他有效药物（如伊曲康唑、苦参凝胶、中药外洗、制霉菌素）的认知不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 357
+  },
+  {
+    "description": "伴侣管理的具体细节：对治疗期间性生活的具体建议（停止或使用避孕套）强调不够。",
+    "guideline": "加强关于 伴侣管理的具体细节：对治疗期间性生活的具体建议（停止或使用避孕套）强调不够。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 359
+  },
+  {
+    "description": "手术治疗作为选项：对于特定适应症（如包皮过长/包茎）患者，未将包皮环切术纳入治疗讨论范围。",
+    "guideline": "加强关于 手术治疗作为选项：对于特定适应症（如包皮过长/包茎）患者，未将包皮环切术纳入治疗讨论范围。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 361
+  },
+  {
+    "description": "对阴唇粘连发病率的精确数据掌握可能不准确或过时。不同研究、不同地域的发病率数据可能存在差异，AI助手引用的具体数据范围（1.7%-3.3%）需要更权威的出处支持。",
+    "guideline": "加强关于 对阴唇粘连发病率的精确数据掌握可能不准确或过时。不同研究、不同地域的发病率数据可能存在差异，AI助手引用的具体数据范围（1.7%-3.3%）需要更权威的出处支持。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 363
+  },
+  {
+    "description": "未提及家长在就医前可进行的、更全面的家庭回顾性评估（如孕期彩超史、既往感染史等），这些信息有助于医生判断病情和决定干预时机。",
+    "guideline": "加强关于 未提及家长在就医前可进行的、更全面的家庭回顾性评估（如孕期彩超史、既往感染史等），这些信息有助于医生判断病情和决定干预时机。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 365
+  },
+  {
+    "description": "AI回答可能基于更广泛的临床实践指南（如使用屏障软膏），但提供的参考资料内容较为基础，未涵盖这些细节。评估时缺乏更全面的权威文献（如UpToDate、专业儿科教科书）进行交叉验证，以判断“促进自然分离”的表述和隔离霜的使用是否属于广泛接受的护理标准。",
+    "guideline": "加强关于 AI回答可能基于更广泛的临床实践指南（如使用屏障软膏），但提供的参考资料内容较为基础，未涵盖这些细节。评估时缺乏更全面的权威文献（如UpToDate、专业儿科教科书）进行交叉验证，以判断“促进自然分离”的表述和隔离霜的使用是否属于广泛接受的护理标准。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 367
+  },
+  {
+    "description": "新生儿先天性心脏病筛查的具体流程、时机和临床意义。",
+    "guideline": "加强关于 新生儿先天性心脏病筛查的具体流程、时机和临床意义。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 369
+  },
+  {
+    "description": "先天性心脏病患儿详细的日常护理要点和疫苗接种指导。",
+    "guideline": "加强关于 先天性心脏病患儿详细的日常护理要点和疫苗接种指导。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 371
+  },
+  {
+    "description": "部分更具体的临床症状描述（如特定呼吸模式、皮肤颜色变化）。",
+    "guideline": "加强关于 部分更具体的临床症状描述（如特定呼吸模式、皮肤颜色变化）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 373
+  },
+  {
+    "description": "对先天性心脏病高危因素的了解。AI回答完全未提及参考资料中列出的母亲孕期感染、疾病、用药、环境暴露以及家族史等高危因素，这些信息对于家长评估风险有重要参考价值。",
+    "guideline": "加强关于 对先天性心脏病高危因素的了解。AI回答完全未提及参考资料中列出的母亲孕期感染、疾病、用药、环境暴露以及家族史等高危因素，这些信息对于家长评估风险有重要参考价值。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 375
+  },
+  {
+    "description": "对特定类型先天性心脏病（如法洛四联症）急性发作的特殊表现和急救措施了解不足。参考资料提供了法洛四联症缺氧发作时的急救体位（膝胸卧位），这是重要的急救知识。",
+    "guideline": "加强关于 对特定类型先天性心脏病（如法洛四联症）急性发作的特殊表现和急救措施了解不足。参考资料提供了法洛四联症缺氧发作时的急救体位（膝胸卧位），这是重要的急救知识。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 377
+  },
+  {
+    "description": "流行病学数据（发病率、性别差异、好发时期）",
+    "guideline": "加强关于 流行病学数据（发病率、性别差异、好发时期） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 379
+  },
+  {
+    "description": "临床分度标准",
+    "guideline": "加强关于 临床分度标准 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 381
+  },
+  {
+    "description": "更全面的病因列表（硒缺乏、先天性缺陷）",
+    "guideline": "加强关于 更全面的病因列表（硒缺乏、先天性缺陷） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 383
+  },
+  {
+    "description": "诊断中抗体检查的鉴别意义",
+    "guideline": "加强关于 诊断中抗体检查的鉴别意义 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 385
+  },
+  {
+    "description": "甲状腺激素抑制治疗的详细风险与监测",
+    "guideline": "加强关于 甲状腺激素抑制治疗的详细风险与监测 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 387
+  },
+  {
+    "description": "对单纯性甲状腺肿的临床分度标准（I-III度）缺乏介绍。",
+    "guideline": "加强关于 对单纯性甲状腺肿的临床分度标准（I-III度）缺乏介绍。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 389
+  },
+  {
+    "description": "对特定生理阶段（青春期、妊娠期等）高发及“生理性甲状腺肿”这一概念及其自愈性阐述不足。",
+    "guideline": "加强关于 对特定生理阶段（青春期、妊娠期等）高发及“生理性甲状腺肿”这一概念及其自愈性阐述不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 391
+  },
+  {
+    "description": "对诊断流程（如甲状腺功能、抗体、超声等检查的具体目的和结果解读）的细节描述相对简略，但考虑到回答聚焦于“症状”，此点可接受。",
+    "guideline": "加强关于 对诊断流程（如甲状腺功能、抗体、超声等检查的具体目的和结果解读）的细节描述相对简略，但考虑到回答聚焦于“症状”，此点可接受。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 393
+  },
+  {
+    "description": "对单纯性甲状腺肿病因的全面性掌握略有不足，特别是遗漏了‘硒缺乏’和‘过量碘’作为明确病因。",
+    "guideline": "加强关于 对单纯性甲状腺肿病因的全面性掌握略有不足，特别是遗漏了‘硒缺乏’和‘过量碘’作为明确病因。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 395
+  },
+  {
+    "description": "对单纯性甲状腺肿患者甲状腺功能（TSH和T4/T3比值）的细微变化描述不够精确。",
+    "guideline": "加强关于 对单纯性甲状腺肿患者甲状腺功能（TSH和T4/T3比值）的细微变化描述不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 397
+  },
+  {
+    "description": "对诊断流程中，当超声发现结节性质不明确时，可能需要的进阶检查（核素扫描、细针穿刺）未做说明。",
+    "guideline": "加强关于 对诊断流程中，当超声发现结节性质不明确时，可能需要的进阶检查（核素扫描、细针穿刺）未做说明。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 399
+  },
+  {
+    "description": "对心脏性猝死病因的全面性认识：AI回答侧重于快速性心律失常和常见心脏病，但未提及缓慢性心律失常作为20%的病因，也未完全覆盖所有相关的心脏疾病类型（如风湿性心脏病、高血压心脏病等）。",
+    "guideline": "加强关于 对心脏性猝死病因的全面性认识：AI回答侧重于快速性心律失常和常见心脏病，但未提及缓慢性心律失常作为20%的病因，也未完全覆盖所有相关的心脏疾病类型（如风湿性心脏病、高血压心脏病等）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 401
+  },
+  {
+    "description": "对“猝死”时间定义的细微差别：AI回答明确区分了“猝死”（1-24小时）和“心脏性猝死”（1小时内），但参考资料中“生活中常说的「猝死」，通常是「心脏性猝死」”这一表述，暗示了在非严格医学语境下，两者常被混用。AI的回答在医学定义上是清晰的，但未提及这种常见的语言使用习惯。",
+    "guideline": "加强关于 对“猝死”时间定义的细微差别：AI回答明确区分了“猝死”（1-24小时）和“心脏性猝死”（1小时内），但参考资料中“生活中常说的「猝死」，通常是「心脏性猝死」”这一表述，暗示了在非严格医学语境下，两者常被混用。AI的回答在医学定义上是清晰的，但未提及这种常见的语言使用习惯。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 403
+  },
+  {
+    "description": "对心脏性猝死（SCD）与心搏骤停（SCA）的现代医学定义区分不够精确。",
+    "guideline": "加强关于 对心脏性猝死（SCD）与心搏骤停（SCA）的现代医学定义区分不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 405
+  },
+  {
+    "description": "对早期预兆的“非特异性”和“难以预测性”强调不足，可能给读者带来不切实际的预警期望。",
+    "guideline": "加强关于 对早期预兆的“非特异性”和“难以预测性”强调不足，可能给读者带来不切实际的预警期望。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 407
+  },
+  {
+    "description": "未提及我国心脏性猝死的流行病学数据（如每年约54.4万人，每分钟1人），这部分信息有助于读者理解问题的严重性和普遍性。",
+    "guideline": "加强关于 未提及我国心脏性猝死的流行病学数据（如每年约54.4万人，每分钟1人），这部分信息有助于读者理解问题的严重性和普遍性。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 409
+  },
+  {
+    "description": "对感染性疾病“传染性”属性的准确界定存在不足，未能清晰区分“传染性感染病”和“非传染性感染病”这一核心分类。",
+    "guideline": "加强关于 对感染性疾病“传染性”属性的准确界定存在不足，未能清晰区分“传染性感染病”和“非传染性感染病”这一核心分类。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 411
+  },
+  {
+    "description": "对感染性疾病的流行病学重要性（如死亡率排名）及其与慢性病、癌症的长期关联认识不全面。",
+    "guideline": "加强关于 对感染性疾病的流行病学重要性（如死亡率排名）及其与慢性病、癌症的长期关联认识不全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 413
+  },
+  {
+    "description": "对感染性疾病症状的系统性分类理解不足。回答侧重于列举离散症状，未清晰构建“典型全身症状”与“不同系统受累的特异性症状”的框架。",
+    "guideline": "加强关于 对感染性疾病症状的系统性分类理解不足。回答侧重于列举离散症状，未清晰构建“典型全身症状”与“不同系统受累的特异性症状”的框架。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 415
+  },
+  {
+    "description": "对症状的列举不够全面，遗漏了部分常见典型症状（如怕冷、精神差、胃口差、出虚汗）。",
+    "guideline": "加强关于 对症状的列举不够全面，遗漏了部分常见典型症状（如怕冷、精神差、胃口差、出虚汗）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 417
+  },
+  {
+    "description": "对血清学检查中不同抗体（IgM vs. IgG）的临床诊断意义解释不够深入。",
+    "guideline": "加强关于 对血清学检查中不同抗体（IgM vs. IgG）的临床诊断意义解释不够深入。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 419
+  },
+  {
+    "description": "对诊断深部或内脏感染时可能用到的侵入性检查方法（如内镜、穿刺活检）有所遗漏。",
+    "guideline": "加强关于 对诊断深部或内脏感染时可能用到的侵入性检查方法（如内镜、穿刺活检）有所遗漏。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 421
+  },
+  {
+    "description": "对海绵状血管瘤的病理本质（良性血管肿瘤 vs 血管畸形）存在认知偏差。",
+    "guideline": "加强关于 对海绵状血管瘤的病理本质（良性血管肿瘤 vs 血管畸形）存在认知偏差。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 423
+  },
+  {
+    "description": "对特定部位（如咽喉部）海绵状血管瘤的独特风险和严重后果（如进食硬物导致出血危及生命）覆盖不足。",
+    "guideline": "加强关于 对特定部位（如咽喉部）海绵状血管瘤的独特风险和严重后果（如进食硬物导致出血危及生命）覆盖不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 425
+  },
+  {
+    "description": "对患者日常生活中的具体注意事项（预防破溃、感染、特定部位护理）提供不够全面。",
+    "guideline": "加强关于 对患者日常生活中的具体注意事项（预防破溃、感染、特定部位护理）提供不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 427
+  },
+  {
+    "description": "对海绵状血管瘤疾病谱系的理解存在局限。AI回答似乎默认了患者询问的是脑海绵状血管瘤，而忽略了这是一种可累及全身多系统的疾病。",
+    "guideline": "加强关于 对海绵状血管瘤疾病谱系的理解存在局限。AI回答似乎默认了患者询问的是脑海绵状血管瘤，而忽略了这是一种可累及全身多系统的疾病。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 429
+  },
+  {
+    "description": "对症状的普适性与特异性区分不足。未能清晰说明所描述症状主要适用于颅内病灶，并补充其他常见部位的症状特征。",
+    "guideline": "加强关于 对症状的普适性与特异性区分不足。未能清晰说明所描述症状主要适用于颅内病灶，并补充其他常见部位的症状特征。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 431
+  },
+  {
+    "description": "对海绵状血管瘤全身多部位发病的认识不足，回答过度集中于颅内病灶。",
+    "guideline": "加强关于 对海绵状血管瘤全身多部位发病的认识不足，回答过度集中于颅内病灶。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 433
+  },
+  {
+    "description": "对非颅内病灶的多种非手术治疗方法（如硬化剂、激光、激素治疗）缺乏提及。",
+    "guideline": "加强关于 对非颅内病灶的多种非手术治疗方法（如硬化剂、激光、激素治疗）缺乏提及。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 435
+  },
+  {
+    "description": "对疾病的好发人群（新生儿/婴幼儿）信息缺失。",
+    "guideline": "加强关于 对疾病的好发人群（新生儿/婴幼儿）信息缺失。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 437
+  },
+  {
+    "description": "对不同部位对应就诊科室的多样性认识不足（如皮肤科、整形科、眼科、肝脏外科等）。",
+    "guideline": "加强关于 对不同部位对应就诊科室的多样性认识不足（如皮肤科、整形科、眼科、肝脏外科等）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 439
+  },
+  {
+    "description": "对风湿性疼痛涵盖的疾病谱系广度认识略有不足，未能全面列举所有常见类型（如纤维肌痛综合征、风湿性多肌痛）。",
+    "guideline": "加强关于 对风湿性疼痛涵盖的疾病谱系广度认识略有不足，未能全面列举所有常见类型（如纤维肌痛综合征、风湿性多肌痛）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 441
+  },
+  {
+    "description": "对风湿性疼痛的多学科诊疗路径（特别是疼痛科的作用）了解不够全面。",
+    "guideline": "加强关于 对风湿性疼痛的多学科诊疗路径（特别是疼痛科的作用）了解不够全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 443
+  },
+  {
+    "description": "对“风湿性疼痛”作为一个涵盖多种疾病的症状集合体的理解不够全面，未能充分区分不同风湿病（如类风湿关节炎、骨关节炎、强直性脊柱炎、纤维肌痛等）疼痛特点的差异性。",
+    "guideline": "加强关于 对“风湿性疼痛”作为一个涵盖多种疾病的症状集合体的理解不够全面，未能充分区分不同风湿病（如类风湿关节炎、骨关节炎、强直性脊柱炎、纤维肌痛等）疼痛特点的差异性。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 445
+  },
+  {
+    "description": "对风湿性疼痛影响的描述侧重于躯体功能，对心理社会层面（情绪、睡眠、家庭负担）的影响提及不足。",
+    "guideline": "加强关于 对风湿性疼痛影响的描述侧重于躯体功能，对心理社会层面（情绪、睡眠、家庭负担）的影响提及不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 447
+  },
+  {
+    "description": "对风湿性疼痛的就诊科室（特别是疼痛科的角色）介绍不够全面。",
+    "guideline": "加强关于 对风湿性疼痛的就诊科室（特别是疼痛科的角色）介绍不够全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 449
+  },
+  {
+    "description": "对现代疼痛管理中的介入性/微创治疗手段（如神经阻滞、射频等）覆盖不足。",
+    "guideline": "加强关于 对现代疼痛管理中的介入性/微创治疗手段（如神经阻滞、射频等）覆盖不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 451
+  },
+  {
+    "description": "对头皮疙瘩的病因分类认识不够全面，尤其缺乏对非感染性、非炎症性病因（如良性皮肤肿瘤、病毒疣等）的认知。",
+    "guideline": "加强关于 对头皮疙瘩的病因分类认识不够全面，尤其缺乏对非感染性、非炎症性病因（如良性皮肤肿瘤、病毒疣等）的认知。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 453
+  },
+  {
+    "description": "对非感染性、非炎症性头皮疙瘩（如病毒疣、某些皮肤良性肿瘤）的认知和列举不够全面。",
+    "guideline": "加强关于 对非感染性、非炎症性头皮疙瘩（如病毒疣、某些皮肤良性肿瘤）的认知和列举不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 455
+  },
+  {
+    "description": "对“需要就医的观察时间窗口”的把握与权威资料略有出入，倾向于更短期的观察。",
+    "guideline": "加强关于 对“需要就医的观察时间窗口”的把握与权威资料略有出入，倾向于更短期的观察。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 457
+  },
+  {
+    "description": "对宝宝头皮疙瘩病因的全面性认识不足，尤其是对非炎症/感染性病因（如先天性或良性皮肤肿瘤）的提及缺失。",
+    "guideline": "加强关于 对宝宝头皮疙瘩病因的全面性认识不足，尤其是对非炎症/感染性病因（如先天性或良性皮肤肿瘤）的提及缺失。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 459
+  },
+  {
+    "description": "对不同类型头皮疙瘩（如病毒疣、皮脂腺痣）的典型特征和自然病程缺乏具体描述，而这些信息有助于家长进行初步观察和鉴别。",
+    "guideline": "加强关于 对不同类型头皮疙瘩（如病毒疣、皮脂腺痣）的典型特征和自然病程缺乏具体描述，而这些信息有助于家长进行初步观察和鉴别。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 461
+  },
+  {
+    "description": "疾病名称的历史演变（曾用名）",
+    "guideline": "加强关于 疾病名称的历史演变（曾用名） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 463
+  },
+  {
+    "description": "疾病的遗传/家族聚集倾向",
+    "guideline": "加强关于 疾病的遗传/家族聚集倾向 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 465
+  },
+  {
+    "description": "可能合并的多种自身免疫性疾病",
+    "guideline": "加强关于 可能合并的多种自身免疫性疾病 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 467
+  },
+  {
+    "description": "疾病相关的具体并发症（维生素缺乏、高胆固醇、终末期肝病表现）",
+    "guideline": "加强关于 疾病相关的具体并发症（维生素缺乏、高胆固醇、终末期肝病表现） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 469
+  },
+  {
+    "description": "更详细的诊断标准（生化、抗体、活检）",
+    "guideline": "加强关于 更详细的诊断标准（生化、抗体、活检） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 471
+  },
+  {
+    "description": "全面的治疗方案（除一线药物外的其他药物及肝移植）",
+    "guideline": "加强关于 全面的治疗方案（除一线药物外的其他药物及肝移植） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 473
+  },
+  {
+    "description": "对PBC作为自身免疫性疾病谱系一部分的认识（合并其他自身免疫病）。",
+    "guideline": "加强关于 对PBC作为自身免疫性疾病谱系一部分的认识（合并其他自身免疫病）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 475
+  },
+  {
+    "description": "对PBC并发症的全面了解，特别是与胆汁淤积和肝功能受损相关的代谢性并发症（如骨质疏松、维生素缺乏、高胆固醇血症）。",
+    "guideline": "加强关于 对PBC并发症的全面了解，特别是与胆汁淤积和肝功能受损相关的代谢性并发症（如骨质疏松、维生素缺乏、高胆固醇血症）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 477
+  },
+  {
+    "description": "对PBC具体免疫机制（如T淋巴细胞介导）的描述深度不足。",
+    "guideline": "加强关于 对PBC具体免疫机制（如T淋巴细胞介导）的描述深度不足。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 479
+  },
+  {
+    "description": "对“发病率不受地区和人种限制”这一关键流行病学特征的解读存在偏差，过于强调地域差异。",
+    "guideline": "加强关于 对“发病率不受地区和人种限制”这一关键流行病学特征的解读存在偏差，过于强调地域差异。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 481
+  },
+  {
+    "description": "病因学知识：未涵盖风湿性心脏病作为主要病因，以及其他常见病因（如先天畸形、马方综合征）。",
+    "guideline": "加强关于 病因学知识：未涵盖风湿性心脏病作为主要病因，以及其他常见病因（如先天畸形、马方综合征）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 483
+  },
+  {
+    "description": "疾病分型知识：未明确区分急性与慢性主动脉瓣关闭不全在临床表现和紧急程度上的关键差异。",
+    "guideline": "加强关于 疾病分型知识：未明确区分急性与慢性主动脉瓣关闭不全在临床表现和紧急程度上的关键差异。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 485
+  },
+  {
+    "description": "预后与流行病学知识：未提供关于疾病进展速度、生存率等关键预后信息，也未提及在特定人群（如男性风湿性心脏病患者、老年人）中的发病率。",
+    "guideline": "加强关于 预后与流行病学知识：未提供关于疾病进展速度、生存率等关键预后信息，也未提及在特定人群（如男性风湿性心脏病患者、老年人）中的发病率。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 487
+  },
+  {
+    "description": "对主动脉瓣关闭不全的急性与慢性病程的症状差异描述不够全面。AI回答侧重于慢性、渐进性病程的症状谱，未涵盖急性重度反流（如因感染性心内膜炎、主动脉夹层等引起）可能出现的、需要紧急医疗干预的严重症状。",
+    "guideline": "加强关于 对主动脉瓣关闭不全的急性与慢性病程的症状差异描述不够全面。AI回答侧重于慢性、渐进性病程的症状谱，未涵盖急性重度反流（如因感染性心内膜炎、主动脉夹层等引起）可能出现的、需要紧急医疗干预的严重症状。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 489
+  },
+  {
+    "description": "对主动脉瓣关闭不全具体手术方式（尤其是微创TAVI技术）的介绍不够详细。",
+    "guideline": "加强关于 对主动脉瓣关闭不全具体手术方式（尤其是微创TAVI技术）的介绍不够详细。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 491
+  },
+  {
+    "description": "对特定病因（如风湿性、马方综合征）的针对性预防和管理措施提及不足。",
+    "guideline": "加强关于 对特定病因（如风湿性、马方综合征）的针对性预防和管理措施提及不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 493
+  },
+  {
+    "description": "缺乏对术后长期管理（包括用药、抗凝、复查）的系统性说明。",
+    "guideline": "加强关于 缺乏对术后长期管理（包括用药、抗凝、复查）的系统性说明。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 495
+  },
+  {
+    "description": "对CRPS的临床分型（I型与II型）及其预后差异缺乏介绍。",
+    "guideline": "加强关于 对CRPS的临床分型（I型与II型）及其预后差异缺乏介绍。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 497
+  },
+  {
+    "description": "对疾病可能呈现的三期进展过程及其特征描述不足。",
+    "guideline": "加强关于 对疾病可能呈现的三期进展过程及其特征描述不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 499
+  },
+  {
+    "description": "对“难以治愈”这一核心预后信息的强调不够直接和明确。",
+    "guideline": "加强关于 对“难以治愈”这一核心预后信息的强调不够直接和明确。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 501
+  },
+  {
+    "description": "对CRPS的临床分型（I型/II型）及其区别缺乏介绍。",
+    "guideline": "加强关于 对CRPS的临床分型（I型/II型）及其区别缺乏介绍。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 503
+  },
+  {
+    "description": "对CRPS的疾病分期（1、2、3期）及其演变过程缺乏介绍。",
+    "guideline": "加强关于 对CRPS的疾病分期（1、2、3期）及其演变过程缺乏介绍。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 505
+  },
+  {
+    "description": "对诊断标准（布达佩斯标准）的具体条目描述不够详细。",
+    "guideline": "加强关于 对诊断标准（布达佩斯标准）的具体条目描述不够详细。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 507
+  },
+  {
+    "description": "对CRPS疾病“难以治愈”的根本性质强调不足，对“治愈”可能性的表述需要更谨慎。",
+    "guideline": "加强关于 对CRPS疾病“难以治愈”的根本性质强调不足，对“治愈”可能性的表述需要更谨慎。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 509
+  },
+  {
+    "description": "缺乏对CRPS两种临床分型（I型和II型）及其不同预后的介绍。",
+    "guideline": "加强关于 缺乏对CRPS两种临床分型（I型和II型）及其不同预后的介绍。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 511
+  },
+  {
+    "description": "药物治疗列表可以更全面地涵盖抗抑郁药和肌肉松弛剂等类别。",
+    "guideline": "加强关于 药物治疗列表可以更全面地涵盖抗抑郁药和肌肉松弛剂等类别。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 513
+  },
+  {
+    "description": "对口腔溃疡的病因认识不够全面，特别是对微生物感染、免疫因素、遗传因素以及作为某些严重疾病（如恶性肿瘤、结核、白塞病等）症状表现的认知存在不足。",
+    "guideline": "加强关于 对口腔溃疡的病因认识不够全面，特别是对微生物感染、免疫因素、遗传因素以及作为某些严重疾病（如恶性肿瘤、结核、白塞病等）症状表现的认知存在不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 515
+  },
+  {
+    "description": "对需要就医的“不愈合”溃疡的时间窗口判断与权威资料存在差异，可能源于对癌性溃疡等严重情况警惕性不足。",
+    "guideline": "加强关于 对需要就医的“不愈合”溃疡的时间窗口判断与权威资料存在差异，可能源于对癌性溃疡等严重情况警惕性不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 517
+  },
+  {
+    "description": "对“复发性阿弗他溃疡”这一最常见类型的明确提及和定义有所缺失。",
+    "guideline": "加强关于 对“复发性阿弗他溃疡”这一最常见类型的明确提及和定义有所缺失。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 519
+  },
+  {
+    "description": "对微生物感染（病毒、细菌）作为口腔溃疡病因的认识不足。",
+    "guideline": "加强关于 对微生物感染（病毒、细菌）作为口腔溃疡病因的认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 521
+  },
+  {
+    "description": "对补充维生素/微量元素在口腔溃疡治疗中证据等级的表述不够严谨，可能高估了其常规应用价值。",
+    "guideline": "加强关于 对补充维生素/微量元素在口腔溃疡治疗中证据等级的表述不够严谨，可能高估了其常规应用价值。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 523
+  },
+  {
+    "description": "对需要紧急就医的溃疡特征（如“位置固定且超过2周不愈合”）识别不够精确。",
+    "guideline": "加强关于 对需要紧急就医的溃疡特征（如“位置固定且超过2周不愈合”）识别不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 525
+  },
+  {
+    "description": "对预防措施中具体应避免的食物类型（粗糙、硬性、过烫）列举不够全面。",
+    "guideline": "加强关于 对预防措施中具体应避免的食物类型（粗糙、硬性、过烫）列举不够全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 527
+  },
+  {
+    "description": "对“复发性阿弗他溃疡”这一最常见类型的名称在回答中虽有提及，但未在开篇症状描述或病因部分明确点出其核心地位。",
+    "guideline": "加强关于 对“复发性阿弗他溃疡”这一最常见类型的名称在回答中虽有提及，但未在开篇症状描述或病因部分明确点出其核心地位。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 529
+  },
+  {
+    "description": "对玫瑰痤疮临床分型的系统阐述。",
+    "guideline": "加强关于 对玫瑰痤疮临床分型的系统阐述。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 531
+  },
+  {
+    "description": "对‘粉刺’作为与普通痤疮关键鉴别点的强调。",
+    "guideline": "加强关于 对‘粉刺’作为与普通痤疮关键鉴别点的强调。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 533
+  },
+  {
+    "description": "对玫瑰痤疮发病年龄范围更宽泛（各年龄均可）的认知。",
+    "guideline": "加强关于 对玫瑰痤疮发病年龄范围更宽泛（各年龄均可）的认知。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 535
+  },
+  {
+    "description": "对营养性贫血的病因范围理解不够全面，虽然提及但弱化了蛋白质、维生素C、微量元素等其他营养素缺乏的作用。",
+    "guideline": "加强关于 对营养性贫血的病因范围理解不够全面，虽然提及但弱化了蛋白质、维生素C、微量元素等其他营养素缺乏的作用。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 537
+  },
+  {
+    "description": "对缺铁性贫血的诊断指标列举不够完整，遗漏了全血血红蛋白、转铁蛋白受体等常用或敏感指标。",
+    "guideline": "加强关于 对缺铁性贫血的诊断指标列举不够完整，遗漏了全血血红蛋白、转铁蛋白受体等常用或敏感指标。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 539
+  },
+  {
+    "description": "对巨幼细胞性贫血治疗过程中的特定风险（如恢复期低钾血症）缺乏了解或未予提示。",
+    "guideline": "加强关于 对巨幼细胞性贫血治疗过程中的特定风险（如恢复期低钾血症）缺乏了解或未予提示。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 541
+  },
+  {
+    "description": "对营养性贫血（特别是巨幼红细胞性贫血）的完整症状谱系掌握不够全面，例如遗漏了黄疸、胃肠道症状（食欲缺乏、腹胀腹泻便秘）以及特定人群（老人、小孩）的神经系统表现。",
+    "guideline": "加强关于 对营养性贫血（特别是巨幼红细胞性贫血）的完整症状谱系掌握不够全面，例如遗漏了黄疸、胃肠道症状（食欲缺乏、腹胀腹泻便秘）以及特定人群（老人、小孩）的神经系统表现。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 543
+  },
+  {
+    "description": "对症状的关联性描述可以更精确，例如参考资料明确指出‘部分巨幼红细胞性贫血患者的神经系统症状会在贫血之前发生’，这是一个重要的临床提示。",
+    "guideline": "加强关于 对症状的关联性描述可以更精确，例如参考资料明确指出‘部分巨幼红细胞性贫血患者的神经系统症状会在贫血之前发生’，这是一个重要的临床提示。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 545
+  },
+  {
+    "description": "对“宝宝眼屎黄”的鉴别诊断不够全面，特别是对“慢性泪囊炎”这一常见且重要的病因认识不足，未能将其与鼻泪管阻塞的病理过程清晰关联。",
+    "guideline": "加强关于 对“宝宝眼屎黄”的鉴别诊断不够全面，特别是对“慢性泪囊炎”这一常见且重要的病因认识不足，未能将其与鼻泪管阻塞的病理过程清晰关联。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 547
+  },
+  {
+    "description": "对需要紧急就医的严重情况（如角膜炎）的识别要点（畏光、黑眼珠浑浊）覆盖不全。",
+    "guideline": "加强关于 对需要紧急就医的严重情况（如角膜炎）的识别要点（畏光、黑眼珠浑浊）覆盖不全。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 549
+  },
+  {
+    "description": "对婴儿眼部分泌物增多的鉴别诊断谱系掌握不够全面，特别是对“慢性泪囊炎”这一常见非急性感染病因的提及不足。",
+    "guideline": "加强关于 对婴儿眼部分泌物增多的鉴别诊断谱系掌握不够全面，特别是对“慢性泪囊炎”这一常见非急性感染病因的提及不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 551
+  },
+  {
+    "description": "对需要紧急就医的“角膜炎”这一更严重眼病的症状特征（畏光、黑眼珠浑浊）未纳入鉴别要点。",
+    "guideline": "加强关于 对需要紧急就医的“角膜炎”这一更严重眼病的症状特征（畏光、黑眼珠浑浊）未纳入鉴别要点。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 553
+  },
+  {
+    "description": "对“宝宝眼屎黄”这一症状背后更具体的疾病诊断（如慢性泪囊炎）认识不足。",
+    "guideline": "加强关于 对“宝宝眼屎黄”这一症状背后更具体的疾病诊断（如慢性泪囊炎）认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 555
+  },
+  {
+    "description": "对鼻泪管阻塞的长期管理（如1岁后评估泪道探通）信息掌握不完整。",
+    "guideline": "加强关于 对鼻泪管阻塞的长期管理（如1岁后评估泪道探通）信息掌握不完整。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 557
+  },
+  {
+    "description": "对乙状结肠癌早期症状隐匿性的强调不足。",
+    "guideline": "加强关于 对乙状结肠癌早期症状隐匿性的强调不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 559
+  },
+  {
+    "description": "缺乏关于乙状结肠癌流行病学数据（常见程度、发病率排名）的信息。",
+    "guideline": "加强关于 缺乏关于乙状结肠癌流行病学数据（常见程度、发病率排名）的信息。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 561
+  },
+  {
+    "description": "未涉及乙状结肠癌的病因、高危人群、详细分期系统、具体治疗药物选择、术后及放化疗期间的生活管理（如饮食、运动、心理、对性生活和生育的影响）以及具体的预防策略。",
+    "guideline": "加强关于 未涉及乙状结肠癌的病因、高危人群、详细分期系统、具体治疗药物选择、术后及放化疗期间的生活管理（如饮食、运动、心理、对性生活和生育的影响）以及具体的预防策略。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 563
+  },
+  {
+    "description": "对早期乙状结肠癌可能伴随的贫血症状（作为非特异性全身症状之一）的提及不够明确和完整。",
+    "guideline": "加强关于 对早期乙状结肠癌可能伴随的贫血症状（作为非特异性全身症状之一）的提及不够明确和完整。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 565
+  },
+  {
+    "description": "AI助手未提及参考资料中提到的“年龄因素”（发病率随年龄增长而增加，50岁后风险增加）和“其他因素”（如曾行输尿管乙状结肠吻合术的患者发病率增加）。",
+    "guideline": "加强关于 AI助手未提及参考资料中提到的“年龄因素”（发病率随年龄增长而增加，50岁后风险增加）和“其他因素”（如曾行输尿管乙状结肠吻合术的患者发病率增加）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 567
+  },
+  {
+    "description": "AI助手在解释乙状结肠为何高发时，提到了“接触时间最长”、“压力较大”、“吸收水分”等机制，这些是合理的推测，但参考资料中并未明确列出这些具体机制作为病因。AI助手的解释属于基于生理结构的合理推断，但并非直接来自参考资料的确切病因。",
+    "guideline": "加强关于 AI助手在解释乙状结肠为何高发时，提到了“接触时间最长”、“压力较大”、“吸收水分”等机制，这些是合理的推测，但参考资料中并未明确列出这些具体机制作为病因。AI助手的解释属于基于生理结构的合理推断，但并非直接来自参考资料的确切病因。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 569
+  },
+  {
+    "description": "对产后特定病理生理状态（如血液高凝、体液重新分布、妊娠期高血压的延续影响）与面神经麻痹发病关联的认识不足。",
+    "guideline": "加强关于 对产后特定病理生理状态（如血液高凝、体液重新分布、妊娠期高血压的延续影响）与面神经麻痹发病关联的认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 571
+  },
+  {
+    "description": "对哺乳期患者用药安全性的具体信息掌握不全面，未能主动提供缓解患者顾虑的关键信息。",
+    "guideline": "加强关于 对哺乳期患者用药安全性的具体信息掌握不全面，未能主动提供缓解患者顾虑的关键信息。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 573
+  },
+  {
+    "description": "对产后特定病理生理改变（如体液重新分布导致的水肿、血液高凝状态导致的血栓）与面神经麻痹关联的认识不足。",
+    "guideline": "加强关于 对产后特定病理生理改变（如体液重新分布导致的水肿、血液高凝状态导致的血栓）与面神经麻痹关联的认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 575
+  },
+  {
+    "description": "对产后常见感染（如中耳炎）可能蔓延至面神经这一途径的认知不全面。",
+    "guideline": "加强关于 对产后常见感染（如中耳炎）可能蔓延至面神经这一途径的认知不全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 577
+  },
+  {
+    "description": "对需要与产后嘴歪鉴别的某些特定疾病（如神经系统结节病、面部肿瘤）列举不够具体。",
+    "guideline": "加强关于 对需要与产后嘴歪鉴别的某些特定疾病（如神经系统结节病、面部肿瘤）列举不够具体。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 579
+  },
+  {
+    "description": "对产后特定时期（围产期）生理变化（如体液平衡、凝血功能、免疫力）如何增加面神经麻痹风险的知识掌握不全面。",
+    "guideline": "加强关于 对产后特定时期（围产期）生理变化（如体液平衡、凝血功能、免疫力）如何增加面神经麻痹风险的知识掌握不全面。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 581
+  },
+  {
+    "description": "对哺乳期患者用药安全性的特殊考量及沟通意识不足。",
+    "guideline": "加强关于 对哺乳期患者用药安全性的特殊考量及沟通意识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 583
+  },
+  {
+    "description": "对“服用抗生素”作为导致宝宝大便酸臭原因的认识不足。",
+    "guideline": "加强关于 对“服用抗生素”作为导致宝宝大便酸臭原因的认识不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 585
+  },
+  {
+    "description": "对“母乳喂养婴儿大便气味正常标准”的表述不够精确，可能将特定情况（消化不良）下的表现泛化为普遍现象。",
+    "guideline": "加强关于 对“母乳喂养婴儿大便气味正常标准”的表述不够精确，可能将特定情况（消化不良）下的表现泛化为普遍现象。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 587
+  },
+  {
+    "description": "对婴幼儿功能性胃肠问题（如食物过敏、乳糖不耐受）的鉴别诊断知识不够深入和具体。",
+    "guideline": "加强关于 对婴幼儿功能性胃肠问题（如食物过敏、乳糖不耐受）的鉴别诊断知识不够深入和具体。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 589
+  },
+  {
+    "description": "对母乳喂养母亲饮食调整的指导原则掌握不够精准，可能倾向于过度建议限制饮食。",
+    "guideline": "加强关于 对母乳喂养母亲饮食调整的指导原则掌握不够精准，可能倾向于过度建议限制饮食。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 591
+  },
+  {
+    "description": "对大便酸臭味产生的核心化学物质（吲哚、硫化氢）及其与蛋白质、脂肪代谢关系的理解不全面。",
+    "guideline": "加强关于 对大便酸臭味产生的核心化学物质（吲哚、硫化氢）及其与蛋白质、脂肪代谢关系的理解不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 593
+  },
+  {
+    "description": "对食物过敏（特别是牛奶蛋白过敏）作为导致婴儿大便酸臭伴特定症状（如无痛性血便）的鉴别诊断认识不足。",
+    "guideline": "加强关于 对食物过敏（特别是牛奶蛋白过敏）作为导致婴儿大便酸臭伴特定症状（如无痛性血便）的鉴别诊断认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 595
+  },
+  {
+    "description": "对高蛋白、高脂肪饮食作为导致大便气味加重的主要饮食因素认识不足。",
+    "guideline": "加强关于 对高蛋白、高脂肪饮食作为导致大便气味加重的主要饮食因素认识不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 597
+  },
+  {
+    "description": "对闭经的分类理解不够全面，遗漏了“生理性闭经”与“病理性闭经”这一核心分类框架。",
+    "guideline": "加强关于 对闭经的分类理解不够全面，遗漏了“生理性闭经”与“病理性闭经”这一核心分类框架。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 599
+  },
+  {
+    "description": "对诊断流程的细节描述较为简略，未提及孕激素试验、雌孕激素序贯试验、垂体兴奋试验等具体的功能试验及其临床意义。",
+    "guideline": "加强关于 对诊断流程的细节描述较为简略，未提及孕激素试验、雌孕激素序贯试验、垂体兴奋试验等具体的功能试验及其临床意义。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 601
+  },
+  {
+    "description": "对治疗方案的介绍停留在原则层面，未具体说明性激素补充治疗、促排卵等不同疗法的适用人群和基本方法。",
+    "guideline": "加强关于 对治疗方案的介绍停留在原则层面，未具体说明性激素补充治疗、促排卵等不同疗法的适用人群和基本方法。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 603
+  },
+  {
+    "description": "对继发性闭经的准确定义（时间标准）掌握不够精确。",
+    "guideline": "加强关于 对继发性闭经的准确定义（时间标准）掌握不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 605
+  },
+  {
+    "description": "对闭经的病因分类体系（如下丘脑-垂体-卵巢-子宫轴）的完整性略有欠缺，特别是子宫性病因。",
+    "guideline": "加强关于 对闭经的病因分类体系（如下丘脑-垂体-卵巢-子宫轴）的完整性略有欠缺，特别是子宫性病因。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 607
+  },
+  {
+    "description": "对临床诊断闭经的具体功能试验（如孕激素试验）流程和意义提及不足。",
+    "guideline": "加强关于 对临床诊断闭经的具体功能试验（如孕激素试验）流程和意义提及不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 609
+  },
+  {
+    "description": "对“脂肪组织在雌激素代谢中的作用”表述不够严谨，可能过度简化了营养与闭经之间复杂的神经内分泌机制。",
+    "guideline": "加强关于 对“脂肪组织在雌激素代谢中的作用”表述不够严谨，可能过度简化了营养与闭经之间复杂的神经内分泌机制。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 611
+  },
+  {
+    "description": "对皮肤干燥的“生理性”与“病理性”分类概念阐述不明确。AI回答混合列举了各类原因，但未像参考资料一样明确区分这两种类型，特别是未突出“早产儿”作为生理性干燥的典型代表。",
+    "guideline": "加强关于 对皮肤干燥的“生理性”与“病理性”分类概念阐述不明确。AI回答混合列举了各类原因，但未像参考资料一样明确区分这两种类型，特别是未突出“早产儿”作为生理性干燥的典型代表。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 613
+  },
+  {
+    "description": "对“精神因素”（心理压力过大）作为内源性病因之一有所忽略。",
+    "guideline": "加强关于 对“精神因素”（心理压力过大）作为内源性病因之一有所忽略。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 615
+  },
+  {
+    "description": "在治疗和护理建议部分，虽然推荐了保湿成分，但未提及参考资料中提到的如“丙二醇、乙醇酸、乳酸”等具体的保湿剂成分，以及“多磺酸黏多糖乳膏、维A酸类乳膏”等药物选项，这些是医生可能使用的治疗手段。",
+    "guideline": "加强关于 在治疗和护理建议部分，虽然推荐了保湿成分，但未提及参考资料中提到的如“丙二醇、乙醇酸、乳酸”等具体的保湿剂成分，以及“多磺酸黏多糖乳膏、维A酸类乳膏”等药物选项，这些是医生可能使用的治疗手段。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 617
+  },
+  {
+    "description": "对于何时就医的指征，AI回答提到了“大面积”和“几周后无改善”，但参考资料更具体地提到了“面部或身体大面积的出现鳞状皮屑时”以及“皮肤发生皲裂、破溃或继发感染时”。",
+    "guideline": "加强关于 对于何时就医的指征，AI回答提到了“大面积”和“几周后无改善”，但参考资料更具体地提到了“面部或身体大面积的出现鳞状皮屑时”以及“皮肤发生皲裂、破溃或继发感染时”。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 619
+  },
+  {
+    "description": "对皮肤干燥的病因学分类（生理性/病理性）及其对应的高危人群（早产儿、老年人）认识不足。",
+    "guideline": "加强关于 对皮肤干燥的病因学分类（生理性/病理性）及其对应的高危人群（早产儿、老年人）认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 621
+  },
+  {
+    "description": "对病理性皮肤干燥可能伴随的更严重或更具特征性的皮肤形态学改变（如铺路石样、网格样外观）覆盖不全面。",
+    "guideline": "加强关于 对病理性皮肤干燥可能伴随的更严重或更具特征性的皮肤形态学改变（如铺路石样、网格样外观）覆盖不全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 623
+  },
+  {
+    "description": "对特定人群（如早产儿、老年人）的针对性建议。AI回答内容普适性较强，但未提及参考资料中明确的生理性皮肤干燥高发人群（早产儿和老年人），以及针对这些人群可能需要更细致的护理。",
+    "guideline": "加强关于 对特定人群（如早产儿、老年人）的针对性建议。AI回答内容普适性较强，但未提及参考资料中明确的生理性皮肤干燥高发人群（早产儿和老年人），以及针对这些人群可能需要更细致的护理。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 625
+  },
+  {
+    "description": "对病理性皮肤干燥的关联疾病列举不够具体。AI回答提到了“其他疾病（如甲状腺功能减退、湿疹、银屑病等）”，但参考资料在“诊断”部分列举了更广泛的关联疾病，如体癣、寻常鳞屑病、糖尿病、恶性肿瘤、肾功能不全等。",
+    "guideline": "加强关于 对病理性皮肤干燥的关联疾病列举不够具体。AI回答提到了“其他疾病（如甲状腺功能减退、湿疹、银屑病等）”，但参考资料在“诊断”部分列举了更广泛的关联疾病，如体癣、寻常鳞屑病、糖尿病、恶性肿瘤、肾功能不全等。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 627
+  },
+  {
+    "description": "对糜烂性胃炎与胃溃疡的病理学区别（损伤深度）解释不够具体。",
+    "guideline": "加强关于 对糜烂性胃炎与胃溃疡的病理学区别（损伤深度）解释不够具体。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 629
+  },
+  {
+    "description": "未提及部分早期胃癌在胃镜下也可能仅表现为局部粘膜糜烂，需要进一步检查（如活检）以鉴别，这是参考资料中提到的需要警惕的一点。",
+    "guideline": "加强关于 未提及部分早期胃癌在胃镜下也可能仅表现为局部粘膜糜烂，需要进一步检查（如活检）以鉴别，这是参考资料中提到的需要警惕的一点。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 631
+  },
+  {
+    "description": "对消化道出血严重程度的量化判断标准（如出血量对应的具体症状）了解不够深入。",
+    "guideline": "加强关于 对消化道出血严重程度的量化判断标准（如出血量对应的具体症状）了解不够深入。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 633
+  },
+  {
+    "description": "对糜烂性胃炎与胃溃疡在病理损伤深度上的区别（糜烂不超过粘膜肌层，溃疡超过）未作说明，虽然此点并非症状问题的核心，但属于相关知识。",
+    "guideline": "加强关于 对糜烂性胃炎与胃溃疡在病理损伤深度上的区别（糜烂不超过粘膜肌层，溃疡超过）未作说明，虽然此点并非症状问题的核心，但属于相关知识。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 635
+  },
+  {
+    "description": "AI回答对糜烂性胃炎与胃溃疡的鉴别诊断、消化道出血量的具体判断指标（如大便潜血阳性、黑便、呕血对应的出血量）、以及部分早期胃癌可能仅表现为局部黏膜糜烂等诊断相关的细节知识未涉及。这些内容在参考资料中有详细说明，但考虑到患者问题聚焦于病因和高危人群，这些属于更深入的诊断知识，不属于核心回答的必要部分，因此归类为知识薄弱领域而非错误。",
+    "guideline": "加强关于 AI回答对糜烂性胃炎与胃溃疡的鉴别诊断、消化道出血量的具体判断指标（如大便潜血阳性、黑便、呕血对应的出血量）、以及部分早期胃癌可能仅表现为局部黏膜糜烂等诊断相关的细节知识未涉及。这些内容在参考资料中有详细说明，但考虑到患者问题聚焦于病因和高危人群，这些属于更深入的诊断知识，不属于核心回答的必要部分，因此归类为知识薄弱领域而非错误。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 637
+  },
+  {
+    "description": "对产后手脚冰凉的具体生理机制（如汗液蒸发）解释不够深入。",
+    "guideline": "加强关于 对产后手脚冰凉的具体生理机制（如汗液蒸发）解释不够深入。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 639
+  },
+  {
+    "description": "对可能涉及的更广泛的病理性原因（如血管性疾病、饮食失调）覆盖不全。",
+    "guideline": "加强关于 对可能涉及的更广泛的病理性原因（如血管性疾病、饮食失调）覆盖不全。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 641
+  },
+  {
+    "description": "缺乏针对产后不同恢复阶段的、具体的、可操作的运动康复指导。",
+    "guideline": "加强关于 缺乏针对产后不同恢复阶段的、具体的、可操作的运动康复指导。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 643
+  },
+  {
+    "description": "对产后手脚冰凉鉴别诊断的广度掌握不足，未能涵盖所有可能的病理性原因（如低血压、低血糖、外周血管疾病、雷诺氏病、神经性厌食症、严重心血管功能障碍）。",
+    "guideline": "加强关于 对产后手脚冰凉鉴别诊断的广度掌握不足，未能涵盖所有可能的病理性原因（如低血压、低血糖、外周血管疾病、雷诺氏病、神经性厌食症、严重心血管功能障碍）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 645
+  },
+  {
+    "description": "对具体、针对性改善末梢循环的运动方法（如踝泵运动）的推荐不够具体。",
+    "guideline": "加强关于 对具体、针对性改善末梢循环的运动方法（如踝泵运动）的推荐不够具体。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 647
+  },
+  {
+    "description": "对产后手脚冰凉的现代医学病理生理学解释（激素变化导致血管收缩）的阐述深度不足，与传统医学概念（气血不足）的区分和融合可以更清晰。",
+    "guideline": "加强关于 对产后手脚冰凉的现代医学病理生理学解释（激素变化导致血管收缩）的阐述深度不足，与传统医学概念（气血不足）的区分和融合可以更清晰。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 649
+  },
+  {
+    "description": "缺乏对“踝泵运动”这一具体、有效的改善末梢循环运动的介绍。",
+    "guideline": "加强关于 缺乏对“踝泵运动”这一具体、有效的改善末梢循环运动的介绍。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 651
+  },
+  {
+    "description": "在警示症状中，未特别强调“雷诺氏病史”这一特定风险因素。",
+    "guideline": "加强关于 在警示症状中，未特别强调“雷诺氏病史”这一特定风险因素。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 653
+  },
+  {
+    "description": "对神经病学中‘发作性’症状的鉴别诊断知识存在严重缺陷，未能区分‘癫痫发作’与‘前庭性发作（眩晕）’。",
+    "guideline": "加强关于 对神经病学中‘发作性’症状的鉴别诊断知识存在严重缺陷，未能区分‘癫痫发作’与‘前庭性发作（眩晕）’。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 655
+  },
+  {
+    "description": "缺乏对‘旋转性发作’这一特定癫痫综合征的基本认知。",
+    "guideline": "加强关于 缺乏对‘旋转性发作’这一特定癫痫综合征的基本认知。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 657
+  },
+  {
+    "description": "在回答医学定义类问题时，未进行基本的概念核查，将两个完全不同的医学实体混淆。",
+    "guideline": "加强关于 在回答医学定义类问题时，未进行基本的概念核查，将两个完全不同的医学实体混淆。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 659
+  },
+  {
+    "description": "对神经病学中“发作性”疾病（特别是癫痫）的分类和临床表现知识存在严重缺陷。",
+    "guideline": "加强关于 对神经病学中“发作性”疾病（特别是癫痫）的分类和临床表现知识存在严重缺陷。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 661
+  },
+  {
+    "description": "混淆了“眩晕”（前庭系统症状）与“旋转性发作”（癫痫症状）这两个完全不同的医学概念。",
+    "guideline": "加强关于 混淆了“眩晕”（前庭系统症状）与“旋转性发作”（癫痫症状）这两个完全不同的医学概念。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 663
+  },
+  {
+    "description": "缺乏对癫痫部分性发作（动作性发作）表现的基本了解。",
+    "guideline": "加强关于 缺乏对癫痫部分性发作（动作性发作）表现的基本了解。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 665
+  },
+  {
+    "description": "对神经内科疾病，特别是癫痫发作的分类和具体类型（如旋转性发作）缺乏基本认知。",
+    "guideline": "加强关于 对神经内科疾病，特别是癫痫发作的分类和具体类型（如旋转性发作）缺乏基本认知。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 667
+  },
+  {
+    "description": "混淆了症状相似但病因和诊疗路径完全不同的疾病（前庭性眩晕 vs. 癫痫性旋转发作）。",
+    "guideline": "加强关于 混淆了症状相似但病因和诊疗路径完全不同的疾病（前庭性眩晕 vs. 癫痫性旋转发作）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 669
+  },
+  {
+    "description": "缺乏对癫痫诊断金标准（脑电图）和治疗原则（抗癫痫药物、手术适应症）的了解。",
+    "guideline": "加强关于 缺乏对癫痫诊断金标准（脑电图）和治疗原则（抗癫痫药物、手术适应症）的了解。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 671
+  },
+  {
+    "description": "对心绞痛分型的完整认知（遗漏变异型心绞痛）",
+    "guideline": "加强关于 对心绞痛分型的完整认知（遗漏变异型心绞痛） 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 673
+  },
+  {
+    "description": "对心绞痛潜在并发症的系统性阐述",
+    "guideline": "加强关于 对心绞痛潜在并发症的系统性阐述 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 675
+  },
+  {
+    "description": "对心绞痛药物治疗类别的全面覆盖（如抗凝药物）",
+    "guideline": "加强关于 对心绞痛药物治疗类别的全面覆盖（如抗凝药物） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 677
+  },
+  {
+    "description": "对心绞痛临床分型（稳定型、不稳定型、变异型）及其各自症状特点的详细阐述不足。",
+    "guideline": "加强关于 对心绞痛临床分型（稳定型、不稳定型、变异型）及其各自症状特点的详细阐述不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 679
+  },
+  {
+    "description": "对心绞痛并发症（如严重心律失常、心肌梗死、猝死）的介绍缺失。",
+    "guideline": "加强关于 对心绞痛并发症（如严重心律失常、心肌梗死、猝死）的介绍缺失。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 681
+  },
+  {
+    "description": "对心绞痛诊断方法（如心电图、心肌坏死标记物、冠状动脉造影）的介绍缺失。",
+    "guideline": "加强关于 对心绞痛诊断方法（如心电图、心肌坏死标记物、冠状动脉造影）的介绍缺失。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 683
+  },
+  {
+    "description": "对心绞痛高危人群的列举不够全面，特别是对“老年人”这一独立高危因素，以及“其他疾病（如甲亢、心律失常）”等非传统心血管危险因素的关联性认识不足。",
+    "guideline": "加强关于 对心绞痛高危人群的列举不够全面，特别是对“老年人”这一独立高危因素，以及“其他疾病（如甲亢、心律失常）”等非传统心血管危险因素的关联性认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 685
+  },
+  {
+    "description": "在预防建议中，对“劳逸结合”这一针对心绞痛特定诱因（劳力因素）的预防措施强调不够。",
+    "guideline": "加强关于 在预防建议中，对“劳逸结合”这一针对心绞痛特定诱因（劳力因素）的预防措施强调不够。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 687
+  },
+  {
+    "description": "对寄生虫病具体类型的列举不够全面（如遗漏绦虫）。",
+    "guideline": "加强关于 对寄生虫病具体类型的列举不够全面（如遗漏绦虫）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 689
+  },
+  {
+    "description": "对寄生虫病的流行病学特点（地理、季节、自然疫源性）介绍不足。",
+    "guideline": "加强关于 对寄生虫病的流行病学特点（地理、季节、自然疫源性）介绍不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 691
+  },
+  {
+    "description": "对诊断方法的分类和描述较为笼统。",
+    "guideline": "加强关于 对诊断方法的分类和描述较为笼统。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 693
+  },
+  {
+    "description": "对治疗方案的描述不够全面，未提及支持疗法和手术。",
+    "guideline": "加强关于 对治疗方案的描述不够全面，未提及支持疗法和手术。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 695
+  },
+  {
+    "description": "完全缺失关于疾病预后的信息。",
+    "guideline": "加强关于 完全缺失关于疾病预后的信息。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 697
+  },
+  {
+    "description": "对寄生虫感染中“无症状感染”这一普遍现象的认知和强调不足。",
+    "guideline": "加强关于 对寄生虫感染中“无症状感染”这一普遍现象的认知和强调不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 699
+  },
+  {
+    "description": "对特定寄生虫（如蛔虫）引起的更广泛的营养不良（蛋白质、维生素缺乏）描述不够具体。",
+    "guideline": "加强关于 对特定寄生虫（如蛔虫）引起的更广泛的营养不良（蛋白质、维生素缺乏）描述不够具体。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 701
+  },
+  {
+    "description": "对某些寄生虫（如绦虫）感染可能引起的神经系统等严重并发症的认知不够全面。",
+    "guideline": "加强关于 对某些寄生虫（如绦虫）感染可能引起的神经系统等严重并发症的认知不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 703
+  },
+  {
+    "description": "甲状腺疾病的病因和常见人群：AI回答完全未提及病因（如碘摄入、免疫、遗传、环境、感染等）和常见高危人群（如压力大、熬夜、特定地域、有家族史、妊娠期妇女等）。",
+    "guideline": "加强关于 甲状腺疾病的病因和常见人群：AI回答完全未提及病因（如碘摄入、免疫、遗传、环境、感染等）和常见高危人群（如压力大、熬夜、特定地域、有家族史、妊娠期妇女等）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 705
+  },
+  {
+    "description": "甲状腺疾病的详细诊疗路径：AI回答给出了基础的就诊和检查建议，但未涵盖参考资料中提到的详细问诊要点（如家族史、居住地、饮食、用药史等）以及更全面的检查手段（如甲状腺B超、穿刺活检、摄碘率、核素显像等）及其适用场景。",
+    "guideline": "加强关于 甲状腺疾病的详细诊疗路径：AI回答给出了基础的就诊和检查建议，但未涵盖参考资料中提到的详细问诊要点（如家族史、居住地、饮食、用药史等）以及更全面的检查手段（如甲状腺B超、穿刺活检、摄碘率、核素显像等）及其适用场景。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 707
+  },
+  {
+    "description": "甲状腺疾病的治疗与生活管理：AI回答仅提及“大多数甲状腺疾病可以通过药物得到有效控制”，但未区分不同疾病（如甲亢、甲减、结节、甲状腺炎）的具体治疗原则（药物、放射性碘131、手术等）。完全未涉及至关重要的饮食管理（特别是碘的摄入管理）和生活方式预防建议。",
+    "guideline": "加强关于 甲状腺疾病的治疗与生活管理：AI回答仅提及“大多数甲状腺疾病可以通过药物得到有效控制”，但未区分不同疾病（如甲亢、甲减、结节、甲状腺炎）的具体治疗原则（药物、放射性碘131、手术等）。完全未涉及至关重要的饮食管理（特别是碘的摄入管理）和生活方式预防建议。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 709
+  },
+  {
+    "description": "甲状腺的生理调控机制：未解释下丘脑-垂体-甲状腺轴（HPT轴）的调控原理，这对于理解甲状腺功能异常的根源（是甲状腺本身问题还是上级调控中枢问题）很重要。",
+    "guideline": "加强关于 甲状腺的生理调控机制：未解释下丘脑-垂体-甲状腺轴（HPT轴）的调控原理，这对于理解甲状腺功能异常的根源（是甲状腺本身问题还是上级调控中枢问题）很重要。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 711
+  },
+  {
+    "description": "对甲状腺疾病具体亚型（如单纯甲状腺肿、各类甲状腺炎）的典型症状谱掌握不够全面和细致。",
+    "guideline": "加强关于 对甲状腺疾病具体亚型（如单纯甲状腺肿、各类甲状腺炎）的典型症状谱掌握不够全面和细致。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 713
+  },
+  {
+    "description": "对甲状腺疾病诊断流程中，病史采集和风险因素评估的重要性强调不足。",
+    "guideline": "加强关于 对甲状腺疾病诊断流程中，病史采集和风险因素评估的重要性强调不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 715
+  },
+  {
+    "description": "对甲状腺疾病病因中‘感染’因素的认知可能不全面。",
+    "guideline": "加强关于 对甲状腺疾病病因中‘感染’因素的认知可能不全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 717
+  },
+  {
+    "description": "对预防措施中‘避免接触放射线环境’这一具体表述的强调程度可能不足。",
+    "guideline": "加强关于 对预防措施中‘避免接触放射线环境’这一具体表述的强调程度可能不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 719
+  },
+  {
+    "description": "缺乏关于特定食物（如十字花科蔬菜）与甲状腺健康关系的详细背景知识。",
+    "guideline": "加强关于 缺乏关于特定食物（如十字花科蔬菜）与甲状腺健康关系的详细背景知识。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 721
+  },
+  {
+    "description": "对垂体解剖和激素分泌结构的精确描述（前叶 vs. 后叶）。",
+    "guideline": "加强关于 对垂体解剖和激素分泌结构的精确描述（前叶 vs. 后叶）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 723
+  },
+  {
+    "description": "对不同年龄段（尤其是新生儿、婴幼儿）患者临床表现的差异认识。",
+    "guideline": "加强关于 对不同年龄段（尤其是新生儿、婴幼儿）患者临床表现的差异认识。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 725
+  },
+  {
+    "description": "对疾病流行病学数据（患病率、发病率）和具体病因构成比例的掌握。",
+    "guideline": "加强关于 对疾病流行病学数据（患病率、发病率）和具体病因构成比例的掌握。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 727
+  },
+  {
+    "description": "对垂体功能减退症在不同年龄群体（特别是儿童和青少年）中的特异性临床表现认识不足。",
+    "guideline": "加强关于 对垂体功能减退症在不同年龄群体（特别是儿童和青少年）中的特异性临床表现认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 729
+  },
+  {
+    "description": "对疾病的具体病因分布（如垂体肿瘤的高占比）和流行病学数据（如患病率、发病率）的掌握不够全面。",
+    "guideline": "加强关于 对疾病的具体病因分布（如垂体肿瘤的高占比）和流行病学数据（如患病率、发病率）的掌握不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 731
+  },
+  {
+    "description": "对孕期泌乳发生概率和个体差异的精确描述：未强调“大多数孕中期不会分泌”以及“没有分泌也正常”。",
+    "guideline": "加强关于 对孕期泌乳发生概率和个体差异的精确描述：未强调“大多数孕中期不会分泌”以及“没有分泌也正常”。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 733
+  },
+  {
+    "description": "对特定异常分泌物（咖啡色/铁锈色）的识别和其临床意义的详细说明。",
+    "guideline": "加强关于 对特定异常分泌物（咖啡色/铁锈色）的识别和其临床意义的详细说明。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 735
+  },
+  {
+    "description": "AI助手在解释可能原因时，虽然提到了良性和需要警惕的原因，但未明确区分孕期与非孕期血性溢液病因谱的差异。参考资料更侧重于孕期这一特定情境下的评估（评估哺乳安全性和可行性），而AI助手的回答更接近普适性的血性溢液处理原则，对孕期特殊性的结合可以更紧密。",
+    "guideline": "加强关于 AI助手在解释可能原因时，虽然提到了良性和需要警惕的原因，但未明确区分孕期与非孕期血性溢液病因谱的差异。参考资料更侧重于孕期这一特定情境下的评估（评估哺乳安全性和可行性），而AI助手的回答更接近普适性的血性溢液处理原则，对孕期特殊性的结合可以更紧密。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 737
+  },
+  {
+    "description": "对孕期泌乳具体发生时间的生理机制描述不够精确。参考资料强调了孕激素的抑制作用，指出大多数人在孕中期只是‘形成’而非‘分泌’初乳，而AI回答简化了这一过程，可能让用户对‘分泌’这一现象的发生时间产生误解。",
+    "guideline": "加强关于 对孕期泌乳具体发生时间的生理机制描述不够精确。参考资料强调了孕激素的抑制作用，指出大多数人在孕中期只是‘形成’而非‘分泌’初乳，而AI回答简化了这一过程，可能让用户对‘分泌’这一现象的发生时间产生误解。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 739
+  },
+  {
+    "description": "副神经节瘤与嗜铬细胞瘤的现代定义与区分标准（根据WHO分类）。",
+    "guideline": "加强关于 副神经节瘤与嗜铬细胞瘤的现代定义与区分标准（根据WHO分类）。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 741
+  },
+  {
+    "description": "副神经节瘤的遗传背景、相关基因及遗传模式。",
+    "guideline": "加强关于 副神经节瘤的遗传背景、相关基因及遗传模式。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 743
+  },
+  {
+    "description": "关于疾病“治愈”与“根治”的 nuanced 描述（参考资料提到可达到临床“治愈”但很难完全“根治”）。",
+    "guideline": "加强关于 关于疾病“治愈”与“根治”的 nuanced 描述（参考资料提到可达到临床“治愈”但很难完全“根治”）。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 745
+  },
+  {
+    "description": "对副神经节瘤可能引起的非典型症状（如直立性低血压、视觉模糊、便秘、高血糖等）覆盖不足。",
+    "guideline": "加强关于 对副神经节瘤可能引起的非典型症状（如直立性低血压、视觉模糊、便秘、高血糖等）覆盖不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 747
+  },
+  {
+    "description": "对特定部位（如膀胱）副神经节瘤的独特症状提及不够。",
+    "guideline": "加强关于 对特定部位（如膀胱）副神经节瘤的独特症状提及不够。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 749
+  },
+  {
+    "description": "对‘最常见部位’的表述缺乏更精确的限定（例如，区分交感神经与副交感神经来源肿瘤的好发部位），且与功能性的关联表述可能引起误解。",
+    "guideline": "加强关于 对‘最常见部位’的表述缺乏更精确的限定（例如，区分交感神经与副交感神经来源肿瘤的好发部位），且与功能性的关联表述可能引起误解。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 751
+  },
+  {
+    "description": "对副神经节瘤与嗜铬细胞瘤基于WHO的精确解剖学区分定义掌握不够清晰。",
+    "guideline": "加强关于 对副神经节瘤与嗜铬细胞瘤基于WHO的精确解剖学区分定义掌握不够清晰。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 753
+  },
+  {
+    "description": "对生化诊断标志物的历史沿革或备选方案（如VMA）提及不足。",
+    "guideline": "加强关于 对生化诊断标志物的历史沿革或备选方案（如VMA）提及不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 755
+  },
+  {
+    "description": "对组胺中毒的“过敏性食物中毒”双重属性的完整阐述。",
+    "guideline": "加强关于 对组胺中毒的“过敏性食物中毒”双重属性的完整阐述。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 757
+  },
+  {
+    "description": "对组胺生成的具体环境条件（温度、pH、盐度）的了解。",
+    "guideline": "加强关于 对组胺生成的具体环境条件（温度、pH、盐度）的了解。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 759
+  },
+  {
+    "description": "对家庭层面具体、可操作的预防和去毒措施的掌握。",
+    "guideline": "加强关于 对家庭层面具体、可操作的预防和去毒措施的掌握。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 761
+  },
+  {
+    "description": "对标准医疗处理流程（如急诊就诊、催吐洗胃、抗组胺药使用）的详细说明。",
+    "guideline": "加强关于 对标准医疗处理流程（如急诊就诊、催吐洗胃、抗组胺药使用）的详细说明。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 763
+  },
+  {
+    "description": "对组胺中毒的完整诊断流程（包括实验室检验标准）了解不够深入。",
+    "guideline": "加强关于 对组胺中毒的完整诊断流程（包括实验室检验标准）了解不够深入。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 765
+  },
+  {
+    "description": "对组胺中毒的流行病学特征（季节性、环境条件）提及不足。",
+    "guideline": "加强关于 对组胺中毒的流行病学特征（季节性、环境条件）提及不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 767
+  },
+  {
+    "description": "对病程细节（体温、确切恢复时间）的描述不够精确。",
+    "guideline": "加强关于 对病程细节（体温、确切恢复时间）的描述不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 769
+  },
+  {
+    "description": "对家庭具体去毒处理措施（物理去除和化学处理）的详细知识掌握不全面。",
+    "guideline": "加强关于 对家庭具体去毒处理措施（物理去除和化学处理）的详细知识掌握不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 771
+  },
+  {
+    "description": "对‘鲭鱼中毒’这一术语的精确使用和界定不够严谨。",
+    "guideline": "加强关于 对‘鲭鱼中毒’这一术语的精确使用和界定不够严谨。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 773
+  },
+  {
+    "description": "对妊娠合并急性胆囊炎和胆石症在孕期急腹症中的流行病学地位（发病率仅次于阑尾炎）认识不足。",
+    "guideline": "加强关于 对妊娠合并急性胆囊炎和胆石症在孕期急腹症中的流行病学地位（发病率仅次于阑尾炎）认识不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 775
+  },
+  {
+    "description": "对疾病可能引发的多种严重并发症（如急性化脓性胆管炎、胆汁性腹膜炎、胆源性胰腺炎）及其具体表现的阐述不够全面。",
+    "guideline": "加强关于 对疾病可能引发的多种严重并发症（如急性化脓性胆管炎、胆汁性腹膜炎、胆源性胰腺炎）及其具体表现的阐述不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 777
+  },
+  {
+    "description": "对诊断过程中除B超外的其他实验室检查（血常规、肝功能、细菌培养）及鉴别诊断知识覆盖不全。",
+    "guideline": "加强关于 对诊断过程中除B超外的其他实验室检查（血常规、肝功能、细菌培养）及鉴别诊断知识覆盖不全。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 779
+  },
+  {
+    "description": "对非手术治疗中“控制饮食”的具体内容（如高糖、高蛋白、低脂肪流食，补充维生素）和“胃肠减压”的提及缺失。",
+    "guideline": "加强关于 对非手术治疗中“控制饮食”的具体内容（如高糖、高蛋白、低脂肪流食，补充维生素）和“胃肠减压”的提及缺失。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 781
+  },
+  {
+    "description": "对可采取的手术方式多样性（除腹腔镜外还有其他引流或切除术）及术后保胎治疗的认知不完整。",
+    "guideline": "加强关于 对可采取的手术方式多样性（除腹腔镜外还有其他引流或切除术）及术后保胎治疗的认知不完整。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 783
+  },
+  {
+    "description": "对妊娠期胆囊炎/胆石症并发症的全面认识。",
+    "guideline": "加强关于 对妊娠期胆囊炎/胆石症并发症的全面认识。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 785
+  },
+  {
+    "description": "对妊娠期腹痛发作时间（夜间多见）的细节了解。",
+    "guideline": "加强关于 对妊娠期腹痛发作时间（夜间多见）的细节了解。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 787
+  },
+  {
+    "description": "对妊娠期合并症患者首诊科室（妇产科）的明确指引。",
+    "guideline": "加强关于 对妊娠期合并症患者首诊科室（妇产科）的明确指引。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 789
+  },
+  {
+    "description": "对妊娠期胆石症具体病理生理机制（如胆固醇浓度变化、胆酸池、胆囊容量与排泄关系）的详细阐述。",
+    "guideline": "加强关于 对妊娠期胆石症具体病理生理机制（如胆固醇浓度变化、胆酸池、胆囊容量与排泄关系）的详细阐述。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 791
+  },
+  {
+    "description": "对症状“夜间发作”这一典型特点的强调。",
+    "guideline": "加强关于 对症状“夜间发作”这一典型特点的强调。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 793
+  },
+  {
+    "description": "对参考资料中高度凝练的预防核心要点的直接引用或呼应。",
+    "guideline": "加强关于 对参考资料中高度凝练的预防核心要点的直接引用或呼应。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 795
+  },
+  {
+    "description": "对结缔组织病一些特征性但非特异性的全身症状（如雷诺现象、发热）在概述性回答中的强调程度。",
+    "guideline": "加强关于 对结缔组织病一些特征性但非特异性的全身症状（如雷诺现象、发热）在概述性回答中的强调程度。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 797
+  },
+  {
+    "description": "对结缔组织病具体并发症（如肺间质病变、肢端坏死、反流性食管炎）的认知。AI回答提到了器官影响，但未使用“并发症”这一术语并展开具体后果。",
+    "guideline": "加强关于 对结缔组织病具体并发症（如肺间质病变、肢端坏死、反流性食管炎）的认知。AI回答提到了器官影响，但未使用“并发症”这一术语并展开具体后果。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 799
+  },
+  {
+    "description": "对结缔组织病病因（遗传、环境、感染）、高危人群、遗传性、对生育的影响等更深入背景信息的掌握。AI回答聚焦于疾病定义和影响部位，未涉及这些方面。",
+    "guideline": "加强关于 对结缔组织病病因（遗传、环境、感染）、高危人群、遗传性、对生育的影响等更深入背景信息的掌握。AI回答聚焦于疾病定义和影响部位，未涉及这些方面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 801
+  },
+  {
+    "description": "对诊断方法（如具体检查项目）、治疗药物类别及手术方式的详细知识。AI回答给出了就诊科室和诊断治疗原则，但未提供具体细节。",
+    "guideline": "加强关于 对诊断方法（如具体检查项目）、治疗药物类别及手术方式的详细知识。AI回答给出了就诊科室和诊断治疗原则，但未提供具体细节。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 803
+  },
+  {
+    "description": "对结缔组织病具体疾病类型（如干燥综合征）的典型症状关联性描述不够深入。AI回答将症状按系统分类，但未明确指出某些症状（如口干眼干）与特定疾病亚型（干燥综合征）的强关联。",
+    "guideline": "加强关于 对结缔组织病具体疾病类型（如干燥综合征）的典型症状关联性描述不够深入。AI回答将症状按系统分类，但未明确指出某些症状（如口干眼干）与特定疾病亚型（干燥综合征）的强关联。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 805
+  },
+  {
+    "description": "对林奇综合征相关基因的完整列表（特别是EPCAM基因）认知不全面。",
+    "guideline": "加强关于 对林奇综合征相关基因的完整列表（特别是EPCAM基因）认知不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 807
+  },
+  {
+    "description": "对子宫内膜癌和卵巢癌具体风险数值的精确范围掌握不够准确。",
+    "guideline": "加强关于 对子宫内膜癌和卵巢癌具体风险数值的精确范围掌握不够准确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 809
+  },
+  {
+    "description": "对诊断标准（阿姆斯特丹标准II）的敏感性和特异性了解不足。",
+    "guideline": "加强关于 对诊断标准（阿姆斯特丹标准II）的敏感性和特异性了解不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 811
+  },
+  {
+    "description": "对具体的、基于年龄的癌症筛查起始时间和频率建议不够详细。",
+    "guideline": "加强关于 对具体的、基于年龄的癌症筛查起始时间和频率建议不够详细。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 813
+  },
+  {
+    "description": "对预防性药物（如阿司匹林、口服避孕药）在降低特定癌症风险方面的潜在作用未提及。",
+    "guideline": "加强关于 对预防性药物（如阿司匹林、口服避孕药）在降低特定癌症风险方面的潜在作用未提及。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 815
+  },
+  {
+    "description": "对林奇综合征相关癌症的流行病学特征（如发病年龄、部位特点）掌握不够全面。",
+    "guideline": "加强关于 对林奇综合征相关癌症的流行病学特征（如发病年龄、部位特点）掌握不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 817
+  },
+  {
+    "description": "对林奇综合征的全面筛查方案（包括所有推荐筛查项目及其起始年龄和频率）的细节描述不够精确。",
+    "guideline": "加强关于 对林奇综合征的全面筛查方案（包括所有推荐筛查项目及其起始年龄和频率）的细节描述不够精确。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 819
+  },
+  {
+    "description": "对林奇综合征的预防性药物（如阿司匹林、口服避孕药）的潜在作用了解不足。",
+    "guideline": "加强关于 对林奇综合征的预防性药物（如阿司匹林、口服避孕药）的潜在作用了解不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 821
+  },
+  {
+    "description": "对“哪些未患癌的个体应进行林奇综合征基因评估”的具体临床标准（如阿姆斯特丹II标准、预测模型）掌握不够全面，仅笼统建议咨询评估。",
+    "guideline": "加强关于 对“哪些未患癌的个体应进行林奇综合征基因评估”的具体临床标准（如阿姆斯特丹II标准、预测模型）掌握不够全面，仅笼统建议咨询评估。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 823
+  },
+  {
+    "description": "对林奇综合征全面癌症筛查谱系的了解存在轻微遗漏，在给出具体筛查建议时，主要聚焦于结直肠癌和妇科癌症，未涵盖胃癌、泌尿系统肿瘤等其他相关癌症的筛查建议。",
+    "guideline": "加强关于 对林奇综合征全面癌症筛查谱系的了解存在轻微遗漏，在给出具体筛查建议时，主要聚焦于结直肠癌和妇科癌症，未涵盖胃癌、泌尿系统肿瘤等其他相关癌症的筛查建议。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 825
+  },
+  {
+    "description": "AI回答未明确提及参考资料中关于“染发、烫发”的相关信息。虽然患者问题未直接询问，但参考资料将其作为“哺乳期美妆”的一部分进行说明，AI回答若想提供更全面的背景信息，可简要提及。这属于可选的扩展信息，并非核心遗漏。",
+    "guideline": "加强关于 AI回答未明确提及参考资料中关于“染发、烫发”的相关信息。虽然患者问题未直接询问，但参考资料将其作为“哺乳期美妆”的一部分进行说明，AI回答若想提供更全面的背景信息，可简要提及。这属于可选的扩展信息，并非核心遗漏。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 827
+  },
+  {
+    "description": "对“无证据表明禁用”与“存在理论风险”之间的平衡表述不够精准。回答侧重于风险提示和预防措施，但对“可以正常使用”这一基于现有证据的结论强调不足，可能导致用户过度解读风险。",
+    "guideline": "加强关于 对“无证据表明禁用”与“存在理论风险”之间的平衡表述不够精准。回答侧重于风险提示和预防措施，但对“可以正常使用”这一基于现有证据的结论强调不足，可能导致用户过度解读风险。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 829
+  },
+  {
+    "description": "参考资料中明确提到“除非是因为疾病损害了头皮皮肤的完整性”，这是避免染烫的一个重要前提条件。AI回答在“需要警惕的情况”和“最后提醒”部分提到了头皮有伤口、湿疹或感染时应避免，但未像参考资料那样明确指出这是影响化学物质吸收并可能增加风险的关键因素。",
+    "guideline": "加强关于 参考资料中明确提到“除非是因为疾病损害了头皮皮肤的完整性”，这是避免染烫的一个重要前提条件。AI回答在“需要警惕的情况”和“最后提醒”部分提到了头皮有伤口、湿疹或感染时应避免，但未像参考资料那样明确指出这是影响化学物质吸收并可能增加风险的关键因素。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 831
+  },
+  {
+    "description": "对口腔增生型疣状白斑（OPVL）作为一种特殊、独立疾病的认知不足。未能区分OPVL与普通口腔白斑在病因学、流行病学（好发于老年女性）、临床病程（多灶性、侵袭性、高复发率）和预后管理（无治愈方法、需终生随访）上的核心差异。",
+    "guideline": "加强关于 对口腔增生型疣状白斑（OPVL）作为一种特殊、独立疾病的认知不足。未能区分OPVL与普通口腔白斑在病因学、流行病学（好发于老年女性）、临床病程（多灶性、侵袭性、高复发率）和预后管理（无治愈方法、需终生随访）上的核心差异。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 833
+  },
+  {
+    "description": "对OPVL诊断复杂性的认识不足，未提及早期诊断困难及需要与多种口腔黏膜病进行鉴别诊断。",
+    "guideline": "加强关于 对OPVL诊断复杂性的认识不足，未提及早期诊断困难及需要与多种口腔黏膜病进行鉴别诊断。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 835
+  },
+  {
+    "description": "对OPVL治疗现状和预后的认识不全面，未强调其目前无法治愈、复发率极高（约90%）的特点。",
+    "guideline": "加强关于 对OPVL治疗现状和预后的认识不全面，未强调其目前无法治愈、复发率极高（约90%）的特点。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 837
+  },
+  {
+    "description": "对口腔增生型疣状白斑（OPVL）区别于普通白斑的核心临床特征（多病灶、侵袭性、极易恶变、四阶段进展）掌握不全面。",
+    "guideline": "加强关于 对口腔增生型疣状白斑（OPVL）区别于普通白斑的核心临床特征（多病灶、侵袭性、极易恶变、四阶段进展）掌握不全面。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 839
+  },
+  {
+    "description": "对该疾病的流行病学特点（好发于老年女性、罕见性）了解不足。",
+    "guideline": "加强关于 对该疾病的流行病学特点（好发于老年女性、罕见性）了解不足。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 841
+  },
+  {
+    "description": "对该疾病的诊断流程（除活检外，还包括脱落细胞检查、甲胺蓝染色等辅助检查）描述不完整。",
+    "guideline": "加强关于 对该疾病的诊断流程（除活检外，还包括脱落细胞检查、甲胺蓝染色等辅助检查）描述不完整。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 843
+  },
+  {
+    "description": "完全缺失关于该疾病治疗困难、高复发率及需终生随访管理的核心信息。",
+    "guideline": "加强关于 完全缺失关于该疾病治疗困难、高复发率及需终生随访管理的核心信息。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 845
+  },
+  {
+    "description": "对口腔增生型疣状白斑（OPVL）这一特定疾病类型的病因学认识不足。AI助手混淆了常规口腔白斑与OPVL在危险因素上的关键区别。",
+    "guideline": "加强关于 对口腔增生型疣状白斑（OPVL）这一特定疾病类型的病因学认识不足。AI助手混淆了常规口腔白斑与OPVL在危险因素上的关键区别。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 847
+  },
+  {
+    "description": "对OPVL疾病特点（如罕见性、好发于老年女性、高侵袭性、高复发率、与常规白斑的区别）的理解不够深入，导致在提供背景信息时可能不够精准。",
+    "guideline": "加强关于 对OPVL疾病特点（如罕见性、好发于老年女性、高侵袭性、高复发率、与常规白斑的区别）的理解不够深入，导致在提供背景信息时可能不够精准。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 849
+  },
+  {
+    "description": "对NT增厚可能是一过性生理现象（约80%-90%）的强调不足。",
+    "guideline": "加强关于 对NT增厚可能是一过性生理现象（约80%-90%）的强调不足。 的知识准确性和完整性",
+    "category": "general",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 851
+  },
+  {
+    "description": "未明确说明NT检查作为筛查的局限性，即NT值正常也不能完全排除胎儿畸形。",
+    "guideline": "加强关于 未明确说明NT检查作为筛查的局限性，即NT值正常也不能完全排除胎儿畸形。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 853
+  },
+  {
+    "description": "对NT检查前“憋尿”这一准备要求的普遍性判断存在偏差。AI助手将其描述为一种可能（尤其是孕周较早时），而权威资料更倾向于强调“无需特别准备”，并将检查成功的关键因素指向胎儿体位而非孕妇的憋尿状态。",
+    "guideline": "加强关于 对NT检查前“憋尿”这一准备要求的普遍性判断存在偏差。AI助手将其描述为一种可能（尤其是孕周较早时），而权威资料更倾向于强调“无需特别准备”，并将检查成功的关键因素指向胎儿体位而非孕妇的憋尿状态。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 855
+  },
+  {
+    "description": "对检查核心挑战的描述不够精确。AI助手提到了“憋尿”以帮助成像，但未明确指出“胎儿体位”是影响测量准确性的最关键因素，以及孕妇需要配合调整胎儿姿势的耐心。",
+    "guideline": "加强关于 对检查核心挑战的描述不够精确。AI助手提到了“憋尿”以帮助成像，但未明确指出“胎儿体位”是影响测量准确性的最关键因素，以及孕妇需要配合调整胎儿姿势的耐心。 的知识准确性和完整性",
+    "category": "examinations",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 857
+  },
+  {
+    "description": "手术禁忌证（如抗血小板禁忌、多支血管病变、合并瓣膜病）",
+    "guideline": "加强关于 手术禁忌证（如抗血小板禁忌、多支血管病变、合并瓣膜病） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 859
+  },
+  {
+    "description": "具体的手术风险和并发症（如血管破裂、夹层、心律失常）",
+    "guideline": "加强关于 具体的手术风险和并发症（如血管破裂、夹层、心律失常） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 861
+  },
+  {
+    "description": "支架的类型（药物涂层、生物可降解）及选择依据",
+    "guideline": "加强关于 支架的类型（药物涂层、生物可降解）及选择依据 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 863
+  },
+  {
+    "description": "替代治疗方案（特别是心脏搭桥手术）",
+    "guideline": "加强关于 替代治疗方案（特别是心脏搭桥手术） 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 865
+  },
+  {
+    "description": "术后抗血小板药物治疗的具体时长要求",
+    "guideline": "加强关于 术后抗血小板药物治疗的具体时长要求 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 867
+  },
+  {
+    "description": "对某些特定但重要的并发症（如心包填塞、骨筋膜室综合征）的识别和描述不够全面。",
+    "guideline": "加强关于 对某些特定但重要的并发症（如心包填塞、骨筋膜室综合征）的识别和描述不够全面。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 869
+  },
+  {
+    "description": "对术后即刻药物管理（抗凝药物与抗血小板药物的联合使用）的细节描述略有欠缺。",
+    "guideline": "加强关于 对术后即刻药物管理（抗凝药物与抗血小板药物的联合使用）的细节描述略有欠缺。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 871
+  },
+  {
+    "description": "术后短期（住院期间）的具体护理和活动限制，特别是针对急性心肌梗死患者。",
+    "guideline": "加强关于 术后短期（住院期间）的具体护理和活动限制，特别是针对急性心肌梗死患者。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 873
+  },
+  {
+    "description": "不同类型冠心病患者（稳定型 vs. 急性心梗）在运动康复起始时间和强度上的具体差异。",
+    "guideline": "加强关于 不同类型冠心病患者（稳定型 vs. 急性心梗）在运动康复起始时间和强度上的具体差异。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 875
+  },
+  {
+    "description": "术后促进造影剂排出的短期措施。",
+    "guideline": "加强关于 术后促进造影剂排出的短期措施。 的知识准确性和完整性",
+    "category": "surgeries",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 877
+  },
+  {
+    "description": "流感疫苗的详细剂型划分（如三价疫苗的0.25mL和0.5mL剂型）及其对应的精确年龄范围。",
+    "guideline": "加强关于 流感疫苗的详细剂型划分（如三价疫苗的0.25mL和0.5mL剂型）及其对应的精确年龄范围。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 879
+  },
+  {
+    "description": "流感疫苗按制作工艺的分类（全病毒、裂解、亚单位）及我国现有类型。",
+    "guideline": "加强关于 流感疫苗按制作工艺的分类（全病毒、裂解、亚单位）及我国现有类型。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 881
+  },
+  {
+    "description": "不同人群（特别是儿童）的接种剂次方案（如首次接种需2剂）。",
+    "guideline": "加强关于 不同人群（特别是儿童）的接种剂次方案（如首次接种需2剂）。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 883
+  },
+  {
+    "description": "疫苗保护效果的持续时间（衰减期）。",
+    "guideline": "加强关于 疫苗保护效果的持续时间（衰减期）。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 885
+  },
+  {
+    "description": "对特定高风险人群（如<6月龄婴儿的密切接触者）的推荐接种策略了解不够全面。",
+    "guideline": "加强关于 对特定高风险人群（如<6月龄婴儿的密切接触者）的推荐接种策略了解不够全面。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 887
+  },
+  {
+    "description": "对慢性病具体涵盖的疾病类型列举不够详尽。",
+    "guideline": "加强关于 对慢性病具体涵盖的疾病类型列举不够详尽。 的知识准确性和完整性",
+    "category": "diseases",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 889
+  },
+  {
+    "description": "对不同年龄段儿童接种重要性的细分理由阐述不足。",
+    "guideline": "加强关于 对不同年龄段儿童接种重要性的细分理由阐述不足。 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 891
+  },
+  {
+    "description": "疫苗保护效果的持续时间（衰减期）",
+    "guideline": "加强关于 疫苗保护效果的持续时间（衰减期） 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 893
+  },
+  {
+    "description": "与其他疫苗联合接种的注意事项",
+    "guideline": "加强关于 与其他疫苗联合接种的注意事项 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 895
+  },
+  {
+    "description": "特定人群（如孕妇、慢性病患者）接种后的特殊注意事项（虽然问题未直接询问，但作为全面信息的一部分）",
+    "guideline": "加强关于 特定人群（如孕妇、慢性病患者）接种后的特殊注意事项（虽然问题未直接询问，但作为全面信息的一部分） 的知识准确性和完整性",
+    "category": "vaccines",
+    "error_type": "knowledge_gap",
+    "severity": "minor",
+    "frequency": 1,
+    "examples": [],
+    "id": 897
+  }
+]

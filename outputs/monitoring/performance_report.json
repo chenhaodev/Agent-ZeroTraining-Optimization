@@ -1,0 +1,83 @@
+{
+  "retrieval": {
+    "num_queries": 100,
+    "avg_latency_ms": 21.044330596923828,
+    "min_latency_ms": 0.15401840209960938,
+    "max_latency_ms": 972.7380275726318,
+    "p50_latency_ms": 0.1761913299560547,
+    "p95_latency_ms": 0.26106834411621094,
+    "p99_latency_ms": 972.7380275726318
+  },
+  "cache": {
+    "cache_exists": false,
+    "cached_embeddings": 0
+  },
+  "storage": {
+    "total_patterns": 169,
+    "storage_size_mb": 2.0583667755126953,
+    "category_distribution": {
+      "diseases": 82,
+      "general": 43,
+      "surgeries": 17,
+      "examinations": 16,
+      "vaccines": 11
+    },
+    "frequency_distribution": {
+      "1": 169
+    },
+    "avg_patterns_per_category": 33.8
+  },
+  "quality_trends": {
+    "has_data": true,
+    "total_reports": 5,
+    "latest_score": 0,
+    "avg_score": 0.0,
+    "score_trend": "stable",
+    "latest_acceptance_rate": 0,
+    "avg_acceptance_rate": 0.0,
+    "reports": [
+      {
+        "timestamp": "2025-12-28T02:29:27.936870",
+        "report_id": "eval_20251228_022927",
+        "overall_score": 0,
+        "acceptance_rate": 0,
+        "total_evaluations": 0,
+        "dimension_scores": {}
+      },
+      {
+        "timestamp": "2025-12-28T02:47:09.370787",
+        "report_id": "eval_20251228_024709",
+        "overall_score": 0,
+        "acceptance_rate": 0,
+        "total_evaluations": 0,
+        "dimension_scores": {}
+      },
+      {
+        "timestamp": "2025-12-28T02:55:13.540204",
+        "report_id": "eval_20251228_025513",
+        "overall_score": 0,
+        "acceptance_rate": 0,
+        "total_evaluations": 0,
+        "dimension_scores": {}
+      },
+      {
+        "timestamp": "2025-12-28T08:22:51.171580",
+        "report_id": "eval_20251228_082251",
+        "overall_score": 0,
+        "acceptance_rate": 0,
+        "total_evaluations": 0,
+        "dimension_scores": {}
+      },
+      {
+        "timestamp": "2025-12-28T08:40:55.651580",
+        "report_id": "eval_20251228_084055",
+        "overall_score": 0,
+        "acceptance_rate": 0,
+        "total_evaluations": 0,
+        "dimension_scores": {}
+      }
+    ]
+  },
+  "timestamp": "2025-12-28T09:49:51.718646",
+  "health_score": 40
+}

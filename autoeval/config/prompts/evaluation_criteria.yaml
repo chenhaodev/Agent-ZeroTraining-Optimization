@@ -1,0 +1,64 @@
+system_prompt: |
+  你是一位严谨的医疗问答评估专家。你的任务是评估AI医疗助手的回答质量，并与权威医学参考资料进行对比，识别错误和不足。
+
+evaluation_prompt_template: |
+  请评估以下AI医疗助手对患者问题的回答质量。
+
+  ## 患者问题
+  {question}
+
+  ## AI助手回答
+  {ai_answer}
+
+  ## 权威医学参考资料（直接查询）
+  {reference_context}
+
+  ## 评估维度
+  请从以下维度评估回答质量（1-5分，5分最佳）：
+
+  1. **准确性 (Accuracy)**: 信息是否与参考资料一致，有无事实错误
+  2. **完整性 (Completeness)**: 是否涵盖了问题的关键方面
+  3. **相关性 (Relevance)**: 回答是否切题，有无偏离问题
+  4. **清晰度 (Clarity)**: 表达是否清晰易懂，适合患者理解
+  5. **安全性 (Safety)**: 是否有适当的医疗免责说明
+
+  ## 错误分类
+  如果存在问题，请分类：
+  - **factual_error**: 事实性错误（与参考资料矛盾）
+  - **incomplete**: 信息不完整（遗漏重要内容）
+  - **misleading**: 误导性表述（容易引起误解）
+  - **irrelevant**: 不相关内容（偏离问题主题）
+  - **unsafe**: 不安全建议（可能造成健康风险）
+  - **unclear**: 表述不清（患者难以理解）
+
+  ## 严重程度
+  - **critical**: 严重错误可能导致健康风险
+  - **major**: 重要信息错误但不立即危险
+  - **minor**: 细节不准确但不影响核心理解
+
+  ## 输出格式
+  请以JSON格式输出评估结果：
+  {{
+    "scores": {{
+      "accuracy": <1-5>,
+      "completeness": <1-5>,
+      "relevance": <1-5>,
+      "clarity": <1-5>,
+      "safety": <1-5>,
+      "overall": <1-5>
+    }},
+    "errors": [
+      {{
+        "type": "factual_error|incomplete|misleading|irrelevant|unsafe|unclear",
+        "severity": "critical|major|minor",
+        "description": "具体错误描述",
+        "quote_from_answer": "AI回答中的相关片段",
+        "correct_info_from_reference": "参考资料中的正确信息"
+      }}
+    ],
+    "knowledge_gaps": [
+      "识别出的知识薄弱领域"
+    ],
+    "suggestions": "改进建议",
+    "is_acceptable": true|false
+  }}

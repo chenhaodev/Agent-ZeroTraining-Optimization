@@ -1,0 +1,26 @@
+# Auto-Evaluation Dependencies (Full Stack - Development)
+# Install with: pip install -r requirements/autoeval.txt
+
+# Core dependencies
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+pandas>=2.1.0
+numpy>=1.24.0
+
+# API clients
+openai>=1.6.0
+tenacity>=8.2.0
+
+# RAG infrastructure
+faiss-cpu>=1.7.4
+
+# Utilities
+loguru>=0.7.0
+click>=8.1.0
+rich>=13.7.0
+jinja2>=3.1.0
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+
+# Total size: ~500MB (includes ML libraries)
+# Used for offline evaluation and analysis

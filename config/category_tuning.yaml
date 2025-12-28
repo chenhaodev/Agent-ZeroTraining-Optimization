@@ -1,0 +1,72 @@
+# Category-Specific Tuning Configuration
+# Different retrieval thresholds and k values per medical category
+
+version: "1.0"
+last_updated: "2025-12-28"
+
+# Global defaults (used when category not specified)
+defaults:
+  threshold: 0.5
+  k: 3
+  min_severity: "minor"
+
+# Category-specific configurations
+# Optimized based on pattern distribution and retrieval performance
+
+categories:
+  diseases:
+    threshold: 0.5    # 48.5% of patterns, good coverage
+    k: 3              # More patterns available
+    min_severity: "minor"
+    notes: "Largest category with diverse patterns"
+
+  examinations:
+    threshold: 0.45   # 9.5% of patterns, need lower threshold for recall
+    k: 3
+    min_severity: "minor"
+    notes: "Smaller category, lowered threshold for better recall"
+
+  surgeries:
+    threshold: 0.45   # 10.1% of patterns, need lower threshold
+    k: 3
+    min_severity: "major"  # Only show major+ for surgeries (safety)
+    notes: "Smaller category, higher severity filter for safety"
+
+  vaccines:
+    threshold: 0.45   # 6.5% of patterns, smallest category
+    k: 3
+    min_severity: "minor"
+    notes: "Smallest category, lowered threshold"
+
+  general:
+    threshold: 0.5    # 25.4% of patterns, universal guidance
+    k: 5              # Retrieve more general patterns
+    min_severity: "minor"
+    notes: "Cross-category patterns, higher k for broader coverage"
+
+# Experimental: Dynamic threshold adjustment
+# Automatically lower threshold if no patterns found
+dynamic_adjustment:
+  enabled: false  # Set to true to enable
+  fallback_threshold: 0.3
+  max_iterations: 2
+
+# Performance targets (for monitoring)
+performance_targets:
+  retrieval_latency_ms: 50
+  cache_hit_rate: 0.95
+  min_retrieval_rate: 0.5  # At least 50% of questions should retrieve patterns
+
+# Quality thresholds
+quality_thresholds:
+  min_pattern_relevance: 0.5
+  min_overall_score: 4.0
+  target_acceptance_rate: 0.9
+
+# Usage notes
+usage_notes:
+  - "This config is loaded by pattern_storage.retrieve_relevant()"
+  - "Category-specific settings override global defaults"
+  - "Thresholds were optimized using tools/optimize_threshold.py"
+  - "Lower thresholds for smaller categories to improve recall"
+  - "Higher severity filters for safety-critical categories (surgeries)"

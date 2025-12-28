@@ -1,0 +1,18 @@
+# Router API Dependencies (Lightweight - Production)
+# Install with: pip install -r requirements/router.txt
+
+# API Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Data Validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Configuration & Logging
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+
+# Total size: ~50MB (no ML libraries!)
+# Perfect for production deployment
