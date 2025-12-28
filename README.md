@@ -50,7 +50,7 @@ This repository contains three integrated systems for improving LLM performance 
 ### Repository Structure
 
 ```
-Agent-FineTune-2026/
+.
 ├── autoeval/          # Auto-evaluation system
 │   ├── config/        # Settings, prompts, presets
 │   ├── core/          # Data models, loading, sampling
@@ -72,7 +72,7 @@ Agent-FineTune-2026/
 │   └── services/      # LLM client integrations
 │
 └── refs/              # Golden reference data (medical CSVs)
-    └── golden-refs/   # 5,730+ medical entities from DXY
+    └── golden-refs/   # 5,730+ medical entities
 ```
 
 ---
@@ -277,35 +277,9 @@ python optimizer/scripts/optimize.py --stats
 
 ---
 
-## Key Features
-
-### Auto-Evaluation
-- ✅ Automated question generation from golden references
-- ✅ Multi-dimensional scoring (accuracy, completeness, relevance, clarity, safety)
-- ✅ Direct golden-ref lookup (instant, no embedding search needed)
-- ✅ JSON + Markdown reports
-- ✅ A/B testing (baseline vs optimized)
-
-### Optimizer
-- ✅ Hierarchical RAG (scales infinitely without prompt bloat)
-- ✅ Pattern-based analysis (identifies systematic errors)
-- ✅ Automatic prompt versioning (v1.0 → v1.1 → v1.2...)
-- ✅ FAISS-based pattern storage
-- ✅ Context-aware pattern retrieval
-
-### Router
-- ✅ OpenAI-compatible API (drop-in replacement)
-- ✅ 3-tier routing logic (Weakness → RAG supplement → Baseline)
-- ✅ Hot-reload without downtime
-- ✅ Streaming support
-- ✅ <15ms routing overhead
-- ✅ FastAPI with Swagger docs
-
----
-
 ## Data Sources
 
-The repository includes golden reference data from **DXY (丁香医生)**, a Chinese medical platform:
+The repository includes golden reference data:
 
 - 疾病.csv - 5,351 diseases
 - 检查.csv - 215 examinations
@@ -313,108 +287,3 @@ The repository includes golden reference data from **DXY (丁香医生)**, a Chi
 - 疫苗.csv - 24 vaccines
 
 **Total:** 5,730 medical entities with detailed information (symptoms, causes, treatments, prevention, etc.)
-
----
-
-## Configuration
-
-### Important: Two Different Uses of "RAG"
-
-This system uses "RAG" in two **different contexts**:
-
-1. **During Evaluation (autoeval)**: NO RAG ❌
-   - Questions are generated from sampled entities
-   - Each question knows which entity it came from (`source_entity_name`)
-   - Evaluation uses **direct dictionary lookup** of that specific entity
-   - Fast, accurate, no embedding/search needed
-
-2. **During Answer Generation (optimizer prompts)**: YES RAG ✅
-   - AnswerGenerator retrieves learned error patterns via hierarchical RAG
-   - `--rag-k` flag controls how many patterns to retrieve (e.g., top-5)
-   - These patterns are injected into the prompt to improve answers
-   - Scales to 1000s of patterns without prompt bloat
-
-**Key Takeaway**: Evaluation is simple direct lookup. Optimization uses sophisticated RAG.
-
----
-
-## Auto-Evaluation Modes
-
-```bash
-# Baseline (no prompt optimization)
-python autoeval/scripts/evaluate.py --no-rag
-
-# Cost-optimized (minimal RAG)
-python autoeval/scripts/evaluate.py --preset=cost_optimized
-
-# Balanced (default)
-python autoeval/scripts/evaluate.py --preset=balanced
-
-# High accuracy (more RAG)
-python autoeval/scripts/evaluate.py --preset=high_accuracy
-```
-
-### Custom Prompt Optimization Settings
-
-```bash
-# Adjust pattern retrieval for dynamic prompts (--rag-k controls AnswerGenerator, not Evaluator)
-python autoeval/scripts/evaluate.py --rag-k=8  # Use top-8 learned patterns in prompts
-
-# Adjust sample size
-python autoeval/scripts/evaluate.py --sample-size=200
-
-# Disable category rules
-python autoeval/scripts/evaluate.py --no-category-rules
-```
-
----
-
-## Performance
-
-### Evaluation Speed
-- ~10 entities: 2-3 minutes
-- ~100 entities: 15-20 minutes
-- Bottleneck: LLM API calls (parallel processing: 5 workers)
-
-### Optimization
-- Pattern analysis: <1 second
-- FAISS indexing: ~1 second per 100 patterns
-- Prompt generation: <1 second
-
-### Router
-- Routing decision: <15ms
-- Pattern matching: <5ms (FAISS)
-- Total overhead: <20ms
-
----
-
-## Requirements
-
-- Python 3.8+
-- API keys: POE (GPT-5.1), DeepSeek (or any OpenAI-compatible LLM)
-- ~2GB disk space (for vector indices and reports)
-- ~4GB RAM (for FAISS indices)
-
----
-
-## License
-
-[Add your license here]
-
----
-
-## Citation
-
-If you use this system in your research, please cite:
-
-```bibtex
-@software{agent_finetune_2026,
-  title={LLM Evaluation and Optimization Pipeline},
-  year={2026},
-  url={https://github.com/yourusername/Agent-FineTune-2026}
-}
-```
-
----
-
-**Questions?** Check `FINAL_STRUCTURE.md` for detailed architecture documentation.
