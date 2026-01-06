@@ -29,6 +29,9 @@ ENV/
 # Environment variables
 .env
 
+# Claude Code settings (may contain API keys)
+.claude/
+
 # Outputs (keep structure, ignore content for some)
 outputs/cache/embeddings/*.pkl
 outputs/cache/vector_store/*.index
